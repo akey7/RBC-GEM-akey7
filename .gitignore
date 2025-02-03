@@ -332,3 +332,7 @@ data/external/database/*/
 ## Escher converter
 *.dylib
 *.jnilib
+
+# For now, ignore intermediate figures
+*.png 
+*.svg
