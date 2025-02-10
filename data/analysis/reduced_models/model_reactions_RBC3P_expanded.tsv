@@ -1,0 +1,100 @@
+reactions	name	reaction	gene_reaction_rule
+ADA	Adenosine deaminase	adn_c + h2o_c + h_c --> ins_c + nh4_c	
+ADEt	Adenine transport via facilitated diffusion	ade_c <=> ade_e	
+ADK1	Adenylate kinase (AMP:ATP)	amp_c + atp_c <=> 2.0 adp_c	
+ADNK1	Adenosine kinase	adn_c + atp_c --> adp_c + amp_c + h_c	
+ADNt	Adenosine transport via facilitated diffusion	adn_c <=> adn_e	
+ADPT	Adenine phosphoribosyltransferase	ade_c + prpp_c --> amp_c + ppi_c	
+AMPDA	Adenosine monophosphate deaminase	amp_c + h2o_c + h_c --> imp_c + nh4_c	
+BILIREDy	Biliverdin reductase (NADPH)	biliverd_c + h_c + nadph_c --> bilirub_c + nadp_c	
+BILRUBABCte	ATP-binding Cassette (ABC) export of unconjugated billirubin	atp_c + bilirub_c + h2o_c --> adp_c + bilirub_e + h_c + pi_c	
+CA2t	Calcium (II) import	ca2_e --> ca2_c	
+CAATPS1	P-type Ca(2+) transporter (1:1 stoichiometry)	atp_c + ca2_c + h2o_c --> adp_c + ca2_e + h_c + pi_c	
+CO2t	Transport of CO2	co2_c <=> co2_e	
+DM_co_c	Carbon monoxide demand	co_c --> 	
+DM_oh1_c	Hydroxide demand	oh1_c --> 	
+DM_oh1r_c	Hydroxyl radical demand	oh1r_c --> 	
+DPGM	Diphosphoglyceromutase	13dpg_c <=> 23dpg_c + h_c	
+DPGase	2,3-bisphosphoglycerate 2-phosphatase	23dpg_c + h2o_c --> 3pg_c + pi_c	
+ENO	Enolase	2pg_c <=> h2o_c + pep_c	
+EX_ade_e	Adenine exchange	ade_e <=> 	
+EX_adn_e	Adenosine exchange	adn_e <=> 	
+EX_bilirub_e	Bilirubin exchange	bilirub_e <=> 	
+EX_ca2_e	Calcium exchange	ca2_e <=> 	
+EX_co2_e	CO2 exchange	co2_e <=> 	
+EX_glc__D_e	beta-D-Glucose exchange	glc__D_e <=> 	
+EX_h2o2_e	H2O2 exchange	h2o2_e <=> 	
+EX_h2o_e	H2O exchange	h2o_e <=> 	
+EX_h_e	H+ exchange	h_e <=> 	
+EX_hxan_e	Hypoxanthine exchange	hxan_e <=> 	
+EX_ins_e	Inosine exchange	ins_e <=> 	
+EX_k_e	K+ exchange	k_e <=> 	
+EX_lac__L_e	L-Lactate exchange	lac__L_e <=> 	
+EX_na1_e	Sodium exchange	na1_e <=> 	
+EX_nh4_e	Ammonium exchange	nh4_e <=> 	
+EX_o2_e	O2 exchange	o2_e <=> 	
+EX_pi_e	Orthophosphate exchange	pi_e <=> 	
+EX_pyr_e	Pyruvate exchange	pyr_e <=> 	
+FBA	Fructose-bisphosphate aldolase	fdp_c <=> dhap_c + g3p_c	
+FCYTOB5OXR	NADH-cytochrome b5 reductase	2.0 ficytb5_c + nadh_c --> 2.0 focytb5_c + h_c + nad_c	
+FE2H2O2X	Oxidation of iron (II) via hydrogen peroxide	fe2_c + h2o2_c --> fe3_c + oh1_c + oh1r_c	
+FE2O2OX	Oxidation of Iron (II) via O2	fe2_c + o2_c <=> fe3_c + o2s_c	
+FE3RD	Iron(III):NADP+ oxidoreductase	2.0 fe3_c + nadph_c --> 2.0 fe2_c + h_c + nadp_c	
+G6PDH2	Glucose 6-phosphate dehydrogenase	g6p_c + nadp_c --> 6pgl_c + h_c + nadph_c	
+GAPD	Glyceraldehyde-3-phosphate dehydrogenase	g3p_c + nad_c + pi_c <=> 13dpg_c + h_c + nadh_c	
+GLC_Dt	Transport of beta-D-glucose	glc__D_c <=> glc__D_e	
+GND	Phosphogluconate dehydrogenase	6pgc_c + nadp_c --> co2_c + nadph_c + ru5p__D_c	
+GTHOy	Glutathione oxidoreductase (NADPH)	gthox_c + h_c + nadph_c --> 2.0 gthrd_c + nadp_c	
+GTHP	Glutathione peroxidase	2.0 gthrd_c + h2o2_c --> gthox_c + 2.0 h2o_c	
+H2O2t	Transport of hydrogen peroxide	h2o2_c <=> h2o2_e	
+H2Ot	Transport of H2O	h2o_c <=> h2o_e	
+HB23DPGB	Deoxyhemoglobin binding to 2,3-diphosphoglycerate	23dpg_c + 4.0 hb_c <=> hb4_23dpg_c	
+HBO2B1	Oxyhemoglobin binding	hb_c + o2_c <=> oxyhb_c	
+HBO2B2	Oxyhemoglobin binding (Protonated Carbamino Hemoglobin)	hb_hco2_c + o2_c <=> co2_c + h_c + oxyhb_c	
+HEX1	Hexokinase (beta-D-glucose:ATP)	atp_c + glc__D_c --> adp_c + g6p_c + h_c	
+HOXG	Heme oxygenase 1	5.0 h_c + 3.0 nadph_c + 3.0 o2_c + pheme_c --> biliverd_c + co_c + fe2_c + 3.0 h2o_c + 3.0 nadp_c	
+HXPRT	Hypoxanthine phosphoribosyltransferase (Hypoxanthine)	hxan_c + prpp_c --> imp_c + ppi_c	
+HYXNt	Hypoxanthine transport via facilitated diffusion	hxan_c <=> hxan_e	
+Ht	Proton diffusion	h_c <=> h_e	
+INSt	Inosine transport via facilitated diffusion	ins_c <=> ins_e	
+Kt1	Transport of potassium	k_c --> k_e	
+LDH_L	L-lactate dehydrogenase	h_c + nadh_c + pyr_c <=> lac__L_c + nad_c	
+LOAD_ATP	Load due to sodium potassium pump	atp_c + h2o_c --> adp_c + h_c + pi_c	
+LOAD_NADH	Load due to methemoglobin reduction via CytB5	nadh_c --> h_c + nad_c	
+LOAD_NADPH	Load due to glutathione reduction from GSSG to GSH	nadph_c --> h_c + nadp_c	
+L_LACt2	L-lactate transport via proton symport	h_c + lac__L_c <=> h_e + lac__L_e	
+METHBCYTBR	Nonenzymatic reduction of methemoglobin (Cytochrome b5)	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c	
+NAt	Sodium leak	na1_e --> na1_c	
+NH4t	Transport of ammonium	nh4_c <=> nh4_e	
+NTDAMP	5'-nucleotidase (AMP)	amp_c + h2o_c --> adn_c + pi_c	
+NTDIMP	5'-nucleotidase (IMP)	h2o_c + imp_c --> ins_c + pi_c	
+NTPA	NTP phosphohydrolase (ATP)	atp_c + h2o_c --> adp_c + h_c + pi_c	
+NaKt	Na + /K + exchanging ATPase	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c --> adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c	
+O2t	Transport of O2	o2_c <=> o2_e	
+OXYHBAOX	Auto-oxidation of oxyhemoglobin	oxyhb_c --> methb_c + o2s_c	
+PFK	Phosphofructokinase	atp_c + f6p_c --> adp_c + fdp_c + h_c	
+PGI	Glucose-6-phosphate isomerase (beta-D-glucose 6-phosphate)	g6p_c <=> f6p_c	
+PGK	Phosphoglycerate kinase	13dpg_c + adp_c <=> 3pg_c + atp_c	
+PGL	6-phosphogluconolactonase	6pgl_c + h2o_c <=> 6pgc_c + h_c	
+PGM	Phosphoglycerate mutase	3pg_c <=> 2pg_c	
+PIt	Inorganic phosphate exchange, diffusion	pi_c <=> pi_e	
+PPA	Inorganic diphosphatase	h2o_c + ppi_c --> h_c + 2.0 pi_c	
+PPM	Phosphopentomutase	r1p_c <=> r5p_c	
+PRPPS	Phosphoribosylpyrophosphate synthetase	atp_c + r5p_c --> amp_c + h_c + prpp_c	
+PUNP5	Purine-nucleoside phosphorylase (inosine)	ins_c + pi_c <=> hxan_c + r1p_c	
+PYK	Pyruvate kinase	adp_c + h_c + pep_c --> atp_c + pyr_c	
+PYRt2	Pyruvate transport in via proton symport	h_c + pyr_c <=> h_e + pyr_e	
+RPE	Ribulose 5-phosphate 3-epimerase	ru5p__D_c <=> xu5p__D_c	
+RPI	Ribose-5-phosphate isomerase	ru5p__D_c <=> r5p_c	
+SK_ca2_c	Calcium sink	ca2_c <=> 	
+SK_hb4_23dpg_c	Deoxyhemoglobin (tetramer, 2,3-bisphospho-D-glycerate) sink	hb4_23dpg_c <=> 	
+SK_hb_hco2_c	Oxyhemoglobin (Protonated Carbamino Deoxyhemoglobin) sink	hb_hco2_c <=> 	
+SK_k_c	K+ sink	k_c <=> 	
+SK_na1_c	Sodium sink	na1_c <=> 	
+SK_oxyhb_c	Oxyhemoglobin (O2) sink	oxyhb_c <=> 	
+SK_pheme_c	Protoheme sink	pheme_c <=> 	
+SPODM	Superoxide dismutase	2.0 h_c + 2.0 o2s_c --> h2o2_c + o2_c	
+TALA	Transaldolase	g3p_c + s7p_c <=> e4p_c + f6p_c	
+TKT1	Transketolase	r5p_c + xu5p__D_c <=> g3p_c + s7p_c	
+TKT2	Transketolase	e4p_c + xu5p__D_c <=> f6p_c + g3p_c	
+TPI	Triose-phosphate isomerase	dhap_c <=> g3p_c	
