@@ -1,0 +1,461 @@
+enzyme	complex	complex_keff	compartment	reactions	direction
+enzyme_ADA_fwd	cplx_MONOMER_ADA	88357.08414932985	pc	ADA	adn_c + h2o_c + h_c --> ins_c + nh4_c
+enzyme_ADA_rev	cplx_MONOMER_ADA	0	pc	ADA	adn_c + h2o_c + h_c <-- ins_c + nh4_c
+enzyme_ADEt_fwd	cplx_MONOMER_SLC29A1	103346.8774821532	pc	ADEt	ade_c --> ade_e
+enzyme_ADEt_fwd	cplx_MONOMER_SLC43A3	109931.59922629895	pc	ADEt	ade_c --> ade_e
+enzyme_ADEt_rev	cplx_MONOMER_SLC29A1	103346.8774821532	pc	ADEt	ade_c <-- ade_e
+enzyme_ADEt_rev	cplx_MONOMER_SLC43A3	109931.59922629895	pc	ADEt	ade_c <-- ade_e
+enzyme_ADK1_fwd	cplx_MONOMER_AK1	54956.83338631623	pc	ADK1	amp_c + atp_c --> 2.0 adp_c
+enzyme_ADK1_rev	cplx_MONOMER_AK1	54956.83338631623	pc	ADK1	amp_c + atp_c <-- 2.0 adp_c
+enzyme_ADNK1_fwd	cplx_MONOMER_ADK	88010.57503755676	pc	ADNK1	adn_c + atp_c --> adp_c + amp_c + h_c
+enzyme_ADNK1_rev	cplx_MONOMER_ADK	0	pc	ADNK1	adn_c + atp_c <-- adp_c + amp_c + h_c
+enzyme_ADNt_fwd	cplx_MONOMER_SLC29A1	103346.8774821532	pc	ADNt	adn_c --> adn_e
+enzyme_ADNt_rev	cplx_MONOMER_SLC29A1	103346.8774821532	pc	ADNt	adn_c <-- adn_e
+enzyme_ADPT_fwd	cplx_HOMODIMER_APRT	85836.24536200915	pc	ADPT	ade_c + prpp_c --> amp_c + ppi_c
+enzyme_ADPT_rev	cplx_HOMODIMER_APRT	0	pc	ADPT	ade_c + prpp_c <-- amp_c + ppi_c
+enzyme_AMPDA_fwd	cplx_HOMOTETRAMER_AMPD3	448213.19053820166	pc	AMPDA	amp_c + h2o_c + h_c --> imp_c + nh4_c
+enzyme_AMPDA_rev	cplx_HOMOTETRAMER_AMPD3	0	pc	AMPDA	amp_c + h2o_c + h_c <-- imp_c + nh4_c
+enzyme_BILIREDy_fwd	cplx_MONOMER_BLVRA	76148.09240728492	pc	BILIREDy	biliverd_c + h_c + nadph_c --> bilirub_c + nadp_c
+enzyme_BILIREDy_fwd	cplx_MONOMER_BLVRB	55871.46580049591	pc	BILIREDy	biliverd_c + h_c + nadph_c --> bilirub_c + nadp_c
+enzyme_BILIREDy_rev	cplx_MONOMER_BLVRA	0	pc	BILIREDy	biliverd_c + h_c + nadph_c <-- bilirub_c + nadp_c
+enzyme_BILIREDy_rev	cplx_MONOMER_BLVRB	0	pc	BILIREDy	biliverd_c + h_c + nadph_c <-- bilirub_c + nadp_c
+enzyme_BILRUBABCte_fwd	cplx_MONOMER_ABCC4	234242.2199763476	pc	BILRUBABCte	atp_c + bilirub_c + h2o_c --> adp_c + bilirub_e + h_c + pi_c
+enzyme_BILRUBABCte_rev	cplx_MONOMER_ABCC4	0	pc	BILRUBABCte	atp_c + bilirub_c + h2o_c <-- adp_c + bilirub_e + h_c + pi_c
+enzyme_CA2t_fwd	cplx_HOMODIMER_TRPC6	305027.78023543546	pc	CA2t	ca2_e --> ca2_c
+enzyme_CA2t_fwd	cplx_HOMODIMER_VDAC1	120375.5423249257	pc	CA2t	ca2_e --> ca2_c
+enzyme_CA2t_fwd	cplx_HOMOHEPTAMER_PANX1	430207.3936944364	pc	CA2t	ca2_e --> ca2_c
+enzyme_CA2t_fwd	cplx_HOMOTETRAMER_GRIA1	495485.7514970548	pc	CA2t	ca2_e --> ca2_c
+enzyme_CA2t_fwd	cplx_HOMOTETRAMER_TRPV2	437418.37792577647	pc	CA2t	ca2_e --> ca2_c
+enzyme_CA2t_fwd	cplx_HOMOTRIMER_P2RX1	216904.1723351131	pc	CA2t	ca2_e --> ca2_c
+enzyme_CA2t_fwd	cplx_HOMOTRIMER_P2RX2	240958.6758341522	pc	CA2t	ca2_e --> ca2_c
+enzyme_CA2t_fwd	cplx_HOMOTRIMER_P2RX7	297632.9379483869	pc	CA2t	ca2_e --> ca2_c
+enzyme_CA2t_fwd	cplx_HOMOTRIMER_PIEZO1	870210.160190862	pc	CA2t	ca2_e --> ca2_c
+enzyme_CA2t_fwd	cplx_MONOMER_CACNA1A	377559.5462578016	pc	CA2t	ca2_e --> ca2_c
+enzyme_CA2t_fwd	cplx_MONOMER_TMEM109	63470.68630559252	pc	CA2t	ca2_e --> ca2_c
+enzyme_CA2t_rev	cplx_HOMODIMER_TRPC6	0	pc	CA2t	ca2_e <-- ca2_c
+enzyme_CA2t_rev	cplx_HOMODIMER_VDAC1	0	pc	CA2t	ca2_e <-- ca2_c
+enzyme_CA2t_rev	cplx_HOMOHEPTAMER_PANX1	0	pc	CA2t	ca2_e <-- ca2_c
+enzyme_CA2t_rev	cplx_HOMOTETRAMER_GRIA1	0	pc	CA2t	ca2_e <-- ca2_c
+enzyme_CA2t_rev	cplx_HOMOTETRAMER_TRPV2	0	pc	CA2t	ca2_e <-- ca2_c
+enzyme_CA2t_rev	cplx_HOMOTRIMER_P2RX1	0	pc	CA2t	ca2_e <-- ca2_c
+enzyme_CA2t_rev	cplx_HOMOTRIMER_P2RX2	0	pc	CA2t	ca2_e <-- ca2_c
+enzyme_CA2t_rev	cplx_HOMOTRIMER_P2RX7	0	pc	CA2t	ca2_e <-- ca2_c
+enzyme_CA2t_rev	cplx_HOMOTRIMER_PIEZO1	0	pc	CA2t	ca2_e <-- ca2_c
+enzyme_CA2t_rev	cplx_MONOMER_CACNA1A	0	pc	CA2t	ca2_e <-- ca2_c
+enzyme_CA2t_rev	cplx_MONOMER_TMEM109	0	pc	CA2t	ca2_e <-- ca2_c
+enzyme_CAATPS1_fwd	cplx_MONOMER_ATP2B1	216546.34639444106	pc	CAATPS1	atp_c + ca2_c + h2o_c --> adp_c + ca2_e + h_c + pi_c
+enzyme_CAATPS1_fwd	cplx_MONOMER_ATP2B4	220450.02813031277	pc	CAATPS1	atp_c + ca2_c + h2o_c --> adp_c + ca2_e + h_c + pi_c
+enzyme_CAATPS1_rev	cplx_MONOMER_ATP2B1	0	pc	CAATPS1	atp_c + ca2_c + h2o_c <-- adp_c + ca2_e + h_c + pi_c
+enzyme_CAATPS1_rev	cplx_MONOMER_ATP2B4	0	pc	CAATPS1	atp_c + ca2_c + h2o_c <-- adp_c + ca2_e + h_c + pi_c
+enzyme_CO2t_fwd	cplx_HETEROTETRAMER_RH	268146.2007800635	pc	CO2t	co2_c --> co2_e
+enzyme_CO2t_fwd	cplx_HETEROTRIMER_RH	215565.55709984383	pc	CO2t	co2_c --> co2_e
+enzyme_CO2t_fwd	cplx_HOMODIMER_RHAG	157910.99980832066	pc	CO2t	co2_c --> co2_e
+enzyme_CO2t_fwd	cplx_HOMOTETRAMER_AQP1	191243.407671574	pc	CO2t	co2_c --> co2_e
+enzyme_CO2t_rev	cplx_HETEROTETRAMER_RH	268146.2007800635	pc	CO2t	co2_c <-- co2_e
+enzyme_CO2t_rev	cplx_HETEROTRIMER_RH	215565.55709984383	pc	CO2t	co2_c <-- co2_e
+enzyme_CO2t_rev	cplx_HOMODIMER_RHAG	157910.99980832066	pc	CO2t	co2_c <-- co2_e
+enzyme_CO2t_rev	cplx_HOMOTETRAMER_AQP1	191243.407671574	pc	CO2t	co2_c <-- co2_e
+enzyme_DPGM_fwd	cplx_HOMODIMER_BPGM	118096.46502332822	pc	DPGM	13dpg_c --> 23dpg_c + h_c
+enzyme_DPGM_fwd	cplx_HOMODIMER_PGAM1	114540.89312828587	pc	DPGM	13dpg_c --> 23dpg_c + h_c
+enzyme_DPGM_rev	cplx_HOMODIMER_BPGM	118096.46502332822	pc	DPGM	13dpg_c <-- 23dpg_c + h_c
+enzyme_DPGM_rev	cplx_HOMODIMER_PGAM1	114540.89312828587	pc	DPGM	13dpg_c <-- 23dpg_c + h_c
+enzyme_DPGase_fwd	cplx_HOMODIMER_BPGM	118096.46502332822	pc	DPGase	23dpg_c + h2o_c --> 3pg_c + pi_c
+enzyme_DPGase_rev	cplx_HOMODIMER_BPGM	0	pc	DPGase	23dpg_c + h2o_c <-- 3pg_c + pi_c
+enzyme_ENO_fwd	cplx_HETERODIMER_ENO_AB	165576.90979347643	pc	ENO	2pg_c --> h2o_c + pep_c
+enzyme_ENO_fwd	cplx_HETERODIMER_ENO_AG	165923.0541159469	pc	ENO	2pg_c --> h2o_c + pep_c
+enzyme_ENO_fwd	cplx_HETERODIMER_ENO_BG	165684.34131564762	pc	ENO	2pg_c --> h2o_c + pep_c
+enzyme_ENO_fwd	cplx_HOMODIMER_ENO1	165815.6741611954	pc	ENO	2pg_c --> h2o_c + pep_c
+enzyme_ENO_fwd	cplx_HOMODIMER_ENO2	166030.41091143104	pc	ENO	2pg_c --> h2o_c + pep_c
+enzyme_ENO_fwd	cplx_HOMODIMER_ENO3	165338.03060324656	pc	ENO	2pg_c --> h2o_c + pep_c
+enzyme_ENO_rev	cplx_HETERODIMER_ENO_AB	165576.90979347643	pc	ENO	2pg_c <-- h2o_c + pep_c
+enzyme_ENO_rev	cplx_HETERODIMER_ENO_AG	165923.0541159469	pc	ENO	2pg_c <-- h2o_c + pep_c
+enzyme_ENO_rev	cplx_HETERODIMER_ENO_BG	165684.34131564762	pc	ENO	2pg_c <-- h2o_c + pep_c
+enzyme_ENO_rev	cplx_HOMODIMER_ENO1	165815.6741611954	pc	ENO	2pg_c <-- h2o_c + pep_c
+enzyme_ENO_rev	cplx_HOMODIMER_ENO2	166030.41091143104	pc	ENO	2pg_c <-- h2o_c + pep_c
+enzyme_ENO_rev	cplx_HOMODIMER_ENO3	165338.03060324656	pc	ENO	2pg_c <-- h2o_c + pep_c
+enzyme_FBA_fwd	cplx_HOMOTETRAMER_ALDOA	243763.3187059349	pc	FBA	fdp_c --> dhap_c + g3p_c
+enzyme_FBA_fwd	cplx_HOMOTETRAMER_ALDOB	244004.49822607246	pc	FBA	fdp_c --> dhap_c + g3p_c
+enzyme_FBA_fwd	cplx_HOMOTETRAMER_ALDOC	243906.14423173884	pc	FBA	fdp_c --> dhap_c + g3p_c
+enzyme_FBA_rev	cplx_HOMOTETRAMER_ALDOA	243763.3187059349	pc	FBA	fdp_c <-- dhap_c + g3p_c
+enzyme_FBA_rev	cplx_HOMOTETRAMER_ALDOB	244004.49822607246	pc	FBA	fdp_c <-- dhap_c + g3p_c
+enzyme_FBA_rev	cplx_HOMOTETRAMER_ALDOC	243906.14423173884	pc	FBA	fdp_c <-- dhap_c + g3p_c
+enzyme_FCYTOB5OXR_fwd	cplx_COMPLEX_CYB5R3_B5A	109340.65544885385	pc	FCYTOB5OXR	2.0 ficytb5_c + nadh_c --> 2.0 focytb5_c + h_c + nad_c
+enzyme_FCYTOB5OXR_fwd	cplx_COMPLEX_CYB5R3_B5B	125398.99261366726	pc	FCYTOB5OXR	2.0 ficytb5_c + nadh_c --> 2.0 focytb5_c + h_c + nad_c
+enzyme_FCYTOB5OXR_rev	cplx_COMPLEX_CYB5R3_B5A	0	pc	FCYTOB5OXR	2.0 ficytb5_c + nadh_c <-- 2.0 focytb5_c + h_c + nad_c
+enzyme_FCYTOB5OXR_rev	cplx_COMPLEX_CYB5R3_B5B	0	pc	FCYTOB5OXR	2.0 ficytb5_c + nadh_c <-- 2.0 focytb5_c + h_c + nad_c
+enzyme_FE3RD_fwd	cplx_HOMODIMER_STEAP3	185064.62774730136	pc	FE3RD	2.0 fe3_c + nadph_c --> 2.0 fe2_c + h_c + nadp_c
+enzyme_FE3RD_rev	cplx_HOMODIMER_STEAP3	0	pc	FE3RD	2.0 fe3_c + nadph_c <-- 2.0 fe2_c + h_c + nadp_c
+enzyme_G6PDH2_fwd	cplx_HOMOTETRAMER_G6PD	330892.51911608764	pc	G6PDH2	g6p_c + nadp_c --> 6pgl_c + h_c + nadph_c
+enzyme_G6PDH2_rev	cplx_HOMOTETRAMER_G6PD	0	pc	G6PDH2	g6p_c + nadp_c <-- 6pgl_c + h_c + nadph_c
+enzyme_GAPD_fwd	cplx_HOMOTETRAMER_GAPDH	227977.0839629962	pc	GAPD	g3p_c + nad_c + pi_c --> 13dpg_c + h_c + nadh_c
+enzyme_GAPD_fwd	cplx_HOMOTETRAMER_GAPDHS	266966.2565330487	pc	GAPD	g3p_c + nad_c + pi_c --> 13dpg_c + h_c + nadh_c
+enzyme_GAPD_rev	cplx_HOMOTETRAMER_GAPDH	227977.0839629962	pc	GAPD	g3p_c + nad_c + pi_c <-- 13dpg_c + h_c + nadh_c
+enzyme_GAPD_rev	cplx_HOMOTETRAMER_GAPDHS	266966.2565330487	pc	GAPD	g3p_c + nad_c + pi_c <-- 13dpg_c + h_c + nadh_c
+enzyme_GLC_Dt_fwd	cplx_HOMOTETRAMER_SLC2A1	309024.09214302636	pc	GLC_Dt	glc__D_c --> glc__D_e
+enzyme_GLC_Dt_fwd	cplx_HOMOTETRAMER_SLC2A14	318540.84017852164	pc	GLC_Dt	glc__D_c --> glc__D_e
+enzyme_GLC_Dt_fwd	cplx_HOMOTETRAMER_SLC2A2	323488.35129326145	pc	GLC_Dt	glc__D_c --> glc__D_e
+enzyme_GLC_Dt_fwd	cplx_HOMOTETRAMER_SLC2A3	308314.4786536746	pc	GLC_Dt	glc__D_c --> glc__D_e
+enzyme_GLC_Dt_fwd	cplx_HOMOTETRAMER_SLC2A4	312003.61973331275	pc	GLC_Dt	glc__D_c --> glc__D_e
+enzyme_GLC_Dt_rev	cplx_HOMOTETRAMER_SLC2A1	309024.09214302636	pc	GLC_Dt	glc__D_c <-- glc__D_e
+enzyme_GLC_Dt_rev	cplx_HOMOTETRAMER_SLC2A14	318540.84017852164	pc	GLC_Dt	glc__D_c <-- glc__D_e
+enzyme_GLC_Dt_rev	cplx_HOMOTETRAMER_SLC2A2	323488.35129326145	pc	GLC_Dt	glc__D_c <-- glc__D_e
+enzyme_GLC_Dt_rev	cplx_HOMOTETRAMER_SLC2A3	308314.4786536746	pc	GLC_Dt	glc__D_c <-- glc__D_e
+enzyme_GLC_Dt_rev	cplx_HOMOTETRAMER_SLC2A4	312003.61973331275	pc	GLC_Dt	glc__D_c <-- glc__D_e
+enzyme_GND_fwd	cplx_HOMODIMER_PGD	181319.02867927135	pc	GND	6pgc_c + nadp_c --> co2_c + nadph_c + ru5p__D_c
+enzyme_GND_rev	cplx_HOMODIMER_PGD	0	pc	GND	6pgc_c + nadp_c <-- co2_c + nadph_c + ru5p__D_c
+enzyme_GTHOy_fwd	cplx_HOMODIMER_GSR	177627.99098947545	pc	GTHOy	gthox_c + h_c + nadph_c --> 2.0 gthrd_c + nadp_c
+enzyme_GTHOy_rev	cplx_HOMODIMER_GSR	0	pc	GTHOy	gthox_c + h_c + nadph_c <-- 2.0 gthrd_c + nadp_c
+enzyme_GTHP_fwd	cplx_HOMOTETRAMER_GPX1	157604.4552787696	pc	GTHP	2.0 gthrd_c + h2o2_c --> gthox_c + 2.0 h2o_c
+enzyme_GTHP_fwd	cplx_MONOMER_GPX4	50793.87478731876	pc	GTHP	2.0 gthrd_c + h2o2_c --> gthox_c + 2.0 h2o_c
+enzyme_GTHP_rev	cplx_HOMOTETRAMER_GPX1	0	pc	GTHP	2.0 gthrd_c + h2o2_c <-- gthox_c + 2.0 h2o_c
+enzyme_GTHP_rev	cplx_MONOMER_GPX4	0	pc	GTHP	2.0 gthrd_c + h2o2_c <-- gthox_c + 2.0 h2o_c
+enzyme_H2Ot_fwd	cplx_HOMOTETRAMER_AQP1	191243.407671574	pc	H2Ot	h2o_c --> h2o_e
+enzyme_H2Ot_fwd	cplx_HOMOTETRAMER_AQP3	206220.13491269993	pc	H2Ot	h2o_c --> h2o_e
+enzyme_H2Ot_rev	cplx_HOMOTETRAMER_AQP1	191243.407671574	pc	H2Ot	h2o_c <-- h2o_e
+enzyme_H2Ot_rev	cplx_HOMOTETRAMER_AQP3	206220.13491269993	pc	H2Ot	h2o_c <-- h2o_e
+enzyme_HB23DPGB_fwd	cplx_MONOMER_HBA	42292.8812790456	pc	HB23DPGB	23dpg_c + 4.0 hb_c --> hb4_23dpg_c
+enzyme_HB23DPGB_fwd	cplx_MONOMER_HBB	43817.49918712348	pc	HB23DPGB	23dpg_c + 4.0 hb_c --> hb4_23dpg_c
+enzyme_HB23DPGB_fwd	cplx_MONOMER_HBD	43938.835865924244	pc	HB23DPGB	23dpg_c + 4.0 hb_c --> hb4_23dpg_c
+enzyme_HB23DPGB_fwd	cplx_MONOMER_HBE1	44242.94982181746	pc	HB23DPGB	23dpg_c + 4.0 hb_c --> hb4_23dpg_c
+enzyme_HB23DPGB_fwd	cplx_MONOMER_HBG1	44084.308211116026	pc	HB23DPGB	23dpg_c + 4.0 hb_c --> hb4_23dpg_c
+enzyme_HB23DPGB_fwd	cplx_MONOMER_HBG2	44080.2652606877	pc	HB23DPGB	23dpg_c + 4.0 hb_c --> hb4_23dpg_c
+enzyme_HB23DPGB_fwd	cplx_MONOMER_HBM	43029.73990044327	pc	HB23DPGB	23dpg_c + 4.0 hb_c --> hb4_23dpg_c
+enzyme_HB23DPGB_fwd	cplx_MONOMER_HBQ1	42807.804192869735	pc	HB23DPGB	23dpg_c + 4.0 hb_c --> hb4_23dpg_c
+enzyme_HB23DPGB_fwd	cplx_MONOMER_HBZ	43077.163325190406	pc	HB23DPGB	23dpg_c + 4.0 hb_c --> hb4_23dpg_c
+enzyme_HB23DPGB_rev	cplx_MONOMER_HBA	42292.8812790456	pc	HB23DPGB	23dpg_c + 4.0 hb_c <-- hb4_23dpg_c
+enzyme_HB23DPGB_rev	cplx_MONOMER_HBB	43817.49918712348	pc	HB23DPGB	23dpg_c + 4.0 hb_c <-- hb4_23dpg_c
+enzyme_HB23DPGB_rev	cplx_MONOMER_HBD	43938.835865924244	pc	HB23DPGB	23dpg_c + 4.0 hb_c <-- hb4_23dpg_c
+enzyme_HB23DPGB_rev	cplx_MONOMER_HBE1	44242.94982181746	pc	HB23DPGB	23dpg_c + 4.0 hb_c <-- hb4_23dpg_c
+enzyme_HB23DPGB_rev	cplx_MONOMER_HBG1	44084.308211116026	pc	HB23DPGB	23dpg_c + 4.0 hb_c <-- hb4_23dpg_c
+enzyme_HB23DPGB_rev	cplx_MONOMER_HBG2	44080.2652606877	pc	HB23DPGB	23dpg_c + 4.0 hb_c <-- hb4_23dpg_c
+enzyme_HB23DPGB_rev	cplx_MONOMER_HBM	43029.73990044327	pc	HB23DPGB	23dpg_c + 4.0 hb_c <-- hb4_23dpg_c
+enzyme_HB23DPGB_rev	cplx_MONOMER_HBQ1	42807.804192869735	pc	HB23DPGB	23dpg_c + 4.0 hb_c <-- hb4_23dpg_c
+enzyme_HB23DPGB_rev	cplx_MONOMER_HBZ	43077.163325190406	pc	HB23DPGB	23dpg_c + 4.0 hb_c <-- hb4_23dpg_c
+enzyme_HBO2B1_fwd	cplx_MONOMER_HBA	42292.8812790456	pc	HBO2B1	hb_c + o2_c --> oxyhb_c
+enzyme_HBO2B1_fwd	cplx_MONOMER_HBB	43817.49918712348	pc	HBO2B1	hb_c + o2_c --> oxyhb_c
+enzyme_HBO2B1_fwd	cplx_MONOMER_HBD	43938.835865924244	pc	HBO2B1	hb_c + o2_c --> oxyhb_c
+enzyme_HBO2B1_fwd	cplx_MONOMER_HBE1	44242.94982181746	pc	HBO2B1	hb_c + o2_c --> oxyhb_c
+enzyme_HBO2B1_fwd	cplx_MONOMER_HBG1	44084.308211116026	pc	HBO2B1	hb_c + o2_c --> oxyhb_c
+enzyme_HBO2B1_fwd	cplx_MONOMER_HBG2	44080.2652606877	pc	HBO2B1	hb_c + o2_c --> oxyhb_c
+enzyme_HBO2B1_fwd	cplx_MONOMER_HBM	43029.73990044327	pc	HBO2B1	hb_c + o2_c --> oxyhb_c
+enzyme_HBO2B1_fwd	cplx_MONOMER_HBQ1	42807.804192869735	pc	HBO2B1	hb_c + o2_c --> oxyhb_c
+enzyme_HBO2B1_fwd	cplx_MONOMER_HBZ	43077.163325190406	pc	HBO2B1	hb_c + o2_c --> oxyhb_c
+enzyme_HBO2B1_rev	cplx_MONOMER_HBA	42292.8812790456	pc	HBO2B1	hb_c + o2_c <-- oxyhb_c
+enzyme_HBO2B1_rev	cplx_MONOMER_HBB	43817.49918712348	pc	HBO2B1	hb_c + o2_c <-- oxyhb_c
+enzyme_HBO2B1_rev	cplx_MONOMER_HBD	43938.835865924244	pc	HBO2B1	hb_c + o2_c <-- oxyhb_c
+enzyme_HBO2B1_rev	cplx_MONOMER_HBE1	44242.94982181746	pc	HBO2B1	hb_c + o2_c <-- oxyhb_c
+enzyme_HBO2B1_rev	cplx_MONOMER_HBG1	44084.308211116026	pc	HBO2B1	hb_c + o2_c <-- oxyhb_c
+enzyme_HBO2B1_rev	cplx_MONOMER_HBG2	44080.2652606877	pc	HBO2B1	hb_c + o2_c <-- oxyhb_c
+enzyme_HBO2B1_rev	cplx_MONOMER_HBM	43029.73990044327	pc	HBO2B1	hb_c + o2_c <-- oxyhb_c
+enzyme_HBO2B1_rev	cplx_MONOMER_HBQ1	42807.804192869735	pc	HBO2B1	hb_c + o2_c <-- oxyhb_c
+enzyme_HBO2B1_rev	cplx_MONOMER_HBZ	43077.163325190406	pc	HBO2B1	hb_c + o2_c <-- oxyhb_c
+enzyme_HBO2B2_fwd	cplx_MONOMER_HBA	42292.8812790456	pc	HBO2B2	hb_hco2_c + o2_c --> co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_fwd	cplx_MONOMER_HBB	43817.49918712348	pc	HBO2B2	hb_hco2_c + o2_c --> co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_fwd	cplx_MONOMER_HBD	43938.835865924244	pc	HBO2B2	hb_hco2_c + o2_c --> co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_fwd	cplx_MONOMER_HBE1	44242.94982181746	pc	HBO2B2	hb_hco2_c + o2_c --> co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_fwd	cplx_MONOMER_HBG1	44084.308211116026	pc	HBO2B2	hb_hco2_c + o2_c --> co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_fwd	cplx_MONOMER_HBG2	44080.2652606877	pc	HBO2B2	hb_hco2_c + o2_c --> co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_fwd	cplx_MONOMER_HBM	43029.73990044327	pc	HBO2B2	hb_hco2_c + o2_c --> co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_fwd	cplx_MONOMER_HBQ1	42807.804192869735	pc	HBO2B2	hb_hco2_c + o2_c --> co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_fwd	cplx_MONOMER_HBZ	43077.163325190406	pc	HBO2B2	hb_hco2_c + o2_c --> co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_rev	cplx_MONOMER_HBA	42292.8812790456	pc	HBO2B2	hb_hco2_c + o2_c <-- co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_rev	cplx_MONOMER_HBB	43817.49918712348	pc	HBO2B2	hb_hco2_c + o2_c <-- co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_rev	cplx_MONOMER_HBD	43938.835865924244	pc	HBO2B2	hb_hco2_c + o2_c <-- co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_rev	cplx_MONOMER_HBE1	44242.94982181746	pc	HBO2B2	hb_hco2_c + o2_c <-- co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_rev	cplx_MONOMER_HBG1	44084.308211116026	pc	HBO2B2	hb_hco2_c + o2_c <-- co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_rev	cplx_MONOMER_HBG2	44080.2652606877	pc	HBO2B2	hb_hco2_c + o2_c <-- co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_rev	cplx_MONOMER_HBM	43029.73990044327	pc	HBO2B2	hb_hco2_c + o2_c <-- co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_rev	cplx_MONOMER_HBQ1	42807.804192869735	pc	HBO2B2	hb_hco2_c + o2_c <-- co2_c + h_c + oxyhb_c
+enzyme_HBO2B2_rev	cplx_MONOMER_HBZ	43077.163325190406	pc	HBO2B2	hb_hco2_c + o2_c <-- co2_c + h_c + oxyhb_c
+enzyme_HEX1_fwd	cplx_MONOMER_HK1	176064.53501631628	pc	HEX1	atp_c + glc__D_c --> adp_c + g6p_c + h_c
+enzyme_HEX1_fwd	cplx_MONOMER_HK3	171921.97731998898	pc	HEX1	atp_c + glc__D_c --> adp_c + g6p_c + h_c
+enzyme_HEX1_rev	cplx_MONOMER_HK1	0	pc	HEX1	atp_c + glc__D_c <-- adp_c + g6p_c + h_c
+enzyme_HEX1_rev	cplx_MONOMER_HK3	0	pc	HEX1	atp_c + glc__D_c <-- adp_c + g6p_c + h_c
+enzyme_HXPRT_fwd	cplx_HOMOTETRAMER_HPRT1	171024.19026937452	pc	HXPRT	hxan_c + prpp_c --> imp_c + ppi_c
+enzyme_HXPRT_rev	cplx_HOMOTETRAMER_HPRT1	0	pc	HXPRT	hxan_c + prpp_c <-- imp_c + ppi_c
+enzyme_HYXNt_fwd	cplx_MONOMER_SLC29A1	103346.8774821532	pc	HYXNt	hxan_c --> hxan_e
+enzyme_HYXNt_fwd	cplx_MONOMER_SLC43A3	109931.59922629895	pc	HYXNt	hxan_c --> hxan_e
+enzyme_HYXNt_rev	cplx_MONOMER_SLC29A1	103346.8774821532	pc	HYXNt	hxan_c <-- hxan_e
+enzyme_HYXNt_rev	cplx_MONOMER_SLC43A3	109931.59922629895	pc	HYXNt	hxan_c <-- hxan_e
+enzyme_INSt_fwd	cplx_MONOMER_SLC29A1	103346.8774821532	pc	INSt	ins_c --> ins_e
+enzyme_INSt_rev	cplx_MONOMER_SLC29A1	103346.8774821532	pc	INSt	ins_c <-- ins_e
+enzyme_Kt1_fwd	cplx_HOMODIMER_KCNK5	186382.81735542708	pc	Kt1	k_c --> k_e
+enzyme_Kt1_fwd	cplx_HOMODIMER_VDAC1	120375.5423249257	pc	Kt1	k_c --> k_e
+enzyme_Kt1_fwd	cplx_HOMOHEPTAMER_PANX1	430207.3936944364	pc	Kt1	k_c --> k_e
+enzyme_Kt1_fwd	cplx_HOMOTETRAMER_GRIA1	495485.7514970548	pc	Kt1	k_c --> k_e
+enzyme_Kt1_fwd	cplx_HOMOTETRAMER_KCNAB2	251078.4866320752	pc	Kt1	k_c --> k_e
+enzyme_Kt1_fwd	cplx_HOMOTETRAMER_KCNN4	281292.84945618786	pc	Kt1	k_c --> k_e
+enzyme_Kt1_fwd	cplx_HOMOTRIMER_P2RX1	216904.1723351131	pc	Kt1	k_c --> k_e
+enzyme_Kt1_fwd	cplx_HOMOTRIMER_P2RX2	240958.6758341522	pc	Kt1	k_c --> k_e
+enzyme_Kt1_fwd	cplx_HOMOTRIMER_P2RX7	297632.9379483869	pc	Kt1	k_c --> k_e
+enzyme_Kt1_fwd	cplx_HOMOTRIMER_PIEZO1	870210.160190862	pc	Kt1	k_c --> k_e
+enzyme_Kt1_fwd	cplx_MONOMER_SLC22A4	121260.23935021428	pc	Kt1	k_c --> k_e
+enzyme_Kt1_fwd	cplx_MONOMER_TMEM109	63470.68630559252	pc	Kt1	k_c --> k_e
+enzyme_Kt1_rev	cplx_HOMODIMER_KCNK5	0	pc	Kt1	k_c <-- k_e
+enzyme_Kt1_rev	cplx_HOMODIMER_VDAC1	0	pc	Kt1	k_c <-- k_e
+enzyme_Kt1_rev	cplx_HOMOHEPTAMER_PANX1	0	pc	Kt1	k_c <-- k_e
+enzyme_Kt1_rev	cplx_HOMOTETRAMER_GRIA1	0	pc	Kt1	k_c <-- k_e
+enzyme_Kt1_rev	cplx_HOMOTETRAMER_KCNAB2	0	pc	Kt1	k_c <-- k_e
+enzyme_Kt1_rev	cplx_HOMOTETRAMER_KCNN4	0	pc	Kt1	k_c <-- k_e
+enzyme_Kt1_rev	cplx_HOMOTRIMER_P2RX1	0	pc	Kt1	k_c <-- k_e
+enzyme_Kt1_rev	cplx_HOMOTRIMER_P2RX2	0	pc	Kt1	k_c <-- k_e
+enzyme_Kt1_rev	cplx_HOMOTRIMER_P2RX7	0	pc	Kt1	k_c <-- k_e
+enzyme_Kt1_rev	cplx_HOMOTRIMER_PIEZO1	0	pc	Kt1	k_c <-- k_e
+enzyme_Kt1_rev	cplx_MONOMER_SLC22A4	0	pc	Kt1	k_c <-- k_e
+enzyme_Kt1_rev	cplx_MONOMER_TMEM109	0	pc	Kt1	k_c <-- k_e
+enzyme_LDH_L_fwd	cplx_HETEROTETRAMER_LDHA_LDHB_A1B3	230774.125592718	pc	LDH_L	h_c + nadh_c + pyr_c --> lac__L_c + nad_c
+enzyme_LDH_L_fwd	cplx_HETEROTETRAMER_LDHA_LDHB_A2B2	230844.1381463334	pc	LDH_L	h_c + nadh_c + pyr_c --> lac__L_c + nad_c
+enzyme_LDH_L_fwd	cplx_HETEROTETRAMER_LDHA_LDHB_A3B1	230914.14362264503	pc	LDH_L	h_c + nadh_c + pyr_c --> lac__L_c + nad_c
+enzyme_LDH_L_fwd	cplx_HOMOTETRAMER_LDHA	230984.14202522853	pc	LDH_L	h_c + nadh_c + pyr_c --> lac__L_c + nad_c
+enzyme_LDH_L_fwd	cplx_HOMOTETRAMER_LDHB	230704.10595821982	pc	LDH_L	h_c + nadh_c + pyr_c --> lac__L_c + nad_c
+enzyme_LDH_L_rev	cplx_HETEROTETRAMER_LDHA_LDHB_A1B3	230774.125592718	pc	LDH_L	h_c + nadh_c + pyr_c <-- lac__L_c + nad_c
+enzyme_LDH_L_rev	cplx_HETEROTETRAMER_LDHA_LDHB_A2B2	230844.1381463334	pc	LDH_L	h_c + nadh_c + pyr_c <-- lac__L_c + nad_c
+enzyme_LDH_L_rev	cplx_HETEROTETRAMER_LDHA_LDHB_A3B1	230914.14362264503	pc	LDH_L	h_c + nadh_c + pyr_c <-- lac__L_c + nad_c
+enzyme_LDH_L_rev	cplx_HOMOTETRAMER_LDHA	230984.14202522853	pc	LDH_L	h_c + nadh_c + pyr_c <-- lac__L_c + nad_c
+enzyme_LDH_L_rev	cplx_HOMOTETRAMER_LDHB	230704.10595821982	pc	LDH_L	h_c + nadh_c + pyr_c <-- lac__L_c + nad_c
+enzyme_L_LACt2_fwd	cplx_HETEROTETRAMER_SLC16A1_BSG	282854.491476753	pc	L_LACt2	h_c + lac__L_c --> h_e + lac__L_e
+enzyme_L_LACt2_fwd	cplx_HETEROTETRAMER_SLC16A1_EMB	271058.5468744385	pc	L_LACt2	h_c + lac__L_c --> h_e + lac__L_e
+enzyme_L_LACt2_fwd	cplx_HETEROTETRAMER_SLC16A7_BSG	279008.7778332968	pc	L_LACt2	h_c + lac__L_c --> h_e + lac__L_e
+enzyme_L_LACt2_fwd	cplx_HETEROTETRAMER_SLC16A7_EMB	267157.31511680124	pc	L_LACt2	h_c + lac__L_c --> h_e + lac__L_e
+enzyme_L_LACt2_fwd	cplx_HOMODIMER_SLC16A1	183401.35856691742	pc	L_LACt2	h_c + lac__L_c --> h_e + lac__L_e
+enzyme_L_LACt2_fwd	cplx_HOMODIMER_SLC16A7	178950.14112858303	pc	L_LACt2	h_c + lac__L_c --> h_e + lac__L_e
+enzyme_L_LACt2_rev	cplx_HETEROTETRAMER_SLC16A1_BSG	282854.491476753	pc	L_LACt2	h_c + lac__L_c <-- h_e + lac__L_e
+enzyme_L_LACt2_rev	cplx_HETEROTETRAMER_SLC16A1_EMB	271058.5468744385	pc	L_LACt2	h_c + lac__L_c <-- h_e + lac__L_e
+enzyme_L_LACt2_rev	cplx_HETEROTETRAMER_SLC16A7_BSG	279008.7778332968	pc	L_LACt2	h_c + lac__L_c <-- h_e + lac__L_e
+enzyme_L_LACt2_rev	cplx_HETEROTETRAMER_SLC16A7_EMB	267157.31511680124	pc	L_LACt2	h_c + lac__L_c <-- h_e + lac__L_e
+enzyme_L_LACt2_rev	cplx_HOMODIMER_SLC16A1	183401.35856691742	pc	L_LACt2	h_c + lac__L_c <-- h_e + lac__L_e
+enzyme_L_LACt2_rev	cplx_HOMODIMER_SLC16A7	178950.14112858303	pc	L_LACt2	h_c + lac__L_c <-- h_e + lac__L_e
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBA_CYB5A	83468.91940022857	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBA_CYB5B	100877.09233556666	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBB_CYB5A	84688.66661443001	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBB_CYB5B	102022.81904370464	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBD_CYB5A	84786.10196542084	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBD_CYB5B	102114.39416610627	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBE1_CYB5A	85030.54016291104	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBE1_CYB5B	102344.16454702016	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBG1_CYB5A	84902.98766747328	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBG1_CYB5B	102224.25996475662	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBG2_CYB5A	84899.73817974863	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBG2_CYB5B	102221.20548470998	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBM_CYB5A	84057.37031311532	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBM_CYB5B	101429.6797791296	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBQ1_CYB5A	83879.92257371094	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBQ1_CYB5B	101263.01641389074	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBZ_CYB5A	84095.31092242076	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_fwd	cplx_COMPLEX_HBZ_CYB5B	101465.31792653036	pc	METHBCYTBR	2.0 focytb5_c + methb_c --> 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBA_CYB5A	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBA_CYB5B	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBB_CYB5A	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBB_CYB5B	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBD_CYB5A	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBD_CYB5B	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBE1_CYB5A	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBE1_CYB5B	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBG1_CYB5A	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBG1_CYB5B	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBG2_CYB5A	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBG2_CYB5B	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBM_CYB5A	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBM_CYB5B	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBQ1_CYB5A	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBQ1_CYB5B	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBZ_CYB5A	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_METHBCYTBR_rev	cplx_COMPLEX_HBZ_CYB5B	0	pc	METHBCYTBR	2.0 focytb5_c + methb_c <-- 2.0 ficytb5_c + hb_c
+enzyme_NAt_fwd	cplx_HOMODIMER_VDAC1	120375.5423249257	pc	NAt	na1_e --> na1_c
+enzyme_NAt_fwd	cplx_HOMOHEPTAMER_PANX1	430207.3936944364	pc	NAt	na1_e --> na1_c
+enzyme_NAt_fwd	cplx_HOMOTETRAMER_GRIA1	495485.7514970548	pc	NAt	na1_e --> na1_c
+enzyme_NAt_fwd	cplx_HOMOTRIMER_P2RX1	216904.1723351131	pc	NAt	na1_e --> na1_c
+enzyme_NAt_fwd	cplx_HOMOTRIMER_P2RX2	240958.6758341522	pc	NAt	na1_e --> na1_c
+enzyme_NAt_fwd	cplx_HOMOTRIMER_P2RX7	297632.9379483869	pc	NAt	na1_e --> na1_c
+enzyme_NAt_fwd	cplx_HOMOTRIMER_PIEZO1	870210.160190862	pc	NAt	na1_e --> na1_c
+enzyme_NAt_fwd	cplx_MONOMER_SCN4A	300025.3751228082	pc	NAt	na1_e --> na1_c
+enzyme_NAt_fwd	cplx_MONOMER_SCN9A	319683.28201534954	pc	NAt	na1_e --> na1_c
+enzyme_NAt_rev	cplx_HOMODIMER_VDAC1	0	pc	NAt	na1_e <-- na1_c
+enzyme_NAt_rev	cplx_HOMOHEPTAMER_PANX1	0	pc	NAt	na1_e <-- na1_c
+enzyme_NAt_rev	cplx_HOMOTETRAMER_GRIA1	0	pc	NAt	na1_e <-- na1_c
+enzyme_NAt_rev	cplx_HOMOTRIMER_P2RX1	0	pc	NAt	na1_e <-- na1_c
+enzyme_NAt_rev	cplx_HOMOTRIMER_P2RX2	0	pc	NAt	na1_e <-- na1_c
+enzyme_NAt_rev	cplx_HOMOTRIMER_P2RX7	0	pc	NAt	na1_e <-- na1_c
+enzyme_NAt_rev	cplx_HOMOTRIMER_PIEZO1	0	pc	NAt	na1_e <-- na1_c
+enzyme_NAt_rev	cplx_MONOMER_SCN4A	0	pc	NAt	na1_e <-- na1_c
+enzyme_NAt_rev	cplx_MONOMER_SCN9A	0	pc	NAt	na1_e <-- na1_c
+enzyme_NH4t_fwd	cplx_HETEROTETRAMER_RH	268146.2007800635	pc	NH4t	nh4_c --> nh4_e
+enzyme_NH4t_fwd	cplx_HETEROTRIMER_RH	215565.55709984383	pc	NH4t	nh4_c --> nh4_e
+enzyme_NH4t_fwd	cplx_HOMODIMER_RHAG	157910.99980832066	pc	NH4t	nh4_c --> nh4_e
+enzyme_NH4t_fwd	cplx_HOMOTETRAMER_AQP1	191243.407671574	pc	NH4t	nh4_c --> nh4_e
+enzyme_NH4t_fwd	cplx_HOMOTETRAMER_AQP3	206220.13491269993	pc	NH4t	nh4_c --> nh4_e
+enzyme_NH4t_rev	cplx_HETEROTETRAMER_RH	268146.2007800635	pc	NH4t	nh4_c <-- nh4_e
+enzyme_NH4t_rev	cplx_HETEROTRIMER_RH	215565.55709984383	pc	NH4t	nh4_c <-- nh4_e
+enzyme_NH4t_rev	cplx_HOMODIMER_RHAG	157910.99980832066	pc	NH4t	nh4_c <-- nh4_e
+enzyme_NH4t_rev	cplx_HOMOTETRAMER_AQP1	191243.407671574	pc	NH4t	nh4_c <-- nh4_e
+enzyme_NH4t_rev	cplx_HOMOTETRAMER_AQP3	206220.13491269993	pc	NH4t	nh4_c <-- nh4_e
+enzyme_NTDAMP_fwd	cplx_HOMOTETRAMER_NT5C2	354502.0255855283	pc	NTDAMP	amp_c + h2o_c --> adn_c + pi_c
+enzyme_NTDAMP_rev	cplx_HOMOTETRAMER_NT5C2	0	pc	NTDAMP	amp_c + h2o_c <-- adn_c + pi_c
+enzyme_NTDIMP_fwd	cplx_HOMOTETRAMER_NT5C2	354502.0255855283	pc	NTDIMP	h2o_c + imp_c --> ins_c + pi_c
+enzyme_NTDIMP_rev	cplx_HOMOTETRAMER_NT5C2	0	pc	NTDIMP	h2o_c + imp_c <-- ins_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_RUVBL1_RUVBL2	670895.1382931428	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_VCP_DERL1	980099.1614023056	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_VCP_FAF1	790968.9905910018	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_VCP_NPLOC4_UFD1	370021.0797733027	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_VCP_NPLOC4_UFD1_FAF1	563997.8820706244	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_VCP_NPLOC4_UFD1_FAF2	545217.2402022253	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_VCP_NPLOC4_UFD1_UBXN1	362836.5142989883	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_VCP_NPLOC4_UFD1_UBXN7	487316.4253646871	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_VCP_NSFL1C	711221.2196950599	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_VCP_PLAA	683027.2468945506	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_VCP_UBXN6	652038.7775775741	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_VCP_VCPIP1	896488.9901435919	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_COMPLEX_VPS4AB	170881.18548413226	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_HETEROTETRAMER_HSP90AA1_CDC37	352775.71142347506	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_HETEROTETRAMER_HSP90AB1_CDC37	349913.17553528276	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_HOMOHEXAMER_NSF	575340.7117971209	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_HOMOHEXAMER_RUVBL1	396181.8452483886	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_HOMOHEXAMER_RUVBL2	401645.1913106244	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_MONOMER_ABCE1	128746.53546552705	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_MONOMER_ACTA1	90436.15861227241	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_MONOMER_ACTB	89930.20170484105	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_MONOMER_ACTC1	90384.41882645639	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_MONOMER_ACTG1	90020.88061512276	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_MONOMER_ACTG2	90156.64568604607	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_fwd	cplx_MONOMER_HSPA8	133821.66134377202	pc	NTPA	atp_c + h2o_c --> adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_RUVBL1_RUVBL2	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_VCP_DERL1	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_VCP_FAF1	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_VCP_NPLOC4_UFD1	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_VCP_NPLOC4_UFD1_FAF1	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_VCP_NPLOC4_UFD1_FAF2	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_VCP_NPLOC4_UFD1_UBXN1	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_VCP_NPLOC4_UFD1_UBXN7	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_VCP_NSFL1C	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_VCP_PLAA	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_VCP_UBXN6	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_VCP_VCPIP1	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_COMPLEX_VPS4AB	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_HETEROTETRAMER_HSP90AA1_CDC37	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_HETEROTETRAMER_HSP90AB1_CDC37	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_HOMOHEXAMER_NSF	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_HOMOHEXAMER_RUVBL1	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_HOMOHEXAMER_RUVBL2	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_MONOMER_ABCE1	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_MONOMER_ACTA1	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_MONOMER_ACTB	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_MONOMER_ACTC1	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_MONOMER_ACTG1	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_MONOMER_ACTG2	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NTPA_rev	cplx_MONOMER_HSPA8	0	pc	NTPA	atp_c + h2o_c <-- adp_c + h_c + pi_c
+enzyme_NaKt_fwd	cplx_HETERODIMER_ATP1_A1B1	232367.63280290356	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c --> adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_fwd	cplx_HETERODIMER_ATP1_A1B2	230366.56290170274	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c --> adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_fwd	cplx_HETERODIMER_ATP1_A1B3	228172.1496194377	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c --> adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_fwd	cplx_HETERODIMER_ATP1_A3B1	231010.9383075678	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c --> adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_fwd	cplx_HETERODIMER_ATP1_A3B2	229005.93600798547	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c --> adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_fwd	cplx_HETERODIMER_ATP1_A3B3	226807.1574179649	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c --> adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_fwd	cplx_HETERODIMER_ATP1_A4B1	233881.5057830085	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c --> adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_fwd	cplx_HETERODIMER_ATP1_A4B2	231884.78762565792	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c --> adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_fwd	cplx_HETERODIMER_ATP1_A4B3	229695.2045505197	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c --> adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_rev	cplx_HETERODIMER_ATP1_A1B1	0	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c <-- adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_rev	cplx_HETERODIMER_ATP1_A1B2	0	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c <-- adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_rev	cplx_HETERODIMER_ATP1_A1B3	0	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c <-- adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_rev	cplx_HETERODIMER_ATP1_A3B1	0	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c <-- adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_rev	cplx_HETERODIMER_ATP1_A3B2	0	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c <-- adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_rev	cplx_HETERODIMER_ATP1_A3B3	0	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c <-- adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_rev	cplx_HETERODIMER_ATP1_A4B1	0	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c <-- adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_rev	cplx_HETERODIMER_ATP1_A4B2	0	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c <-- adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_NaKt_rev	cplx_HETERODIMER_ATP1_A4B3	0	pc	NaKt	atp_c + h2o_c + 2.0 k_e + 3.0 na1_c <-- adp_c + h_c + 2.0 k_c + 3.0 na1_e + pi_c
+enzyme_O2t_fwd	cplx_HOMOTETRAMER_AQP1	191243.407671574	pc	O2t	o2_c --> o2_e
+enzyme_O2t_rev	cplx_HOMOTETRAMER_AQP1	191243.407671574	pc	O2t	o2_c <-- o2_e
+enzyme_OXYHBAOX_fwd	cplx_MONOMER_HBA	42292.8812790456	pc	OXYHBAOX	oxyhb_c --> methb_c + o2s_c
+enzyme_OXYHBAOX_fwd	cplx_MONOMER_HBB	43817.49918712348	pc	OXYHBAOX	oxyhb_c --> methb_c + o2s_c
+enzyme_OXYHBAOX_fwd	cplx_MONOMER_HBD	43938.835865924244	pc	OXYHBAOX	oxyhb_c --> methb_c + o2s_c
+enzyme_OXYHBAOX_fwd	cplx_MONOMER_HBE1	44242.94982181746	pc	OXYHBAOX	oxyhb_c --> methb_c + o2s_c
+enzyme_OXYHBAOX_fwd	cplx_MONOMER_HBG1	44084.308211116026	pc	OXYHBAOX	oxyhb_c --> methb_c + o2s_c
+enzyme_OXYHBAOX_fwd	cplx_MONOMER_HBG2	44080.2652606877	pc	OXYHBAOX	oxyhb_c --> methb_c + o2s_c
+enzyme_OXYHBAOX_fwd	cplx_MONOMER_HBM	43029.73990044327	pc	OXYHBAOX	oxyhb_c --> methb_c + o2s_c
+enzyme_OXYHBAOX_fwd	cplx_MONOMER_HBQ1	42807.804192869735	pc	OXYHBAOX	oxyhb_c --> methb_c + o2s_c
+enzyme_OXYHBAOX_fwd	cplx_MONOMER_HBZ	43077.163325190406	pc	OXYHBAOX	oxyhb_c --> methb_c + o2s_c
+enzyme_OXYHBAOX_rev	cplx_MONOMER_HBA	0	pc	OXYHBAOX	oxyhb_c <-- methb_c + o2s_c
+enzyme_OXYHBAOX_rev	cplx_MONOMER_HBB	0	pc	OXYHBAOX	oxyhb_c <-- methb_c + o2s_c
+enzyme_OXYHBAOX_rev	cplx_MONOMER_HBD	0	pc	OXYHBAOX	oxyhb_c <-- methb_c + o2s_c
+enzyme_OXYHBAOX_rev	cplx_MONOMER_HBE1	0	pc	OXYHBAOX	oxyhb_c <-- methb_c + o2s_c
+enzyme_OXYHBAOX_rev	cplx_MONOMER_HBG1	0	pc	OXYHBAOX	oxyhb_c <-- methb_c + o2s_c
+enzyme_OXYHBAOX_rev	cplx_MONOMER_HBG2	0	pc	OXYHBAOX	oxyhb_c <-- methb_c + o2s_c
+enzyme_OXYHBAOX_rev	cplx_MONOMER_HBM	0	pc	OXYHBAOX	oxyhb_c <-- methb_c + o2s_c
+enzyme_OXYHBAOX_rev	cplx_MONOMER_HBQ1	0	pc	OXYHBAOX	oxyhb_c <-- methb_c + o2s_c
+enzyme_OXYHBAOX_rev	cplx_MONOMER_HBZ	0	pc	OXYHBAOX	oxyhb_c <-- methb_c + o2s_c
+enzyme_PFK_fwd	cplx_HETEROTETRAMER_PFKL_PFKM_M1L3	433962.1501085884	pc	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c
+enzyme_PFK_fwd	cplx_HETEROTETRAMER_PFKL_PFKM_M2L2	434122.9622759589	pc	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c
+enzyme_PFK_fwd	cplx_HETEROTETRAMER_PFKL_PFKM_M3L1	434283.7545892301	pc	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c
+enzyme_PFK_fwd	cplx_HETEROTETRAMER_PFKL_PFKP_P1L3	434354.7911192205	pc	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c
+enzyme_PFK_fwd	cplx_HETEROTETRAMER_PFKL_PFKP_P2L2	434908.0291771288	pc	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c
+enzyme_PFK_fwd	cplx_HETEROTETRAMER_PFKL_PFKP_P3L1	435461.03274657176	pc	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c
+enzyme_PFK_fwd	cplx_HOMOTETRAMER_PFKL	433801.31807485485	pc	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c
+enzyme_PFK_fwd	cplx_HOMOTETRAMER_PFKM	434444.52706065186	pc	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c
+enzyme_PFK_fwd	cplx_HOMOTETRAMER_PFKP	436013.8023236448	pc	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c
+enzyme_PFK_rev	cplx_HETEROTETRAMER_PFKL_PFKM_M1L3	0	pc	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c
+enzyme_PFK_rev	cplx_HETEROTETRAMER_PFKL_PFKM_M2L2	0	pc	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c
+enzyme_PFK_rev	cplx_HETEROTETRAMER_PFKL_PFKM_M3L1	0	pc	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c
+enzyme_PFK_rev	cplx_HETEROTETRAMER_PFKL_PFKP_P1L3	0	pc	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c
+enzyme_PFK_rev	cplx_HETEROTETRAMER_PFKL_PFKP_P2L2	0	pc	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c
+enzyme_PFK_rev	cplx_HETEROTETRAMER_PFKL_PFKP_P3L1	0	pc	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c
+enzyme_PFK_rev	cplx_HOMOTETRAMER_PFKL	0	pc	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c
+enzyme_PFK_rev	cplx_HOMOTETRAMER_PFKM	0	pc	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c
+enzyme_PFK_rev	cplx_HOMOTETRAMER_PFKP	0	pc	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c
+enzyme_PGI_fwd	cplx_HOMODIMER_GPI	206378.26107901678	pc	PGI	g6p_c --> f6p_c
+enzyme_PGI_rev	cplx_HOMODIMER_GPI	206378.26107901678	pc	PGI	g6p_c <-- f6p_c
+enzyme_PGK_fwd	cplx_MONOMER_PGK1	94567.41819377182	pc	PGK	13dpg_c + adp_c --> 3pg_c + atp_c
+enzyme_PGK_fwd	cplx_MONOMER_PGK2	94860.49526016862	pc	PGK	13dpg_c + adp_c --> 3pg_c + atp_c
+enzyme_PGK_rev	cplx_MONOMER_PGK1	94567.41819377182	pc	PGK	13dpg_c + adp_c <-- 3pg_c + atp_c
+enzyme_PGK_rev	cplx_MONOMER_PGK2	94860.49526016862	pc	PGK	13dpg_c + adp_c <-- 3pg_c + atp_c
+enzyme_PGL_fwd	cplx_MONOMER_PGLS	65857.47697691632	pc	PGL	6pgl_c + h2o_c --> 6pgc_c + h_c
+enzyme_PGL_rev	cplx_MONOMER_PGLS	65857.47697691632	pc	PGL	6pgl_c + h2o_c <-- 6pgc_c + h_c
+enzyme_PGM_fwd	cplx_HOMODIMER_BPGM	118096.46502332822	pc	PGM	3pg_c --> 2pg_c
+enzyme_PGM_fwd	cplx_HOMODIMER_PGAM1	114540.89312828587	pc	PGM	3pg_c --> 2pg_c
+enzyme_PGM_rev	cplx_HOMODIMER_BPGM	118096.46502332822	pc	PGM	3pg_c <-- 2pg_c
+enzyme_PGM_rev	cplx_HOMODIMER_PGAM1	114540.89312828587	pc	PGM	3pg_c <-- 2pg_c
+enzyme_PPA_fwd	cplx_HOMODIMER_LHPP	115608.21569455187	pc	PPA	h2o_c + ppi_c --> h_c + 2.0 pi_c
+enzyme_PPA_fwd	cplx_HOMODIMER_PPA1	125839.0716180834	pc	PPA	h2o_c + ppi_c --> h_c + 2.0 pi_c
+enzyme_PPA_fwd	cplx_HOMODIMER_PPA2	140778.59585390918	pc	PPA	h2o_c + ppi_c --> h_c + 2.0 pi_c
+enzyme_PPA_fwd	cplx_HOMODIMER_PRUNE1	173693.83645451095	pc	PPA	h2o_c + ppi_c --> h_c + 2.0 pi_c
+enzyme_PPA_rev	cplx_HOMODIMER_LHPP	0	pc	PPA	h2o_c + ppi_c <-- h_c + 2.0 pi_c
+enzyme_PPA_rev	cplx_HOMODIMER_PPA1	0	pc	PPA	h2o_c + ppi_c <-- h_c + 2.0 pi_c
+enzyme_PPA_rev	cplx_HOMODIMER_PPA2	0	pc	PPA	h2o_c + ppi_c <-- h_c + 2.0 pi_c
+enzyme_PPA_rev	cplx_HOMODIMER_PRUNE1	0	pc	PPA	h2o_c + ppi_c <-- h_c + 2.0 pi_c
+enzyme_PPM_fwd	cplx_MONOMER_PGM2	130113.67812927136	pc	PPM	r1p_c --> r5p_c
+enzyme_PPM_rev	cplx_MONOMER_PGM2	130113.67812927136	pc	PPM	r1p_c <-- r5p_c
+enzyme_PRPPS_fwd	cplx_HOMODIMER_PRPS1	132089.86380551566	pc	PRPPS	atp_c + r5p_c --> amp_c + h_c + prpp_c
+enzyme_PRPPS_fwd	cplx_HOMODIMER_PRPS1L1	132095.73693911373	pc	PRPPS	atp_c + r5p_c --> amp_c + h_c + prpp_c
+enzyme_PRPPS_fwd	cplx_HOMODIMER_PRPS2	131898.86413385143	pc	PRPPS	atp_c + r5p_c --> amp_c + h_c + prpp_c
+enzyme_PRPPS_rev	cplx_HOMODIMER_PRPS1	0	pc	PRPPS	atp_c + r5p_c <-- amp_c + h_c + prpp_c
+enzyme_PRPPS_rev	cplx_HOMODIMER_PRPS1L1	0	pc	PRPPS	atp_c + r5p_c <-- amp_c + h_c + prpp_c
+enzyme_PRPPS_rev	cplx_HOMODIMER_PRPS2	0	pc	PRPPS	atp_c + r5p_c <-- amp_c + h_c + prpp_c
+enzyme_PUNP5_fwd	cplx_HOMOTRIMER_PNP	168457.94131529584	pc	PUNP5	ins_c + pi_c --> hxan_c + r1p_c
+enzyme_PUNP5_rev	cplx_HOMOTRIMER_PNP	168457.94131529584	pc	PUNP5	ins_c + pi_c <-- hxan_c + r1p_c
+enzyme_PYK_fwd	cplx_HOMOTETRAMER_PKLR	341634.1847579734	pc	PYK	adp_c + h_c + pep_c --> atp_c + pyr_c
+enzyme_PYK_fwd	cplx_HOMOTETRAMER_PKM	325374.6276823924	pc	PYK	adp_c + h_c + pep_c --> atp_c + pyr_c
+enzyme_PYK_rev	cplx_HOMOTETRAMER_PKLR	0	pc	PYK	adp_c + h_c + pep_c <-- atp_c + pyr_c
+enzyme_PYK_rev	cplx_HOMOTETRAMER_PKM	0	pc	PYK	adp_c + h_c + pep_c <-- atp_c + pyr_c
+enzyme_PYRt2_fwd	cplx_HETEROTETRAMER_SLC16A1_BSG	282854.491476753	pc	PYRt2	h_c + pyr_c --> h_e + pyr_e
+enzyme_PYRt2_fwd	cplx_HETEROTETRAMER_SLC16A1_EMB	271058.5468744385	pc	PYRt2	h_c + pyr_c --> h_e + pyr_e
+enzyme_PYRt2_fwd	cplx_HETEROTETRAMER_SLC16A7_BSG	279008.7778332968	pc	PYRt2	h_c + pyr_c --> h_e + pyr_e
+enzyme_PYRt2_fwd	cplx_HETEROTETRAMER_SLC16A7_EMB	267157.31511680124	pc	PYRt2	h_c + pyr_c --> h_e + pyr_e
+enzyme_PYRt2_fwd	cplx_HOMODIMER_SLC16A1	183401.35856691742	pc	PYRt2	h_c + pyr_c --> h_e + pyr_e
+enzyme_PYRt2_fwd	cplx_HOMODIMER_SLC16A7	178950.14112858303	pc	PYRt2	h_c + pyr_c --> h_e + pyr_e
+enzyme_PYRt2_rev	cplx_HETEROTETRAMER_SLC16A1_BSG	282854.491476753	pc	PYRt2	h_c + pyr_c <-- h_e + pyr_e
+enzyme_PYRt2_rev	cplx_HETEROTETRAMER_SLC16A1_EMB	271058.5468744385	pc	PYRt2	h_c + pyr_c <-- h_e + pyr_e
+enzyme_PYRt2_rev	cplx_HETEROTETRAMER_SLC16A7_BSG	279008.7778332968	pc	PYRt2	h_c + pyr_c <-- h_e + pyr_e
+enzyme_PYRt2_rev	cplx_HETEROTETRAMER_SLC16A7_EMB	267157.31511680124	pc	PYRt2	h_c + pyr_c <-- h_e + pyr_e
+enzyme_PYRt2_rev	cplx_HOMODIMER_SLC16A1	183401.35856691742	pc	PYRt2	h_c + pyr_c <-- h_e + pyr_e
+enzyme_PYRt2_rev	cplx_HOMODIMER_SLC16A7	178950.14112858303	pc	PYRt2	h_c + pyr_c <-- h_e + pyr_e
+enzyme_RPE_fwd	cplx_HOMODIMER_RPE	102752.03050464574	pc	RPE	ru5p__D_c --> xu5p__D_c
+enzyme_RPE_rev	cplx_HOMODIMER_RPE	102752.03050464574	pc	RPE	ru5p__D_c <-- xu5p__D_c
+enzyme_RPI_fwd	cplx_HOMODIMER_RPIA	127629.82734719562	pc	RPI	ru5p__D_c --> r5p_c
+enzyme_RPI_rev	cplx_HOMODIMER_RPIA	127629.82734719562	pc	RPI	ru5p__D_c <-- r5p_c
+enzyme_SPODM_fwd	cplx_HOMODIMER_SOD1	73458.0213929198	pc	SPODM	2.0 h_c + 2.0 o2s_c --> h2o2_c + o2_c
+enzyme_SPODM_rev	cplx_HOMODIMER_SOD1	0	pc	SPODM	2.0 h_c + 2.0 o2s_c <-- h2o2_c + o2_c
+enzyme_TALA_fwd	cplx_HOMODIMER_TALDO1	139713.24112336352	pc	TALA	g3p_c + s7p_c --> e4p_c + f6p_c
+enzyme_TALA_rev	cplx_HOMODIMER_TALDO1	139713.24112336352	pc	TALA	g3p_c + s7p_c <-- e4p_c + f6p_c
+enzyme_TKT1_fwd	cplx_HOMODIMER_TKT	217862.87966325114	pc	TKT1	r5p_c + xu5p__D_c --> g3p_c + s7p_c
+enzyme_TKT1_rev	cplx_HOMODIMER_TKT	217862.87966325114	pc	TKT1	r5p_c + xu5p__D_c <-- g3p_c + s7p_c
+enzyme_TKT2_fwd	cplx_HOMODIMER_TKT	217862.87966325114	pc	TKT2	e4p_c + xu5p__D_c --> f6p_c + g3p_c
+enzyme_TKT2_rev	cplx_HOMODIMER_TKT	217862.87966325114	pc	TKT2	e4p_c + xu5p__D_c <-- f6p_c + g3p_c
+enzyme_TPI_fwd	cplx_HOMODIMER_TPI1	108113.99116359073	pc	TPI	dhap_c --> g3p_c
+enzyme_TPI_rev	cplx_HOMODIMER_TPI1	108113.99116359073	pc	TPI	dhap_c <-- g3p_c
