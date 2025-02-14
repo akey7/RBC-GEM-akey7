@@ -2271,9 +2271,208 @@
 }
 },
 {
+"id":"biliverd_c",
+"name":"Biliverdin",
+"compartment":"c",
+"charge":-2,
+"formula":"C33H32N4O6",
+"annotation":{
+"bigg.metabolite":"biliverd",
+"biocyc":"META:BILIVERDINE",
+"chebi":"CHEBI:17033",
+"hmdb":[
+"HMDB01008",
+"HMDB02309"
+],
+"inchikey":"QBUVFDKTZJNUPP-BBROENKCSA-L",
+"kegg.compound":"C00500",
+"metabolite":"biliverd",
+"metanetx.chemical":"MNXM416",
+"metatlas":"MAM01399c",
+"reactome":"189396",
+"sabiork.compound":"5120",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd00389",
+"vmhmetabolite":"biliverd"
+}
+},
+{
+"id":"bilirub_c",
+"name":"Bilirubin",
+"compartment":"c",
+"charge":-2,
+"formula":"C33H34N4O6",
+"annotation":{
+"bigg.metabolite":"bilirub",
+"biocyc":"META:BILIRUBIN",
+"chebi":"CHEBI:16990",
+"hmdb":"HMDB0000054",
+"inchikey":"BPYKTIZUTYGOLE-IFADSCNNSA-L",
+"kegg.compound":"C00486",
+"metabolite":"bilirub",
+"metanetx.chemical":"MNXM534",
+"metatlas":"MAM01396c",
+"pubchem.compound":"5280352.0",
+"reactome":[
+"189386",
+"159151"
+],
+"sabiork.compound":"5116",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd00376",
+"vmhmetabolite":"bilirub"
+}
+},
+{
+"id":"fe2_c",
+"name":"Iron (II)",
+"compartment":"c",
+"charge":2,
+"formula":"Fe",
+"annotation":{
+"bigg.metabolite":"fe2",
+"biocyc":"META:FE+2",
+"chebi":"CHEBI:29033",
+"hmdb":"HMDB0000692",
+"inchikey":"CWYNVVGOOAEACU-UHFFFAOYSA-N",
+"kegg.compound":"C14818",
+"metabolite":"fe2",
+"metanetx.chemical":"MNXM111",
+"metatlas":"MAM01821c",
+"pubchem.compound":"27284.0",
+"sabiork.compound":"1275",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd10515",
+"vmhmetabolite":"fe2"
+}
+},
+{
+"id":"fe3_c",
+"name":"Iron (III)",
+"compartment":"c",
+"charge":3,
+"formula":"Fe",
+"annotation":{
+"bigg.metabolite":"fe3",
+"chebi":"CHEBI:29034",
+"kegg.compound":"C14819",
+"metabolite":"fe3",
+"metanetx.chemical":"MNXM196",
+"metatlas":"MAM01822c",
+"pubchem.compound":"29936.0",
+"sbo":"SBO:0000247",
+"vmhmetabolite":"fe3"
+}
+},
+{
+"id":"oh1_c",
+"name":"Hydroxide",
+"compartment":"c",
+"charge":-1,
+"formula":"HO",
+"annotation":{
+"bigg.metabolite":"oh1",
+"chebi":"CHEBI:16234",
+"kegg.compound":"C01328",
+"metabolite":"oh1",
+"metanetx.chemical":"MNXM2",
+"metatlas":"MAM02147c",
+"pubchem.compound":"961.0",
+"sbo":"SBO:0000247",
+"vmhmetabolite":"oh1"
+}
+},
+{
+"id":"oh1r_c",
+"name":"Hydroxyl radical",
+"compartment":"c",
+"charge":0,
+"formula":"HO",
+"annotation":{
+"bigg.metabolite":"oh1r",
+"metabolite":"oh1r",
+"metanetx.chemical":"MNXM56888",
+"metatlas":"MAM02149c",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"bilirub_e",
+"name":"Bilirubin",
+"compartment":"e",
+"charge":-2,
+"formula":"C33H34N4O6",
+"annotation":{
+"metabolite":"bilirub",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"pheme_c",
+"name":"Ferroprotoheme",
+"compartment":"c",
+"charge":-2,
+"formula":"C34H30FeN4O4",
+"annotation":{
+"bigg.metabolite":"pheme",
+"biocyc":"META:PROTOHEME",
+"chebi":"CHEBI:17627",
+"inchikey":"KABFMIBPWCXCRK-RGGAHWMASA-J",
+"kegg.compound":"C00032",
+"metabolite":"pheme",
+"metanetx.chemical":"MNXM249",
+"metatlas":"MAM02049c",
+"reactome":[
+"917877",
+"71185",
+"189444"
+],
+"sbo":"SBO:0000247",
+"vmhmetabolite":"pheme"
+}
+},
+{
+"id":"co_c",
+"name":"Carbon monoxide",
+"compartment":"c",
+"charge":0,
+"formula":"CO",
+"annotation":{
+"bigg.metabolite":"co",
+"biocyc":"META:CARBON-MONOXIDE",
+"chebi":"CHEBI:17245",
+"envipath":"32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/a0a5ff93-8a43-48da-aab5-cef2c628da42",
+"hmdb":"HMDB01361",
+"inchikey":"UGFAIRIUMAVXCW-UHFFFAOYSA-N",
+"kegg.compound":"C00237",
+"kegg.drug":[
+"D03398",
+"D09706"
+],
+"metabolite":"co",
+"metanetx.chemical":"MNXM10881",
+"metatlas":"MAM01595c",
+"pubchem.compound":"281.0",
+"reactome":"189385",
+"sabiork.compound":"1987",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd00204",
+"vmhmetabolite":"co"
+}
+},
+{
 "id":"proteome_budget",
 "name":"Proteome Budget Constraint (Low abundance)",
 "compartment":"c"
+},
+{
+"id":"protein_ABCC4_pc",
+"name":"",
+"compartment":"pc",
+"annotation":{
+"uniprot":"O15439",
+"uniprot.aa_sequence":"MLPVYQEVKPNPLQDANLCSRVFFWWLNPLFKIGHKRRLEEDDMYSVLPEDRSQHLGEELQGFWDKEVLRAENDAQKPSLTRAIIKCYWKSYLVLGIFTLIEESAKVIQPIFLGKIINYFENYDPMDSVALNTAYAYATVLTFCTLILAILHHLYFYHVQCAGMRLRVAMCHMIYRKALRLSNMAMGKTTTGQIVNLLSNDVNKFDQVTVFLHFLWAGPLQAIAVTALLWMEIGISCLAGMAVLIILLPLQSCFGKLFSSLRSKTATFTDARIRTMNEVITGIRIIKMYAWEKSFSNLITNLRKKEISKILRSSCLRGMNLASFFSASKIIVFVTFTTYVLLGSVITASRVFVAVTLYGAVRLTVTLFFPSAIERVSEAIVSIRRIQTFLLLDEISQRNRQLPSDGKKMVHVQDFTAFWDKASETPTLQGLSFTVRPGELLAVVGPVGAGKSSLLSAVLGELAPSHGLVSVHGRIAYVSQQPWVFSGTLRSNILFGKKYEKERYEKVIKACALKKDLQLLEDGDLTVIGDRGTTLSGGQKARVNLARAVYQDADIYLLDDPLSAVDAEVSRHLFELCICQILHEKITILVTHQLQYLKAASQILILKDGKMVQKGTYTEFLKSGIDFGSLLKKDNEESEQPPVPGTPTLRNRTFSESSVWSQQSSRPSLKDGALESQDTENVPVTLSEENRSEGKVGFQAYKNYFRAGAHWIVFIFLILLNTAAQVAYVLQDWWLSYWANKQSMLNVTVNGGGNVTEKLDLNWYLGIYSGLTVATVLFGIARSLLVFYVLVNSSQTLHNKMFESILKAPVLFFDRNPIGRILNRFSKDIGHLDDLLPLTFLDFIQTLLQVVGVVSVAVAVIPWIAIPLVPLGIIFIFLRRYFLETSRDVKRLESTTRSPVFSHLSSSLQGLWTIRAYKAEERCQELFDAHQDLHSEAWFLFLTTSRWFAVRLDAICAMFVIIVAFGSLILAKTLDAGQVGLALSYALTLMGMFQWCVRQSAEVENMMISVERVIEYTDLEKEAPWEYQKRPPPAWPHEGVIIFDNVNFMYSPGGPLVLKHLTALIKSQEKVGIVGRTGAGKSSLISALFRLSEPEGKIWIDKILTTEIGLHDLRKKMSIIPQEPVLFTGTMRKNLDPFNEHTDEELWNALQEVQLKETIEDLPGKMDTELAESGSNFSVGQRQLVCLARAILRKNQILIIDEATANVDPRTDELIQKKIREKFAHCTVLTIAHRLNTIIDSDKIMVLDSGRLKEYDEPYVLLQNKESLFYKMVQQLGKAEAAALTETAKQVYFKRNYPHIGHTDHMVTNTSNGQPSTLTIFETAL"
+}
 },
 {
 "id":"protein_ADA_pc",
@@ -2435,6 +2634,24 @@
 "annotation":{
 "uniprot":"P23634",
 "uniprot.aa_sequence":"MTNPSDRVLPANSMAESREGDFGCTVMELRKLMELRSRDALTQINVHYGGVQNLCSRLKTSPVEGLSGNPADLEKRRQVFGHNVIPPKKPKTFLELVWEALQDVTLIILEIAAIISLVLSFYRPAGEENELCGQVATTPEDENEAQAGWIEGAAILFSVIIVVLVTAFNDWSKEKQFRGLQCRIEQEQKFSIIRNGQLIQLPVAEIVVGDIAQVKYGDLLPADGILIQGNDLKIDESSLTGESDHVKKSLDKDPMLLSGTHVMEGSGRMVVTAVGVNSQTGIILTLLGVNEDDEGEKKKKGKKQGVPENRNKAKTQDGVALEIQPLNSQEGIDNEEKDKKAVKVPKKEKSVLQGKLTRLAVQIGKAGLLMSALTVFILILYFVIDNFVINRRPWLPECTPIYIQYFVKFFIIGITVLVVAVPEGLPLAVTISLAYSVKKMMKDNNLVRHLDACETMGNATAICSDKTGTLTMNRMTVVQAYIGGIHYRQIPSPDVFLPKVLDLIVNGISINSAYTSKILPPEKEGGLPRQVGNKTECALLGFVTDLKQDYQAVRNEVPEEKLYKVYTFNSVRKSMSTVIRNPNGGFRMYSKGASEIILRKCNRILDRKGEAVPFKNKDRDDMVRTVIEPMACDGLRTICIAYRDFDDTEPSWDNENEILTELTCIAVVGIEDPVRPEVPDAIAKCKQAGITVRMVTGDNINTARAIATKCGILTPGDDFLCLEGKEFNRLIRNEKGEVEQEKLDKIWPKLRVLARSSPTDKHTLVKGIIDSTVGEHRQVVAVTGDGTNDGPALKKADVGFAMGIAGTDVAKEASDIILTDDNFTSIVKAVMWGRNVYDSISKFLQFQLTVNVVAVIVAFTGACITQDSPLKAVQMLWVNLIMDTFASLALATEPPTESLLKRRPYGRNKPLISRTMMKNILGHAFYQLIVIFILVFAGEKFFDIDSGRKAPLHSPPSQHYTIVFNTFVLMQLFNEINSRKIHGEKNVFSGIYRNIIFCSVVLGTFICQIFIVEFGGKPFSCTSLSLSQWLWCLFIGIGELLWGQFISAIPTRSLKFLKEAGHGTTKEEITKDAEGLDEIDHAEMELRRGQILWFRGLNRIQTQIDVINTFQTGASFKGVLRRQNMGQHLDVKLVPSSSYIKVVKAFHSSLHESIQKPYNQKSIHSFMTHPEFAIEEELPRTPLLDEEEEENPDKASKFGTRVLLLDGEVTPYANTNNNAVDCNQVQLPQSDSSLQSLETSV"
+}
+},
+{
+"id":"protein_BLVRA_pc",
+"name":"",
+"compartment":"pc",
+"annotation":{
+"uniprot":"P53004",
+"uniprot.aa_sequence":"MNAEPERKFGVVVVGVGRAGSVRMRDLRNPHPSSAFLNLIGFVSRRELGSIDGVQQISLEDALSSQEVEVAYICSESSSHEDYIRQFLNAGKHVLVEYPMTLSLAAAQELWELAEQKGKVLHEEHVELLMEEFAFLKKEVVGKDLLKGSLLFTAGPLEEERFGFPAFSGISRLTWLVSLFGELSLVSATLEERKEDQYMKMTVCLETEKKSPLSWIEEKGPGLKRNRYLSFHFKSGSLENVPNVGVNKNIFLKDQNIFVQKLLGQFSEKELAAEKKRILHCLGLAEEIQKYCCSRK"
+}
+},
+{
+"id":"protein_BLVRB_pc",
+"name":"",
+"compartment":"pc",
+"annotation":{
+"uniprot":"P30043",
+"uniprot.aa_sequence":"MAVKKIAIFGATGQTGLTTLAQAVQAGYEVTVLVRDSSRLPSEGPRPAHVVVGDVLQAADVDKTVAGQDAVIVLLGTRNDLSPTTVMSEGARNIVAAMKAHGVDKVVACTSAFLLWDPTKVPPRLQAVTDDHIRMHKVLRESGLKYVAVMPPHIGDQPLTGAYTVTLDGRGPSRVISKHDLGHFMLRCLTTDEYDGHSTYPSHQYQ"
 }
 },
 {
@@ -3140,6 +3357,15 @@
 }
 },
 {
+"id":"protein_STEAP3_pc",
+"name":"",
+"compartment":"pc",
+"annotation":{
+"uniprot":"Q658P3",
+"uniprot.aa_sequence":"MPEEMDKPLISLHLVDSDSSLAKVPDEAPKVGILGSGDFARSLATRLVGSGFKVVVGSRNPKRTARLFPSAAQVTFQEEAVSSPEVIFVAVFREHYSSLCSLSDQLAGKILVDVSNPTEQEHLQHRESNAEYLASLFPTCTVVKAFNVISAWTLQAGPRDGNRQVPICGDQPEAKRAVSEMALAMGFMPVDMGSLASAWEVEAMPLRLLPAWKVPTLLALGLFVCFYAYNFVRDVLQPYVQESQNKFFKLPVSVVNTTLPCVAYVLLSLVYLPGVLAAALQLRRGTKYQRFPDWLDHWLQHRKQIGLLSFFCAALHALYSFCLPLRRAHRYDLVNLAVKQVLANKSHLWVEEEVWRMEIYLSLGVLALGTLSLLAVTSLPSIANSLNWREFSFVQSSLGFVALVLSTLHTLTYGWTRAFEESRYKFYLPPTFTLTLLVPCVVILAKALFLLPCISRRLARIRRGWERESTIKFTLPTDHALAEKTSHV"
+}
+},
+{
 "id":"protein_TALDO1_pc",
 "name":"",
 "compartment":"pc",
@@ -3201,6 +3427,11 @@
 "uniprot":"P21796",
 "uniprot.aa_sequence":"MAVPPTYADLGKSARDVFTKGYGFGLIKLDLKTKSENGLEFTSSGSANTETTKVTGSLETKYRWTEYGLTFTEKWNTDNTLGTEITVEDQLARGLKLTFDSSFSPNTGKKNAKIKTGYKREHINLGCDMDFDIAGPSIRGALVLGYEGWLAGYQMNFETAKSRVTQSNFAVGYKTDEFQLHTNVNDGTEFGGSIYQKVNKKLETAVNLAWTAGNSNTRFGIAAKYQIDPDACFSAKVNNSSLIGLGYTQTLKPGIKLTLSALLDGKNVNAGGHKLGLGLEFQA"
 }
+},
+{
+"id":"cplx_MONOMER_ABCC4_pc",
+"name":"",
+"compartment":"pc"
 },
 {
 "id":"cplx_MONOMER_ADA_pc",
@@ -3304,6 +3535,16 @@
 },
 {
 "id":"cplx_MONOMER_ATP2B4_pc",
+"name":"",
+"compartment":"pc"
+},
+{
+"id":"cplx_MONOMER_BLVRA_pc",
+"name":"",
+"compartment":"pc"
+},
+{
+"id":"cplx_MONOMER_BLVRB_pc",
 "name":"",
 "compartment":"pc"
 },
@@ -3853,6 +4094,11 @@
 "compartment":"pc"
 },
 {
+"id":"cplx_HOMODIMER_STEAP3_pc",
+"name":"",
+"compartment":"pc"
+},
+{
 "id":"cplx_HOMODIMER_TALDO1_pc",
 "name":"",
 "compartment":"pc"
@@ -4263,6 +4509,27 @@
 "compartment":"pc",
 "annotation":{
 "reaction":"SPODM"
+}
+},
+{
+"id":"enzyme_FE3RD_fwd_pc",
+"name":"",
+"compartment":"pc",
+"annotation":{
+"reaction":"FE3RD"
+}
+},
+{
+"id":"enzyme_FE3RD_total_pc",
+"name":"",
+"compartment":"pc"
+},
+{
+"id":"enzyme_FE3RD_rev_pc",
+"name":"",
+"compartment":"pc",
+"annotation":{
+"reaction":"FE3RD"
 }
 },
 {
@@ -4749,6 +5016,27 @@
 }
 },
 {
+"id":"enzyme_BILRUBABCte_fwd_pc",
+"name":"",
+"compartment":"pc",
+"annotation":{
+"reaction":"BILRUBABCte"
+}
+},
+{
+"id":"enzyme_BILRUBABCte_total_pc",
+"name":"",
+"compartment":"pc"
+},
+{
+"id":"enzyme_BILRUBABCte_rev_pc",
+"name":"",
+"compartment":"pc",
+"annotation":{
+"reaction":"BILRUBABCte"
+}
+},
+{
 "id":"enzyme_ADA_fwd_pc",
 "name":"",
 "compartment":"pc",
@@ -4830,6 +5118,27 @@
 "compartment":"pc",
 "annotation":{
 "reaction":"CAATPS1"
+}
+},
+{
+"id":"enzyme_BILIREDy_fwd_pc",
+"name":"",
+"compartment":"pc",
+"annotation":{
+"reaction":"BILIREDy"
+}
+},
+{
+"id":"enzyme_BILIREDy_total_pc",
+"name":"",
+"compartment":"pc"
+},
+{
+"id":"enzyme_BILIREDy_rev_pc",
+"name":"",
+"compartment":"pc",
+"annotation":{
+"reaction":"BILIREDy"
 }
 },
 {
@@ -7766,6 +8075,232 @@
 }
 },
 {
+"id":"BILIREDy",
+"name":"Biliverdin reductase (NADPH)",
+"metabolites":{
+"bilirub_c":1.0,
+"biliverd_c":-1.0,
+"enzyme_BILIREDy_fwd_pc":-4.273504273504274,
+"enzyme_BILIREDy_rev_pc":4.273504273504274,
+"h_c":-1.0,
+"nadp_c":1.0,
+"nadph_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BLVRB or BLVRA",
+"subsystem":"Porphyrin metabolism",
+"annotation":{
+"bigg.reaction":[
+"BILIRED",
+"BILIREDy"
+],
+"ec-code":[
+"1.5.1.30",
+"1.3.1.24"
+],
+"kegg.reaction":"R02393",
+"metanetx.reaction":"MNXR96259",
+"metatlas":"MAR08634",
+"reactome":"R-HSA-189384",
+"references":[
+"pubmed:10620517",
+"pubmed:11281297",
+"pubmed:7929092"
+],
+"rhea":"15793.0",
+"sabiork.reaction":"2334",
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn01723",
+"spontaneous":"0.0",
+"vmhreaction":"BILIRED"
+}
+},
+{
+"id":"FE2O2OX",
+"name":"Oxidation of Iron (II) via O2",
+"metabolites":{
+"fe2_c":-1.0,
+"fe3_c":1.0,
+"o2_c":-1.0,
+"o2s_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Reactive species formation and detoxification",
+"annotation":{
+"bigg.reaction":"FE2O2OX",
+"references":"pubmed:18243141;pubmed:26285072;pubmed:36643550;pubmed:9164668",
+"sbo":"SBO:0000176",
+"spontaneous":"1"
+}
+},
+{
+"id":"FE3RD",
+"name":"Iron(III):NADP+ oxidoreductase",
+"metabolites":{
+"enzyme_FE3RD_fwd_pc":-4.273504273504274,
+"enzyme_FE3RD_rev_pc":4.273504273504274,
+"fe2_c":2.0,
+"fe3_c":-2.0,
+"h_c":1.0,
+"nadp_c":1.0,
+"nadph_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"STEAP3",
+"subsystem":"Reactive species formation and detoxification",
+"annotation":{
+"bigg.reaction":"FE3RD",
+"references":"pubmed:26285072",
+"sbo":"SBO:0000176",
+"spontaneous":"0.0"
+}
+},
+{
+"id":"FE2H2O2X",
+"name":"Oxidation of iron (II) via hydrogen peroxide",
+"metabolites":{
+"fe2_c":-1.0,
+"fe3_c":1.0,
+"h2o2_c":-1.0,
+"oh1_c":1.0,
+"oh1r_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Reactive species formation and detoxification",
+"annotation":{
+"bigg.reaction":"FE2H2O2X",
+"references":"pubmed:18243141;pubmed:19968714;pubmed:26285072;pubmed:36643550;pubmed:9164668",
+"sbo":"SBO:0000176",
+"spontaneous":"1"
+}
+},
+{
+"id":"BILRUBABCte",
+"name":"ATP-binding Cassette (ABC) export of unconjugated billirubin",
+"metabolites":{
+"adp_c":1.0,
+"atp_c":-1.0,
+"bilirub_c":-1.0,
+"bilirub_e":1.0,
+"enzyme_BILRUBABCte_fwd_pc":-4.273504273504274,
+"enzyme_BILRUBABCte_rev_pc":4.273504273504274,
+"h2o_c":-1.0,
+"h_c":1.0,
+"pi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"ABCC4",
+"subsystem":"Transport, extracellular",
+"annotation":{
+"sbo":"SBO:0000185",
+"spontaneous":"0.0"
+}
+},
+{
+"id":"EX_bilirub_e",
+"name":"Bilirubin exchange",
+"metabolites":{
+"bilirub_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000627"
+}
+},
+{
+"id":"HOXG",
+"name":"Heme oxygenase 1",
+"metabolites":{
+"biliverd_c":1.0,
+"co_c":1.0,
+"fe2_c":1.0,
+"h2o_c":3.0,
+"h_c":-5.0,
+"nadp_c":3.0,
+"nadph_c":-3.0,
+"o2_c":-3.0,
+"pheme_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"DM_oh1_c",
+"name":"Hydroxide demand",
+"metabolites":{
+"oh1_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000628"
+}
+},
+{
+"id":"DM_oh1r_c",
+"name":"Hydroxyl radical demand",
+"metabolites":{
+"oh1r_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000628"
+}
+},
+{
+"id":"DM_fe2_c",
+"name":"Iron (II) demand",
+"metabolites":{
+"fe2_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000628"
+}
+},
+{
+"id":"SK_pheme_c",
+"name":"Ferroprotoheme sink",
+"metabolites":{
+"pheme_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"DM_co_c",
+"name":"Carbon monoxide demand",
+"metabolites":{
+"co_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000628"
+}
+},
+{
 "id":"PBDL_proteome_budget",
 "name":"Proteome budget demand (Low abundance)",
 "metabolites":{
@@ -7775,6 +8310,22 @@
 "lower_bound":0.0,
 "upper_bound":100,
 "gene_reaction_rule":""
+},
+{
+"id":"PROTDL_protein_ABCC4_pc",
+"name":"protein_ABCC4_pc concentration",
+"metabolites":{
+"protein_ABCC4_pc":1,
+"proteome_budget":0.14953239399999999
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"ABCC4",
+"subsystem":"Pseudoreactions, Protein concentrations",
+"annotation":{
+"uniprot":"O15439",
+"uniprot.aa_sequence":"MLPVYQEVKPNPLQDANLCSRVFFWWLNPLFKIGHKRRLEEDDMYSVLPEDRSQHLGEELQGFWDKEVLRAENDAQKPSLTRAIIKCYWKSYLVLGIFTLIEESAKVIQPIFLGKIINYFENYDPMDSVALNTAYAYATVLTFCTLILAILHHLYFYHVQCAGMRLRVAMCHMIYRKALRLSNMAMGKTTTGQIVNLLSNDVNKFDQVTVFLHFLWAGPLQAIAVTALLWMEIGISCLAGMAVLIILLPLQSCFGKLFSSLRSKTATFTDARIRTMNEVITGIRIIKMYAWEKSFSNLITNLRKKEISKILRSSCLRGMNLASFFSASKIIVFVTFTTYVLLGSVITASRVFVAVTLYGAVRLTVTLFFPSAIERVSEAIVSIRRIQTFLLLDEISQRNRQLPSDGKKMVHVQDFTAFWDKASETPTLQGLSFTVRPGELLAVVGPVGAGKSSLLSAVLGELAPSHGLVSVHGRIAYVSQQPWVFSGTLRSNILFGKKYEKERYEKVIKACALKKDLQLLEDGDLTVIGDRGTTLSGGQKARVNLARAVYQDADIYLLDDPLSAVDAEVSRHLFELCICQILHEKITILVTHQLQYLKAASQILILKDGKMVQKGTYTEFLKSGIDFGSLLKKDNEESEQPPVPGTPTLRNRTFSESSVWSQQSSRPSLKDGALESQDTENVPVTLSEENRSEGKVGFQAYKNYFRAGAHWIVFIFLILLNTAAQVAYVLQDWWLSYWANKQSMLNVTVNGGGNVTEKLDLNWYLGIYSGLTVATVLFGIARSLLVFYVLVNSSQTLHNKMFESILKAPVLFFDRNPIGRILNRFSKDIGHLDDLLPLTFLDFIQTLLQVVGVVSVAVAVIPWIAIPLVPLGIIFIFLRRYFLETSRDVKRLESTTRSPVFSHLSSSLQGLWTIRAYKAEERCQELFDAHQDLHSEAWFLFLTTSRWFAVRLDAICAMFVIIVAFGSLILAKTLDAGQVGLALSYALTLMGMFQWCVRQSAEVENMMISVERVIEYTDLEKEAPWEYQKRPPPAWPHEGVIIFDNVNFMYSPGGPLVLKHLTALIKSQEKVGIVGRTGAGKSSLISALFRLSEPEGKIWIDKILTTEIGLHDLRKKMSIIPQEPVLFTGTMRKNLDPFNEHTDEELWNALQEVQLKETIEDLPGKMDTELAESGSNFSVGQRQLVCLARAILRKNQILIIDEATANVDPRTDELIQKKIREKFAHCTVLTIAHRLNTIIDSDKIMVLDSGRLKEYDEPYVLLQNKESLFYKMVQQLGKAEAAALTETAKQVYFKRNYPHIGHTDHMVTNTSNGQPSTLTIFETAL"
+}
 },
 {
 "id":"PROTDL_protein_ADA_pc",
@@ -8062,6 +8613,38 @@
 "annotation":{
 "uniprot":"P23634",
 "uniprot.aa_sequence":"MTNPSDRVLPANSMAESREGDFGCTVMELRKLMELRSRDALTQINVHYGGVQNLCSRLKTSPVEGLSGNPADLEKRRQVFGHNVIPPKKPKTFLELVWEALQDVTLIILEIAAIISLVLSFYRPAGEENELCGQVATTPEDENEAQAGWIEGAAILFSVIIVVLVTAFNDWSKEKQFRGLQCRIEQEQKFSIIRNGQLIQLPVAEIVVGDIAQVKYGDLLPADGILIQGNDLKIDESSLTGESDHVKKSLDKDPMLLSGTHVMEGSGRMVVTAVGVNSQTGIILTLLGVNEDDEGEKKKKGKKQGVPENRNKAKTQDGVALEIQPLNSQEGIDNEEKDKKAVKVPKKEKSVLQGKLTRLAVQIGKAGLLMSALTVFILILYFVIDNFVINRRPWLPECTPIYIQYFVKFFIIGITVLVVAVPEGLPLAVTISLAYSVKKMMKDNNLVRHLDACETMGNATAICSDKTGTLTMNRMTVVQAYIGGIHYRQIPSPDVFLPKVLDLIVNGISINSAYTSKILPPEKEGGLPRQVGNKTECALLGFVTDLKQDYQAVRNEVPEEKLYKVYTFNSVRKSMSTVIRNPNGGFRMYSKGASEIILRKCNRILDRKGEAVPFKNKDRDDMVRTVIEPMACDGLRTICIAYRDFDDTEPSWDNENEILTELTCIAVVGIEDPVRPEVPDAIAKCKQAGITVRMVTGDNINTARAIATKCGILTPGDDFLCLEGKEFNRLIRNEKGEVEQEKLDKIWPKLRVLARSSPTDKHTLVKGIIDSTVGEHRQVVAVTGDGTNDGPALKKADVGFAMGIAGTDVAKEASDIILTDDNFTSIVKAVMWGRNVYDSISKFLQFQLTVNVVAVIVAFTGACITQDSPLKAVQMLWVNLIMDTFASLALATEPPTESLLKRRPYGRNKPLISRTMMKNILGHAFYQLIVIFILVFAGEKFFDIDSGRKAPLHSPPSQHYTIVFNTFVLMQLFNEINSRKIHGEKNVFSGIYRNIIFCSVVLGTFICQIFIVEFGGKPFSCTSLSLSQWLWCLFIGIGELLWGQFISAIPTRSLKFLKEAGHGTTKEEITKDAEGLDEIDHAEMELRRGQILWFRGLNRIQTQIDVINTFQTGASFKGVLRRQNMGQHLDVKLVPSSSYIKVVKAFHSSLHESIQKPYNQKSIHSFMTHPEFAIEEELPRTPLLDEEEEENPDKASKFGTRVLLLDGEVTPYANTNNNAVDCNQVQLPQSDSSLQSLETSV"
+}
+},
+{
+"id":"PROTDL_protein_BLVRA_pc",
+"name":"protein_BLVRA_pc concentration",
+"metabolites":{
+"protein_BLVRA_pc":1,
+"proteome_budget":0.033424154
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"BLVRA",
+"subsystem":"Pseudoreactions, Protein concentrations",
+"annotation":{
+"uniprot":"P53004",
+"uniprot.aa_sequence":"MNAEPERKFGVVVVGVGRAGSVRMRDLRNPHPSSAFLNLIGFVSRRELGSIDGVQQISLEDALSSQEVEVAYICSESSSHEDYIRQFLNAGKHVLVEYPMTLSLAAAQELWELAEQKGKVLHEEHVELLMEEFAFLKKEVVGKDLLKGSLLFTAGPLEEERFGFPAFSGISRLTWLVSLFGELSLVSATLEERKEDQYMKMTVCLETEKKSPLSWIEEKGPGLKRNRYLSFHFKSGSLENVPNVGVNKNIFLKDQNIFVQKLLGQFSEKELAAEKKRILHCLGLAEEIQKYCCSRK"
+}
+},
+{
+"id":"PROTDL_protein_BLVRB_pc",
+"name":"protein_BLVRB_pc concentration",
+"metabolites":{
+"protein_BLVRB_pc":1,
+"proteome_budget":0.022119151999999996
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"BLVRB",
+"subsystem":"Pseudoreactions, Protein concentrations",
+"annotation":{
+"uniprot":"P30043",
+"uniprot.aa_sequence":"MAVKKIAIFGATGQTGLTTLAQAVQAGYEVTVLVRDSSRLPSEGPRPAHVVVGDVLQAADVDKTVAGQDAVIVLLGTRNDLSPTTVMSEGARNIVAAMKAHGVDKVVACTSAFLLWDPTKVPPRLQAVTDDHIRMHKVLRESGLKYVAVMPPHIGDQPLTGAYTVTLDGRGPSRVISKHDLGHFMLRCLTTDEYDGHSTYPSHQYQ"
 }
 },
 {
@@ -9313,6 +9896,22 @@
 }
 },
 {
+"id":"PROTDL_protein_STEAP3_pc",
+"name":"protein_STEAP3_pc concentration",
+"metabolites":{
+"protein_STEAP3_pc":1,
+"proteome_budget":0.054607163
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"STEAP3",
+"subsystem":"Pseudoreactions, Protein concentrations",
+"annotation":{
+"uniprot":"Q658P3",
+"uniprot.aa_sequence":"MPEEMDKPLISLHLVDSDSSLAKVPDEAPKVGILGSGDFARSLATRLVGSGFKVVVGSRNPKRTARLFPSAAQVTFQEEAVSSPEVIFVAVFREHYSSLCSLSDQLAGKILVDVSNPTEQEHLQHRESNAEYLASLFPTCTVVKAFNVISAWTLQAGPRDGNRQVPICGDQPEAKRAVSEMALAMGFMPVDMGSLASAWEVEAMPLRLLPAWKVPTLLALGLFVCFYAYNFVRDVLQPYVQESQNKFFKLPVSVVNTTLPCVAYVLLSLVYLPGVLAAALQLRRGTKYQRFPDWLDHWLQHRKQIGLLSFFCAALHALYSFCLPLRRAHRYDLVNLAVKQVLANKSHLWVEEEVWRMEIYLSLGVLALGTLSLLAVTSLPSIANSLNWREFSFVQSSLGFVALVLSTLHTLTYGWTRAFEESRYKFYLPPTFTLTLLVPCVVILAKALFLLPCISRRLARIRRGWERESTIKFTLPTDHALAEKTSHV"
+}
+},
+{
 "id":"PROTDL_protein_TALDO1_pc",
 "name":"protein_TALDO1_pc concentration",
 "metabolites":{
@@ -9423,6 +10022,29 @@
 "uniprot":"P21796",
 "uniprot.aa_sequence":"MAVPPTYADLGKSARDVFTKGYGFGLIKLDLKTKSENGLEFTSSGSANTETTKVTGSLETKYRWTEYGLTFTEKWNTDNTLGTEITVEDQLARGLKLTFDSSFSPNTGKKNAKIKTGYKREHINLGCDMDFDIAGPSIRGALVLGYEGWLAGYQMNFETAKSRVTQSNFAVGYKTDEFQLHTNVNDGTEFGGSIYQKVNKKLETAVNLAWTAGNSNTRFGIAAKYQIDPDACFSAKVNNSSLIGLGYTQTLKPGIKLTLSALLDGKNVNAGGHKLGLGLEFQA"
 }
+},
+{
+"id":"CPLXFM_cplx_MONOMER_ABCC4_pc",
+"name":"cplx_MONOMER_ABCC4_pc concentration",
+"metabolites":{
+"cplx_MONOMER_ABCC4_pc":1,
+"protein_ABCC4_pc":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"ABCC4",
+"subsystem":"Pseudoreactions, Complex concentrations"
+},
+{
+"id":"CPLXDL_cplx_MONOMER_ABCC4_pc",
+"name":"cplx_MONOMER_ABCC4_pc concentration",
+"metabolites":{
+"cplx_MONOMER_ABCC4_pc":-1
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"ABCC4",
+"subsystem":"Pseudoreactions, Complex concentrations"
 },
 {
 "id":"CPLXFM_cplx_MONOMER_ADA_pc",
@@ -9914,6 +10536,52 @@
 "lower_bound":0,
 "upper_bound":1000000.0,
 "gene_reaction_rule":"ATP2B4",
+"subsystem":"Pseudoreactions, Complex concentrations"
+},
+{
+"id":"CPLXFM_cplx_MONOMER_BLVRA_pc",
+"name":"cplx_MONOMER_BLVRA_pc concentration",
+"metabolites":{
+"cplx_MONOMER_BLVRA_pc":1,
+"protein_BLVRA_pc":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"BLVRA",
+"subsystem":"Pseudoreactions, Complex concentrations"
+},
+{
+"id":"CPLXDL_cplx_MONOMER_BLVRA_pc",
+"name":"cplx_MONOMER_BLVRA_pc concentration",
+"metabolites":{
+"cplx_MONOMER_BLVRA_pc":-1
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"BLVRA",
+"subsystem":"Pseudoreactions, Complex concentrations"
+},
+{
+"id":"CPLXFM_cplx_MONOMER_BLVRB_pc",
+"name":"cplx_MONOMER_BLVRB_pc concentration",
+"metabolites":{
+"cplx_MONOMER_BLVRB_pc":1,
+"protein_BLVRB_pc":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"BLVRB",
+"subsystem":"Pseudoreactions, Complex concentrations"
+},
+{
+"id":"CPLXDL_cplx_MONOMER_BLVRB_pc",
+"name":"cplx_MONOMER_BLVRB_pc concentration",
+"metabolites":{
+"cplx_MONOMER_BLVRB_pc":-1
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"BLVRB",
 "subsystem":"Pseudoreactions, Complex concentrations"
 },
 {
@@ -12463,6 +13131,29 @@
 "subsystem":"Pseudoreactions, Complex concentrations"
 },
 {
+"id":"CPLXFM_cplx_HOMODIMER_STEAP3_pc",
+"name":"cplx_HOMODIMER_STEAP3_pc concentration",
+"metabolites":{
+"cplx_HOMODIMER_STEAP3_pc":1,
+"protein_STEAP3_pc":-2.0
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"STEAP3",
+"subsystem":"Pseudoreactions, Complex concentrations"
+},
+{
+"id":"CPLXDL_cplx_HOMODIMER_STEAP3_pc",
+"name":"cplx_HOMODIMER_STEAP3_pc concentration",
+"metabolites":{
+"cplx_HOMODIMER_STEAP3_pc":-1
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"STEAP3",
+"subsystem":"Pseudoreactions, Complex concentrations"
+},
+{
 "id":"CPLXFM_cplx_HOMODIMER_TALDO1_pc",
 "name":"cplx_HOMODIMER_TALDO1_pc concentration",
 "metabolites":{
@@ -12627,7 +13318,7 @@
 "id":"ENZFM_enzyme_FCYTOB5OXR_fwd_cplx_COMPLEX_CYB5R3_B5A_pc",
 "name":"enzyme_FCYTOB5OXR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_CYB5R3_B5A_pc":-0.5423818281607419,
+"cplx_COMPLEX_CYB5R3_B5A_pc":-0.5472925480887545,
 "enzyme_FCYTOB5OXR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12639,7 +13330,7 @@
 "id":"ENZFM_enzyme_FCYTOB5OXR_fwd_cplx_COMPLEX_CYB5R3_B5B_pc",
 "name":"enzyme_FCYTOB5OXR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_CYB5R3_B5B_pc":-0.622038843503468,
+"cplx_COMPLEX_CYB5R3_B5B_pc":-0.6276707772928964,
 "enzyme_FCYTOB5OXR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12692,7 +13383,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBA_CYB5A_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBA_CYB5A_pc":-0.41404567142067705,
+"cplx_COMPLEX_HBA_CYB5A_pc":-0.41779443700275387,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12704,7 +13395,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBB_CYB5A_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBB_CYB5A_pc":-0.4200961996639616,
+"cplx_COMPLEX_HBB_CYB5A_pc":-0.42389974667136776,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12716,7 +13407,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBD_CYB5A_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBD_CYB5A_pc":-0.4205795255008239,
+"cplx_COMPLEX_HBD_CYB5A_pc":-0.42438744853577287,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12728,7 +13419,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBE1_CYB5A_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBE1_CYB5A_pc":-0.42179205560577715,
+"cplx_COMPLEX_HBE1_CYB5A_pc":-0.42561095687679634,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12740,7 +13431,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBG1_CYB5A_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBG1_CYB5A_pc":-0.42115933436061914,
+"cplx_COMPLEX_HBG1_CYB5A_pc":-0.4249725069794855,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12752,7 +13443,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBG2_CYB5A_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBG2_CYB5A_pc":-0.421143215350856,
+"cplx_COMPLEX_HBG2_CYB5A_pc":-0.42495624202836096,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12764,7 +13455,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBM_CYB5A_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBM_CYB5A_pc":-0.41696466875615257,
+"cplx_COMPLEX_HBM_CYB5A_pc":-0.42073986291242,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12776,7 +13467,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBQ1_CYB5A_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBQ1_CYB5A_pc":-0.416084443291013,
+"cplx_COMPLEX_HBQ1_CYB5A_pc":-0.41985166789426753,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12788,7 +13479,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBZ_CYB5A_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBZ_CYB5A_pc":-0.4171528722834879,
+"cplx_COMPLEX_HBZ_CYB5A_pc":-0.42092977043270685,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12800,7 +13491,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBA_CYB5B_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBA_CYB5B_pc":-0.5003985163240409,
+"cplx_COMPLEX_HBA_CYB5B_pc":-0.5049291197448696,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12812,7 +13503,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBB_CYB5B_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBB_CYB5B_pc":-0.5060818675348184,
+"cplx_COMPLEX_HBB_CYB5B_pc":-0.5106639279636066,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12824,7 +13515,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBD_CYB5B_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBD_CYB5B_pc":-0.5065361238413895,
+"cplx_COMPLEX_HBD_CYB5B_pc":-0.5111222971024688,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12836,7 +13527,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBE1_CYB5B_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBE1_CYB5B_pc":-0.5076758945766723,
+"cplx_COMPLEX_HBE1_CYB5B_pc":-0.5122723873111791,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12848,7 +13539,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBG1_CYB5B_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBG1_CYB5B_pc":-0.5070811106304268,
+"cplx_COMPLEX_HBG1_CYB5B_pc":-0.5116722181967255,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12860,7 +13551,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBG2_CYB5B_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBG2_CYB5B_pc":-0.507065958951804,
+"cplx_COMPLEX_HBG2_CYB5B_pc":-0.511656929334948,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12872,7 +13563,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBM_CYB5B_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBM_CYB5B_pc":-0.5031396137376971,
+"cplx_COMPLEX_HBM_CYB5B_pc":-0.5076950350285117,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12884,7 +13575,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBQ1_CYB5B_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBQ1_CYB5B_pc":-0.5023128839146995,
+"cplx_COMPLEX_HBQ1_CYB5B_pc":-0.5068608200015378,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12896,7 +13587,7 @@
 "id":"ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBZ_CYB5B_pc",
 "name":"enzyme_METHBCYTBR_fwd_pc concentration",
 "metabolites":{
-"cplx_COMPLEX_HBZ_CYB5B_pc":-0.503316395955255,
+"cplx_COMPLEX_HBZ_CYB5B_pc":-0.5078734178305908,
 "enzyme_METHBCYTBR_fwd_pc":1
 },
 "lower_bound":0,
@@ -12949,7 +13640,7 @@
 "id":"ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A1B1_pc",
 "name":"enzyme_NaKt_fwd_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ATP1_A1B1_pc":-1.1526543440557357,
+"cplx_HETERODIMER_ATP1_A1B1_pc":-1.1630904655546062,
 "enzyme_NaKt_fwd_pc":1
 },
 "lower_bound":0,
@@ -12961,7 +13652,7 @@
 "id":"ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A1B2_pc",
 "name":"enzyme_NaKt_fwd_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ATP1_A1B2_pc":-1.142728082439365,
+"cplx_HETERODIMER_ATP1_A1B2_pc":-1.1530743316597054,
 "enzyme_NaKt_fwd_pc":1
 },
 "lower_bound":0,
@@ -12973,7 +13664,7 @@
 "id":"ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A1B3_pc",
 "name":"enzyme_NaKt_fwd_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ATP1_A1B3_pc":-1.131842745389855,
+"cplx_HETERODIMER_ATP1_A1B3_pc":-1.1420904388717894,
 "enzyme_NaKt_fwd_pc":1
 },
 "lower_bound":0,
@@ -12985,7 +13676,7 @@
 "id":"ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A3B1_pc",
 "name":"enzyme_NaKt_fwd_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ATP1_A3B1_pc":-1.1459244919470652,
+"cplx_HETERODIMER_ATP1_A3B1_pc":-1.1562996814287725,
 "enzyme_NaKt_fwd_pc":1
 },
 "lower_bound":0,
@@ -12997,7 +13688,7 @@
 "id":"ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A3B2_pc",
 "name":"enzyme_NaKt_fwd_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ATP1_A3B2_pc":-1.1359787237581906,
+"cplx_HETERODIMER_ATP1_A3B2_pc":-1.1462638643490448,
 "enzyme_NaKt_fwd_pc":1
 },
 "lower_bound":0,
@@ -13009,7 +13700,7 @@
 "id":"ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A3B3_pc",
 "name":"enzyme_NaKt_fwd_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ATP1_A3B3_pc":-1.1250717326990969,
+"cplx_HETERODIMER_ATP1_A3B3_pc":-1.1352581214963482,
 "enzyme_NaKt_fwd_pc":1
 },
 "lower_bound":0,
@@ -13021,7 +13712,7 @@
 "id":"ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A4B1_pc",
 "name":"enzyme_NaKt_fwd_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ATP1_A4B1_pc":-1.160163876454108,
+"cplx_HETERODIMER_ATP1_A4B1_pc":-1.17066798918809,
 "enzyme_NaKt_fwd_pc":1
 },
 "lower_bound":0,
@@ -13033,7 +13724,7 @@
 "id":"ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A4B2_pc",
 "name":"enzyme_NaKt_fwd_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ATP1_A4B2_pc":-1.1502592015638782,
+"cplx_HETERODIMER_ATP1_A4B2_pc":-1.160673637465344,
 "enzyme_NaKt_fwd_pc":1
 },
 "lower_bound":0,
@@ -13045,7 +13736,7 @@
 "id":"ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A4B3_pc",
 "name":"enzyme_NaKt_fwd_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ATP1_A4B3_pc":-1.139397824646682,
+"cplx_HETERODIMER_ATP1_A4B3_pc":-1.1497139217445524,
 "enzyme_NaKt_fwd_pc":1
 },
 "lower_bound":0,
@@ -13098,7 +13789,7 @@
 "id":"ENZFM_enzyme_L_LACt2_fwd_cplx_HETEROTETRAMER_SLC16A1_BSG_pc",
 "name":"enzyme_L_LACt2_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A1_BSG_pc":-1.403093255302472,
+"cplx_HETEROTETRAMER_SLC16A1_BSG_pc":-1.4157968483285128,
 "enzyme_L_LACt2_fwd_pc":1
 },
 "lower_bound":0,
@@ -13110,7 +13801,7 @@
 "id":"ENZFM_enzyme_L_LACt2_fwd_cplx_HETEROTETRAMER_SLC16A7_BSG_pc",
 "name":"enzyme_L_LACt2_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A7_BSG_pc":-1.38401668046434,
+"cplx_HETEROTETRAMER_SLC16A7_BSG_pc":-1.396547554362726,
 "enzyme_L_LACt2_fwd_pc":1
 },
 "lower_bound":0,
@@ -13122,7 +13813,7 @@
 "id":"ENZFM_enzyme_L_LACt2_fwd_cplx_HETEROTETRAMER_SLC16A1_EMB_pc",
 "name":"enzyme_L_LACt2_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A1_EMB_pc":-1.3445797410746472,
+"cplx_HETEROTETRAMER_SLC16A1_EMB_pc":-1.3567535532978339,
 "enzyme_L_LACt2_fwd_pc":1
 },
 "lower_bound":0,
@@ -13134,7 +13825,7 @@
 "id":"ENZFM_enzyme_L_LACt2_fwd_cplx_HETEROTETRAMER_SLC16A7_EMB_pc",
 "name":"enzyme_L_LACt2_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A7_EMB_pc":-1.325227769897048,
+"cplx_HETEROTETRAMER_SLC16A7_EMB_pc":-1.3372263695567337,
 "enzyme_L_LACt2_fwd_pc":1
 },
 "lower_bound":0,
@@ -13146,7 +13837,7 @@
 "id":"ENZFM_enzyme_L_LACt2_fwd_cplx_HOMODIMER_SLC16A1_pc",
 "name":"enzyme_L_LACt2_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_SLC16A1_pc":-0.9097582572405473,
+"cplx_HOMODIMER_SLC16A1_pc":-0.9179951998731113,
 "enzyme_L_LACt2_fwd_pc":1
 },
 "lower_bound":0,
@@ -13158,7 +13849,7 @@
 "id":"ENZFM_enzyme_L_LACt2_fwd_cplx_HOMODIMER_SLC16A7_pc",
 "name":"enzyme_L_LACt2_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_SLC16A7_pc":-0.8876780946346617,
+"cplx_HOMODIMER_SLC16A7_pc":-0.8957151236844089,
 "enzyme_L_LACt2_fwd_pc":1
 },
 "lower_bound":0,
@@ -13196,7 +13887,7 @@
 "id":"ENZFM_enzyme_L_LACt2_rev_cplx_HETEROTETRAMER_SLC16A1_BSG_pc",
 "name":"enzyme_L_LACt2_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A1_BSG_pc":-1.403093255302472,
+"cplx_HETEROTETRAMER_SLC16A1_BSG_pc":-1.4157968483285128,
 "enzyme_L_LACt2_rev_pc":1
 },
 "lower_bound":0,
@@ -13208,7 +13899,7 @@
 "id":"ENZFM_enzyme_L_LACt2_rev_cplx_HETEROTETRAMER_SLC16A7_BSG_pc",
 "name":"enzyme_L_LACt2_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A7_BSG_pc":-1.38401668046434,
+"cplx_HETEROTETRAMER_SLC16A7_BSG_pc":-1.396547554362726,
 "enzyme_L_LACt2_rev_pc":1
 },
 "lower_bound":0,
@@ -13220,7 +13911,7 @@
 "id":"ENZFM_enzyme_L_LACt2_rev_cplx_HETEROTETRAMER_SLC16A1_EMB_pc",
 "name":"enzyme_L_LACt2_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A1_EMB_pc":-1.3445797410746472,
+"cplx_HETEROTETRAMER_SLC16A1_EMB_pc":-1.3567535532978339,
 "enzyme_L_LACt2_rev_pc":1
 },
 "lower_bound":0,
@@ -13232,7 +13923,7 @@
 "id":"ENZFM_enzyme_L_LACt2_rev_cplx_HETEROTETRAMER_SLC16A7_EMB_pc",
 "name":"enzyme_L_LACt2_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A7_EMB_pc":-1.325227769897048,
+"cplx_HETEROTETRAMER_SLC16A7_EMB_pc":-1.3372263695567337,
 "enzyme_L_LACt2_rev_pc":1
 },
 "lower_bound":0,
@@ -13244,7 +13935,7 @@
 "id":"ENZFM_enzyme_L_LACt2_rev_cplx_HOMODIMER_SLC16A1_pc",
 "name":"enzyme_L_LACt2_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_SLC16A1_pc":-0.9097582572405473,
+"cplx_HOMODIMER_SLC16A1_pc":-0.9179951998731113,
 "enzyme_L_LACt2_rev_pc":1
 },
 "lower_bound":0,
@@ -13256,7 +13947,7 @@
 "id":"ENZFM_enzyme_L_LACt2_rev_cplx_HOMODIMER_SLC16A7_pc",
 "name":"enzyme_L_LACt2_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_SLC16A7_pc":-0.8876780946346617,
+"cplx_HOMODIMER_SLC16A7_pc":-0.8957151236844089,
 "enzyme_L_LACt2_rev_pc":1
 },
 "lower_bound":0,
@@ -13283,7 +13974,7 @@
 "id":"ENZFM_enzyme_PYRt2_fwd_cplx_HETEROTETRAMER_SLC16A1_BSG_pc",
 "name":"enzyme_PYRt2_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A1_BSG_pc":-1.403093255302472,
+"cplx_HETEROTETRAMER_SLC16A1_BSG_pc":-1.4157968483285128,
 "enzyme_PYRt2_fwd_pc":1
 },
 "lower_bound":0,
@@ -13295,7 +13986,7 @@
 "id":"ENZFM_enzyme_PYRt2_fwd_cplx_HETEROTETRAMER_SLC16A7_BSG_pc",
 "name":"enzyme_PYRt2_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A7_BSG_pc":-1.38401668046434,
+"cplx_HETEROTETRAMER_SLC16A7_BSG_pc":-1.396547554362726,
 "enzyme_PYRt2_fwd_pc":1
 },
 "lower_bound":0,
@@ -13307,7 +13998,7 @@
 "id":"ENZFM_enzyme_PYRt2_fwd_cplx_HETEROTETRAMER_SLC16A1_EMB_pc",
 "name":"enzyme_PYRt2_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A1_EMB_pc":-1.3445797410746472,
+"cplx_HETEROTETRAMER_SLC16A1_EMB_pc":-1.3567535532978339,
 "enzyme_PYRt2_fwd_pc":1
 },
 "lower_bound":0,
@@ -13319,7 +14010,7 @@
 "id":"ENZFM_enzyme_PYRt2_fwd_cplx_HETEROTETRAMER_SLC16A7_EMB_pc",
 "name":"enzyme_PYRt2_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A7_EMB_pc":-1.325227769897048,
+"cplx_HETEROTETRAMER_SLC16A7_EMB_pc":-1.3372263695567337,
 "enzyme_PYRt2_fwd_pc":1
 },
 "lower_bound":0,
@@ -13331,7 +14022,7 @@
 "id":"ENZFM_enzyme_PYRt2_fwd_cplx_HOMODIMER_SLC16A1_pc",
 "name":"enzyme_PYRt2_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_SLC16A1_pc":-0.9097582572405473,
+"cplx_HOMODIMER_SLC16A1_pc":-0.9179951998731113,
 "enzyme_PYRt2_fwd_pc":1
 },
 "lower_bound":0,
@@ -13343,7 +14034,7 @@
 "id":"ENZFM_enzyme_PYRt2_fwd_cplx_HOMODIMER_SLC16A7_pc",
 "name":"enzyme_PYRt2_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_SLC16A7_pc":-0.8876780946346617,
+"cplx_HOMODIMER_SLC16A7_pc":-0.8957151236844089,
 "enzyme_PYRt2_fwd_pc":1
 },
 "lower_bound":0,
@@ -13381,7 +14072,7 @@
 "id":"ENZFM_enzyme_PYRt2_rev_cplx_HETEROTETRAMER_SLC16A1_BSG_pc",
 "name":"enzyme_PYRt2_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A1_BSG_pc":-1.403093255302472,
+"cplx_HETEROTETRAMER_SLC16A1_BSG_pc":-1.4157968483285128,
 "enzyme_PYRt2_rev_pc":1
 },
 "lower_bound":0,
@@ -13393,7 +14084,7 @@
 "id":"ENZFM_enzyme_PYRt2_rev_cplx_HETEROTETRAMER_SLC16A7_BSG_pc",
 "name":"enzyme_PYRt2_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A7_BSG_pc":-1.38401668046434,
+"cplx_HETEROTETRAMER_SLC16A7_BSG_pc":-1.396547554362726,
 "enzyme_PYRt2_rev_pc":1
 },
 "lower_bound":0,
@@ -13405,7 +14096,7 @@
 "id":"ENZFM_enzyme_PYRt2_rev_cplx_HETEROTETRAMER_SLC16A1_EMB_pc",
 "name":"enzyme_PYRt2_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A1_EMB_pc":-1.3445797410746472,
+"cplx_HETEROTETRAMER_SLC16A1_EMB_pc":-1.3567535532978339,
 "enzyme_PYRt2_rev_pc":1
 },
 "lower_bound":0,
@@ -13417,7 +14108,7 @@
 "id":"ENZFM_enzyme_PYRt2_rev_cplx_HETEROTETRAMER_SLC16A7_EMB_pc",
 "name":"enzyme_PYRt2_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_SLC16A7_EMB_pc":-1.325227769897048,
+"cplx_HETEROTETRAMER_SLC16A7_EMB_pc":-1.3372263695567337,
 "enzyme_PYRt2_rev_pc":1
 },
 "lower_bound":0,
@@ -13429,7 +14120,7 @@
 "id":"ENZFM_enzyme_PYRt2_rev_cplx_HOMODIMER_SLC16A1_pc",
 "name":"enzyme_PYRt2_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_SLC16A1_pc":-0.9097582572405473,
+"cplx_HOMODIMER_SLC16A1_pc":-0.9179951998731113,
 "enzyme_PYRt2_rev_pc":1
 },
 "lower_bound":0,
@@ -13441,7 +14132,7 @@
 "id":"ENZFM_enzyme_PYRt2_rev_cplx_HOMODIMER_SLC16A7_pc",
 "name":"enzyme_PYRt2_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_SLC16A7_pc":-0.8876780946346617,
+"cplx_HOMODIMER_SLC16A7_pc":-0.8957151236844089,
 "enzyme_PYRt2_rev_pc":1
 },
 "lower_bound":0,
@@ -13468,7 +14159,7 @@
 "id":"ENZFM_enzyme_ADPT_fwd_cplx_HOMODIMER_APRT_pc",
 "name":"enzyme_ADPT_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_APRT_pc":-0.42578873787415705,
+"cplx_HOMODIMER_APRT_pc":-0.4296438250685279,
 "enzyme_ADPT_fwd_pc":1
 },
 "lower_bound":0,
@@ -13521,7 +14212,7 @@
 "id":"ENZFM_enzyme_DPGase_fwd_cplx_HOMODIMER_BPGM_pc",
 "name":"enzyme_DPGase_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_BPGM_pc":-0.585814821904338,
+"cplx_HOMODIMER_BPGM_pc":-0.5911187837457703,
 "enzyme_DPGase_fwd_pc":1
 },
 "lower_bound":0,
@@ -13574,7 +14265,7 @@
 "id":"ENZFM_enzyme_DPGM_fwd_cplx_HOMODIMER_BPGM_pc",
 "name":"enzyme_DPGM_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_BPGM_pc":-0.585814821904338,
+"cplx_HOMODIMER_BPGM_pc":-0.5911187837457703,
 "enzyme_DPGM_fwd_pc":1
 },
 "lower_bound":0,
@@ -13586,7 +14277,7 @@
 "id":"ENZFM_enzyme_DPGM_fwd_cplx_HOMODIMER_PGAM1_pc",
 "name":"enzyme_DPGM_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_PGAM1_pc":-0.56817748859338,
+"cplx_HOMODIMER_PGAM1_pc":-0.5733217621862942,
 "enzyme_DPGM_fwd_pc":1
 },
 "lower_bound":0,
@@ -13624,7 +14315,7 @@
 "id":"ENZFM_enzyme_DPGM_rev_cplx_HOMODIMER_BPGM_pc",
 "name":"enzyme_DPGM_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_BPGM_pc":-0.585814821904338,
+"cplx_HOMODIMER_BPGM_pc":-0.5911187837457703,
 "enzyme_DPGM_rev_pc":1
 },
 "lower_bound":0,
@@ -13636,7 +14327,7 @@
 "id":"ENZFM_enzyme_DPGM_rev_cplx_HOMODIMER_PGAM1_pc",
 "name":"enzyme_DPGM_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_PGAM1_pc":-0.56817748859338,
+"cplx_HOMODIMER_PGAM1_pc":-0.5733217621862942,
 "enzyme_DPGM_rev_pc":1
 },
 "lower_bound":0,
@@ -13663,7 +14354,7 @@
 "id":"ENZFM_enzyme_PGM_fwd_cplx_HOMODIMER_BPGM_pc",
 "name":"enzyme_PGM_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_BPGM_pc":-0.585814821904338,
+"cplx_HOMODIMER_BPGM_pc":-0.5911187837457703,
 "enzyme_PGM_fwd_pc":1
 },
 "lower_bound":0,
@@ -13675,7 +14366,7 @@
 "id":"ENZFM_enzyme_PGM_fwd_cplx_HOMODIMER_PGAM1_pc",
 "name":"enzyme_PGM_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_PGAM1_pc":-0.56817748859338,
+"cplx_HOMODIMER_PGAM1_pc":-0.5733217621862942,
 "enzyme_PGM_fwd_pc":1
 },
 "lower_bound":0,
@@ -13713,7 +14404,7 @@
 "id":"ENZFM_enzyme_PGM_rev_cplx_HOMODIMER_BPGM_pc",
 "name":"enzyme_PGM_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_BPGM_pc":-0.585814821904338,
+"cplx_HOMODIMER_BPGM_pc":-0.5911187837457703,
 "enzyme_PGM_rev_pc":1
 },
 "lower_bound":0,
@@ -13725,7 +14416,7 @@
 "id":"ENZFM_enzyme_PGM_rev_cplx_HOMODIMER_PGAM1_pc",
 "name":"enzyme_PGM_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_PGAM1_pc":-0.56817748859338,
+"cplx_HOMODIMER_PGAM1_pc":-0.5733217621862942,
 "enzyme_PGM_rev_pc":1
 },
 "lower_bound":0,
@@ -13752,7 +14443,7 @@
 "id":"ENZFM_enzyme_ENO_fwd_cplx_HOMODIMER_ENO1_pc",
 "name":"enzyme_ENO_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_ENO1_pc":-0.8225248707359727,
+"cplx_HOMODIMER_ENO1_pc":-0.829972003114479,
 "enzyme_ENO_fwd_pc":1
 },
 "lower_bound":0,
@@ -13764,7 +14455,7 @@
 "id":"ENZFM_enzyme_ENO_fwd_cplx_HETERODIMER_ENO_AG_pc",
 "name":"enzyme_ENO_fwd_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ENO_AG_pc":-0.8230575265530323,
+"cplx_HETERODIMER_ENO_AG_pc":-0.8305094815922544,
 "enzyme_ENO_fwd_pc":1
 },
 "lower_bound":0,
@@ -13776,7 +14467,7 @@
 "id":"ENZFM_enzyme_ENO_fwd_cplx_HETERODIMER_ENO_AB_pc",
 "name":"enzyme_ENO_fwd_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ENO_AB_pc":-0.8213404855342249,
+"cplx_HETERODIMER_ENO_AB_pc":-0.8287768945003476,
 "enzyme_ENO_fwd_pc":1
 },
 "lower_bound":0,
@@ -13788,7 +14479,7 @@
 "id":"ENZFM_enzyme_ENO_fwd_cplx_HOMODIMER_ENO2_pc",
 "name":"enzyme_ENO_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_ENO2_pc":-0.8235900674890744,
+"cplx_HOMODIMER_ENO2_pc":-0.8310468441488803,
 "enzyme_ENO_fwd_pc":1
 },
 "lower_bound":0,
@@ -13800,7 +14491,7 @@
 "id":"ENZFM_enzyme_ENO_fwd_cplx_HETERODIMER_ENO_BG_pc",
 "name":"enzyme_ENO_fwd_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ENO_BG_pc":-0.8218733971502937,
+"cplx_HETERODIMER_ENO_BG_pc":-0.829314631093134,
 "enzyme_ENO_fwd_pc":1
 },
 "lower_bound":0,
@@ -13812,7 +14503,7 @@
 "id":"ENZFM_enzyme_ENO_fwd_cplx_HOMODIMER_ENO3_pc",
 "name":"enzyme_ENO_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_ENO3_pc":-0.8201555307580296,
+"cplx_HOMODIMER_ENO3_pc":-0.8275812111548473,
 "enzyme_ENO_fwd_pc":1
 },
 "lower_bound":0,
@@ -13850,7 +14541,7 @@
 "id":"ENZFM_enzyme_ENO_rev_cplx_HOMODIMER_ENO1_pc",
 "name":"enzyme_ENO_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_ENO1_pc":-0.8225248707359727,
+"cplx_HOMODIMER_ENO1_pc":-0.829972003114479,
 "enzyme_ENO_rev_pc":1
 },
 "lower_bound":0,
@@ -13862,7 +14553,7 @@
 "id":"ENZFM_enzyme_ENO_rev_cplx_HETERODIMER_ENO_AG_pc",
 "name":"enzyme_ENO_rev_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ENO_AG_pc":-0.8230575265530323,
+"cplx_HETERODIMER_ENO_AG_pc":-0.8305094815922544,
 "enzyme_ENO_rev_pc":1
 },
 "lower_bound":0,
@@ -13874,7 +14565,7 @@
 "id":"ENZFM_enzyme_ENO_rev_cplx_HETERODIMER_ENO_AB_pc",
 "name":"enzyme_ENO_rev_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ENO_AB_pc":-0.8213404855342249,
+"cplx_HETERODIMER_ENO_AB_pc":-0.8287768945003476,
 "enzyme_ENO_rev_pc":1
 },
 "lower_bound":0,
@@ -13886,7 +14577,7 @@
 "id":"ENZFM_enzyme_ENO_rev_cplx_HOMODIMER_ENO2_pc",
 "name":"enzyme_ENO_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_ENO2_pc":-0.8235900674890744,
+"cplx_HOMODIMER_ENO2_pc":-0.8310468441488803,
 "enzyme_ENO_rev_pc":1
 },
 "lower_bound":0,
@@ -13898,7 +14589,7 @@
 "id":"ENZFM_enzyme_ENO_rev_cplx_HETERODIMER_ENO_BG_pc",
 "name":"enzyme_ENO_rev_pc concentration",
 "metabolites":{
-"cplx_HETERODIMER_ENO_BG_pc":-0.8218733971502937,
+"cplx_HETERODIMER_ENO_BG_pc":-0.829314631093134,
 "enzyme_ENO_rev_pc":1
 },
 "lower_bound":0,
@@ -13910,7 +14601,7 @@
 "id":"ENZFM_enzyme_ENO_rev_cplx_HOMODIMER_ENO3_pc",
 "name":"enzyme_ENO_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_ENO3_pc":-0.8201555307580296,
+"cplx_HOMODIMER_ENO3_pc":-0.8275812111548473,
 "enzyme_ENO_rev_pc":1
 },
 "lower_bound":0,
@@ -13937,7 +14628,7 @@
 "id":"ENZFM_enzyme_PGI_fwd_cplx_HOMODIMER_GPI_pc",
 "name":"enzyme_PGI_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_GPI_pc":-1.0237346582308726,
+"cplx_HOMODIMER_GPI_pc":-1.033003542117008,
 "enzyme_PGI_fwd_pc":1
 },
 "lower_bound":0,
@@ -13975,7 +14666,7 @@
 "id":"ENZFM_enzyme_PGI_rev_cplx_HOMODIMER_GPI_pc",
 "name":"enzyme_PGI_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_GPI_pc":-1.0237346582308726,
+"cplx_HOMODIMER_GPI_pc":-1.033003542117008,
 "enzyme_PGI_rev_pc":1
 },
 "lower_bound":0,
@@ -14002,7 +14693,7 @@
 "id":"ENZFM_enzyme_GTHOy_fwd_cplx_HOMODIMER_GSR_pc",
 "name":"enzyme_GTHOy_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_GSR_pc":-0.8811195990173787,
+"cplx_HOMODIMER_GSR_pc":-0.8890972475100102,
 "enzyme_GTHOy_fwd_pc":1
 },
 "lower_bound":0,
@@ -14055,7 +14746,7 @@
 "id":"ENZFM_enzyme_PPA_fwd_cplx_HOMODIMER_LHPP_pc",
 "name":"enzyme_PPA_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_LHPP_pc":-0.5734719178461786,
+"cplx_HOMODIMER_LHPP_pc":-0.5786641271513331,
 "enzyme_PPA_fwd_pc":1
 },
 "lower_bound":0,
@@ -14067,7 +14758,7 @@
 "id":"ENZFM_enzyme_PPA_fwd_cplx_HOMODIMER_PPA1_pc",
 "name":"enzyme_PPA_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_PPA1_pc":-0.624221845370162,
+"cplx_HOMODIMER_PPA1_pc":-0.6298735440377872,
 "enzyme_PPA_fwd_pc":1
 },
 "lower_bound":0,
@@ -14079,7 +14770,7 @@
 "id":"ENZFM_enzyme_PPA_fwd_cplx_HOMODIMER_PPA2_pc",
 "name":"enzyme_PPA_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_PPA2_pc":-0.6983290146898958,
+"cplx_HOMODIMER_PPA2_pc":-0.7046516789656815,
 "enzyme_PPA_fwd_pc":1
 },
 "lower_bound":0,
@@ -14091,7 +14782,7 @@
 "id":"ENZFM_enzyme_PPA_fwd_cplx_HOMODIMER_PRUNE1_pc",
 "name":"enzyme_PPA_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_PRUNE1_pc":-0.8616043151535552,
+"cplx_HOMODIMER_PRUNE1_pc":-0.8694052724511739,
 "enzyme_PPA_fwd_pc":1
 },
 "lower_bound":0,
@@ -14144,7 +14835,7 @@
 "id":"ENZFM_enzyme_GND_fwd_cplx_HOMODIMER_PGD_pc",
 "name":"enzyme_GND_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_PGD_pc":-0.8994289073143108,
+"cplx_HOMODIMER_PGD_pc":-0.9075723281106102,
 "enzyme_GND_fwd_pc":1
 },
 "lower_bound":0,
@@ -14197,7 +14888,7 @@
 "id":"ENZFM_enzyme_PRPPS_fwd_cplx_HOMODIMER_PRPS1_pc",
 "name":"enzyme_PRPPS_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_PRPS1_pc":-0.6552287574849176,
+"cplx_HOMODIMER_PRPS1_pc":-0.6611611924407484,
 "enzyme_PRPPS_fwd_pc":1
 },
 "lower_bound":0,
@@ -14209,7 +14900,7 @@
 "id":"ENZFM_enzyme_PRPPS_fwd_cplx_HOMODIMER_PRPS1L1_pc",
 "name":"enzyme_PRPPS_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_PRPS1L1_pc":-0.6552578910302114,
+"cplx_HOMODIMER_PRPS1L1_pc":-0.6611905897608849,
 "enzyme_PRPPS_fwd_pc":1
 },
 "lower_bound":0,
@@ -14221,7 +14912,7 @@
 "id":"ENZFM_enzyme_PRPPS_fwd_cplx_HOMODIMER_PRPS2_pc",
 "name":"enzyme_PRPPS_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_PRPS2_pc":-0.6542813079688151,
+"cplx_HOMODIMER_PRPS2_pc":-0.6602051647257132,
 "enzyme_PRPPS_fwd_pc":1
 },
 "lower_bound":0,
@@ -14274,7 +14965,7 @@
 "id":"ENZFM_enzyme_RPE_fwd_cplx_HOMODIMER_RPE_pc",
 "name":"enzyme_RPE_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_RPE_pc":-0.5096991043592858,
+"cplx_HOMODIMER_RPE_pc":-0.5143139152159756,
 "enzyme_RPE_fwd_pc":1
 },
 "lower_bound":0,
@@ -14312,7 +15003,7 @@
 "id":"ENZFM_enzyme_RPE_rev_cplx_HOMODIMER_RPE_pc",
 "name":"enzyme_RPE_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_RPE_pc":-0.5096991043592858,
+"cplx_HOMODIMER_RPE_pc":-0.5143139152159756,
 "enzyme_RPE_rev_pc":1
 },
 "lower_bound":0,
@@ -14339,7 +15030,7 @@
 "id":"ENZFM_enzyme_RPI_fwd_cplx_HOMODIMER_RPIA_pc",
 "name":"enzyme_RPI_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_RPIA_pc":-0.6331048483314855,
+"cplx_HOMODIMER_RPIA_pc":-0.6388369736236726,
 "enzyme_RPI_fwd_pc":1
 },
 "lower_bound":0,
@@ -14377,7 +15068,7 @@
 "id":"ENZFM_enzyme_RPI_rev_cplx_HOMODIMER_RPIA_pc",
 "name":"enzyme_RPI_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_RPIA_pc":-0.6331048483314855,
+"cplx_HOMODIMER_RPIA_pc":-0.6388369736236726,
 "enzyme_RPI_rev_pc":1
 },
 "lower_bound":0,
@@ -14404,7 +15095,7 @@
 "id":"ENZFM_enzyme_SPODM_fwd_cplx_HOMODIMER_SOD1_pc",
 "name":"enzyme_SPODM_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_SOD1_pc":-0.3643868401246205,
+"cplx_HOMODIMER_SOD1_pc":-0.3676859951191261,
 "enzyme_SPODM_fwd_pc":1
 },
 "lower_bound":0,
@@ -14454,10 +15145,63 @@
 }
 },
 {
+"id":"ENZFM_enzyme_FE3RD_fwd_cplx_HOMODIMER_STEAP3_pc",
+"name":"enzyme_FE3RD_fwd_pc concentration",
+"metabolites":{
+"cplx_HOMODIMER_STEAP3_pc":-0.9263205096506409,
+"enzyme_FE3RD_fwd_pc":1
+},
+"lower_bound":0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"STEAP3",
+"subsystem":"Pseudoreactions, Enzyme concentrations"
+},
+{
+"id":"ENZDL_enzyme_FE3RD_fwd_pc",
+"name":"enzyme_FE3RD_fwd_pc concentration",
+"metabolites":{
+"enzyme_FE3RD_fwd_pc":-1,
+"enzyme_FE3RD_total_pc":1
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"STEAP3",
+"subsystem":"Pseudoreactions, Enzyme concentrations",
+"annotation":{
+"reaction":"FE3RD"
+}
+},
+{
+"id":"ENZDL_enzyme_FE3RD_total_pc",
+"name":"enzyme_FE3RD_total_pc concentration",
+"metabolites":{
+"enzyme_FE3RD_total_pc":-1
+},
+"lower_bound":0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"STEAP3",
+"subsystem":"Pseudoreactions, Enzyme concentrations"
+},
+{
+"id":"ENZDL_enzyme_FE3RD_rev_pc",
+"name":"enzyme_FE3RD_rev_pc concentration",
+"metabolites":{
+"enzyme_FE3RD_rev_pc":-1,
+"enzyme_FE3RD_total_pc":1
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"STEAP3",
+"subsystem":"Pseudoreactions, Enzyme concentrations",
+"annotation":{
+"reaction":"FE3RD"
+}
+},
+{
 "id":"ENZFM_enzyme_TALA_fwd_cplx_HOMODIMER_TALDO1_pc",
 "name":"enzyme_TALA_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_TALDO1_pc":-0.6930443468413175,
+"cplx_HOMODIMER_TALDO1_pc":-0.6993191637845241,
 "enzyme_TALA_fwd_pc":1
 },
 "lower_bound":0,
@@ -14495,7 +15239,7 @@
 "id":"ENZFM_enzyme_TALA_rev_cplx_HOMODIMER_TALDO1_pc",
 "name":"enzyme_TALA_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_TALDO1_pc":-0.6930443468413175,
+"cplx_HOMODIMER_TALDO1_pc":-0.6993191637845241,
 "enzyme_TALA_rev_pc":1
 },
 "lower_bound":0,
@@ -14522,7 +15266,7 @@
 "id":"ENZFM_enzyme_TKT1_fwd_cplx_HOMODIMER_TKT_pc",
 "name":"enzyme_TKT1_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_TKT_pc":-1.0807038468448884,
+"cplx_HOMODIMER_TKT_pc":-1.0904885292244177,
 "enzyme_TKT1_fwd_pc":1
 },
 "lower_bound":0,
@@ -14560,7 +15304,7 @@
 "id":"ENZFM_enzyme_TKT1_rev_cplx_HOMODIMER_TKT_pc",
 "name":"enzyme_TKT1_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_TKT_pc":-1.0807038468448884,
+"cplx_HOMODIMER_TKT_pc":-1.0904885292244177,
 "enzyme_TKT1_rev_pc":1
 },
 "lower_bound":0,
@@ -14587,7 +15331,7 @@
 "id":"ENZFM_enzyme_TKT2_fwd_cplx_HOMODIMER_TKT_pc",
 "name":"enzyme_TKT2_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_TKT_pc":-1.0807038468448884,
+"cplx_HOMODIMER_TKT_pc":-1.0904885292244177,
 "enzyme_TKT2_fwd_pc":1
 },
 "lower_bound":0,
@@ -14625,7 +15369,7 @@
 "id":"ENZFM_enzyme_TKT2_rev_cplx_HOMODIMER_TKT_pc",
 "name":"enzyme_TKT2_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_TKT_pc":-1.0807038468448884,
+"cplx_HOMODIMER_TKT_pc":-1.0904885292244177,
 "enzyme_TKT2_rev_pc":1
 },
 "lower_bound":0,
@@ -14652,7 +15396,7 @@
 "id":"ENZFM_enzyme_TPI_fwd_cplx_HOMODIMER_TPI1_pc",
 "name":"enzyme_TPI_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_TPI1_pc":-0.5362969879441795,
+"cplx_HOMODIMER_TPI1_pc":-0.5411526157865824,
 "enzyme_TPI_fwd_pc":1
 },
 "lower_bound":0,
@@ -14690,7 +15434,7 @@
 "id":"ENZFM_enzyme_TPI_rev_cplx_HOMODIMER_TPI1_pc",
 "name":"enzyme_TPI_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_TPI1_pc":-0.5362969879441795,
+"cplx_HOMODIMER_TPI1_pc":-0.5411526157865824,
 "enzyme_TPI_rev_pc":1
 },
 "lower_bound":0,
@@ -14717,7 +15461,7 @@
 "id":"ENZFM_enzyme_FBA_fwd_cplx_HOMOTETRAMER_ALDOA_pc",
 "name":"enzyme_FBA_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_ALDOA_pc":-1.209182384132493,
+"cplx_HOMOTETRAMER_ALDOA_pc":-1.2201303099700849,
 "enzyme_FBA_fwd_pc":1
 },
 "lower_bound":0,
@@ -14729,7 +15473,7 @@
 "id":"ENZFM_enzyme_FBA_fwd_cplx_HOMOTETRAMER_ALDOB_pc",
 "name":"enzyme_FBA_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_ALDOB_pc":-1.2103787496427432,
+"cplx_HOMOTETRAMER_ALDOB_pc":-1.2213375073623183,
 "enzyme_FBA_fwd_pc":1
 },
 "lower_bound":0,
@@ -14741,7 +15485,7 @@
 "id":"ENZFM_enzyme_FBA_fwd_cplx_HOMOTETRAMER_ALDOC_pc",
 "name":"enzyme_FBA_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_ALDOC_pc":-1.2098908668965258,
+"cplx_HOMOTETRAMER_ALDOC_pc":-1.2208452073303437,
 "enzyme_FBA_fwd_pc":1
 },
 "lower_bound":0,
@@ -14779,7 +15523,7 @@
 "id":"ENZFM_enzyme_FBA_rev_cplx_HOMOTETRAMER_ALDOA_pc",
 "name":"enzyme_FBA_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_ALDOA_pc":-1.209182384132493,
+"cplx_HOMOTETRAMER_ALDOA_pc":-1.2201303099700849,
 "enzyme_FBA_rev_pc":1
 },
 "lower_bound":0,
@@ -14791,7 +15535,7 @@
 "id":"ENZFM_enzyme_FBA_rev_cplx_HOMOTETRAMER_ALDOB_pc",
 "name":"enzyme_FBA_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_ALDOB_pc":-1.2103787496427432,
+"cplx_HOMOTETRAMER_ALDOB_pc":-1.2213375073623183,
 "enzyme_FBA_rev_pc":1
 },
 "lower_bound":0,
@@ -14803,7 +15547,7 @@
 "id":"ENZFM_enzyme_FBA_rev_cplx_HOMOTETRAMER_ALDOC_pc",
 "name":"enzyme_FBA_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_ALDOC_pc":-1.2098908668965258,
+"cplx_HOMOTETRAMER_ALDOC_pc":-1.2208452073303437,
 "enzyme_FBA_rev_pc":1
 },
 "lower_bound":0,
@@ -14830,7 +15574,7 @@
 "id":"ENZFM_enzyme_AMPDA_fwd_cplx_HOMOTETRAMER_AMPD3_pc",
 "name":"enzyme_AMPDA_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AMPD3_pc":-2.223351311476129,
+"cplx_HOMOTETRAMER_AMPD3_pc":-2.243481513163128,
 "enzyme_AMPDA_fwd_pc":1
 },
 "lower_bound":0,
@@ -14883,7 +15627,7 @@
 "id":"ENZFM_enzyme_O2t_fwd_cplx_HOMOTETRAMER_AQP1_pc",
 "name":"enzyme_O2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AQP1_pc":-0.9486585630092425,
+"cplx_HOMOTETRAMER_AQP1_pc":-0.957247708641291,
 "enzyme_O2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -14921,7 +15665,7 @@
 "id":"ENZFM_enzyme_O2t_rev_cplx_HOMOTETRAMER_AQP1_pc",
 "name":"enzyme_O2t_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AQP1_pc":-0.9486585630092425,
+"cplx_HOMOTETRAMER_AQP1_pc":-0.957247708641291,
 "enzyme_O2t_rev_pc":1
 },
 "lower_bound":0,
@@ -14948,7 +15692,7 @@
 "id":"ENZFM_enzyme_CO2t_fwd_cplx_HOMOTETRAMER_AQP1_pc",
 "name":"enzyme_CO2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AQP1_pc":-0.9486585630092425,
+"cplx_HOMOTETRAMER_AQP1_pc":-0.957247708641291,
 "enzyme_CO2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -14960,7 +15704,7 @@
 "id":"ENZFM_enzyme_CO2t_fwd_cplx_HOMODIMER_RHAG_pc",
 "name":"enzyme_CO2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_RHAG_pc":-0.783313913851477,
+"cplx_HOMODIMER_RHAG_pc":-0.7904060305982424,
 "enzyme_CO2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -14972,7 +15716,7 @@
 "id":"ENZFM_enzyme_CO2t_fwd_cplx_HETEROTRIMER_RH_pc",
 "name":"enzyme_CO2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTRIMER_RH_pc":-1.0693080306528169,
+"cplx_HETEROTRIMER_RH_pc":-1.0789895354206254,
 "enzyme_CO2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -14984,7 +15728,7 @@
 "id":"ENZFM_enzyme_CO2t_fwd_cplx_HETEROTETRAMER_RH_pc",
 "name":"enzyme_CO2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_RH_pc":-1.33013311468102,
+"cplx_HETEROTETRAMER_RH_pc":-1.3421761272858557,
 "enzyme_CO2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -15022,7 +15766,7 @@
 "id":"ENZFM_enzyme_CO2t_rev_cplx_HOMOTETRAMER_AQP1_pc",
 "name":"enzyme_CO2t_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AQP1_pc":-0.9486585630092425,
+"cplx_HOMOTETRAMER_AQP1_pc":-0.957247708641291,
 "enzyme_CO2t_rev_pc":1
 },
 "lower_bound":0,
@@ -15034,7 +15778,7 @@
 "id":"ENZFM_enzyme_CO2t_rev_cplx_HOMODIMER_RHAG_pc",
 "name":"enzyme_CO2t_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_RHAG_pc":-0.783313913851477,
+"cplx_HOMODIMER_RHAG_pc":-0.7904060305982424,
 "enzyme_CO2t_rev_pc":1
 },
 "lower_bound":0,
@@ -15046,7 +15790,7 @@
 "id":"ENZFM_enzyme_CO2t_rev_cplx_HETEROTRIMER_RH_pc",
 "name":"enzyme_CO2t_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTRIMER_RH_pc":-1.0693080306528169,
+"cplx_HETEROTRIMER_RH_pc":-1.0789895354206254,
 "enzyme_CO2t_rev_pc":1
 },
 "lower_bound":0,
@@ -15058,7 +15802,7 @@
 "id":"ENZFM_enzyme_CO2t_rev_cplx_HETEROTETRAMER_RH_pc",
 "name":"enzyme_CO2t_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_RH_pc":-1.33013311468102,
+"cplx_HETEROTETRAMER_RH_pc":-1.3421761272858557,
 "enzyme_CO2t_rev_pc":1
 },
 "lower_bound":0,
@@ -15085,7 +15829,7 @@
 "id":"ENZFM_enzyme_H2Ot_fwd_cplx_HOMOTETRAMER_AQP1_pc",
 "name":"enzyme_H2Ot_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AQP1_pc":-0.9486585630092425,
+"cplx_HOMOTETRAMER_AQP1_pc":-0.957247708641291,
 "enzyme_H2Ot_fwd_pc":1
 },
 "lower_bound":0,
@@ -15097,7 +15841,7 @@
 "id":"ENZFM_enzyme_H2Ot_fwd_cplx_HOMOTETRAMER_AQP3_pc",
 "name":"enzyme_H2Ot_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AQP3_pc":-1.022950276988462,
+"cplx_HOMOTETRAMER_AQP3_pc":-1.0322120590942676,
 "enzyme_H2Ot_fwd_pc":1
 },
 "lower_bound":0,
@@ -15135,7 +15879,7 @@
 "id":"ENZFM_enzyme_H2Ot_rev_cplx_HOMOTETRAMER_AQP1_pc",
 "name":"enzyme_H2Ot_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AQP1_pc":-0.9486585630092425,
+"cplx_HOMOTETRAMER_AQP1_pc":-0.957247708641291,
 "enzyme_H2Ot_rev_pc":1
 },
 "lower_bound":0,
@@ -15147,7 +15891,7 @@
 "id":"ENZFM_enzyme_H2Ot_rev_cplx_HOMOTETRAMER_AQP3_pc",
 "name":"enzyme_H2Ot_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AQP3_pc":-1.022950276988462,
+"cplx_HOMOTETRAMER_AQP3_pc":-1.0322120590942676,
 "enzyme_H2Ot_rev_pc":1
 },
 "lower_bound":0,
@@ -15174,7 +15918,7 @@
 "id":"ENZFM_enzyme_NH4t_fwd_cplx_HOMOTETRAMER_AQP1_pc",
 "name":"enzyme_NH4t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AQP1_pc":-0.9486585630092425,
+"cplx_HOMOTETRAMER_AQP1_pc":-0.957247708641291,
 "enzyme_NH4t_fwd_pc":1
 },
 "lower_bound":0,
@@ -15186,7 +15930,7 @@
 "id":"ENZFM_enzyme_NH4t_fwd_cplx_HOMOTETRAMER_AQP3_pc",
 "name":"enzyme_NH4t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AQP3_pc":-1.022950276988462,
+"cplx_HOMOTETRAMER_AQP3_pc":-1.0322120590942676,
 "enzyme_NH4t_fwd_pc":1
 },
 "lower_bound":0,
@@ -15198,7 +15942,7 @@
 "id":"ENZFM_enzyme_NH4t_fwd_cplx_HOMODIMER_RHAG_pc",
 "name":"enzyme_NH4t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_RHAG_pc":-0.783313913851477,
+"cplx_HOMODIMER_RHAG_pc":-0.7904060305982424,
 "enzyme_NH4t_fwd_pc":1
 },
 "lower_bound":0,
@@ -15210,7 +15954,7 @@
 "id":"ENZFM_enzyme_NH4t_fwd_cplx_HETEROTRIMER_RH_pc",
 "name":"enzyme_NH4t_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTRIMER_RH_pc":-1.0693080306528169,
+"cplx_HETEROTRIMER_RH_pc":-1.0789895354206254,
 "enzyme_NH4t_fwd_pc":1
 },
 "lower_bound":0,
@@ -15222,7 +15966,7 @@
 "id":"ENZFM_enzyme_NH4t_fwd_cplx_HETEROTETRAMER_RH_pc",
 "name":"enzyme_NH4t_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_RH_pc":-1.33013311468102,
+"cplx_HETEROTETRAMER_RH_pc":-1.3421761272858557,
 "enzyme_NH4t_fwd_pc":1
 },
 "lower_bound":0,
@@ -15260,7 +16004,7 @@
 "id":"ENZFM_enzyme_NH4t_rev_cplx_HOMOTETRAMER_AQP1_pc",
 "name":"enzyme_NH4t_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AQP1_pc":-0.9486585630092425,
+"cplx_HOMOTETRAMER_AQP1_pc":-0.957247708641291,
 "enzyme_NH4t_rev_pc":1
 },
 "lower_bound":0,
@@ -15272,7 +16016,7 @@
 "id":"ENZFM_enzyme_NH4t_rev_cplx_HOMOTETRAMER_AQP3_pc",
 "name":"enzyme_NH4t_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_AQP3_pc":-1.022950276988462,
+"cplx_HOMOTETRAMER_AQP3_pc":-1.0322120590942676,
 "enzyme_NH4t_rev_pc":1
 },
 "lower_bound":0,
@@ -15284,7 +16028,7 @@
 "id":"ENZFM_enzyme_NH4t_rev_cplx_HOMODIMER_RHAG_pc",
 "name":"enzyme_NH4t_rev_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_RHAG_pc":-0.783313913851477,
+"cplx_HOMODIMER_RHAG_pc":-0.7904060305982424,
 "enzyme_NH4t_rev_pc":1
 },
 "lower_bound":0,
@@ -15296,7 +16040,7 @@
 "id":"ENZFM_enzyme_NH4t_rev_cplx_HETEROTRIMER_RH_pc",
 "name":"enzyme_NH4t_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTRIMER_RH_pc":-1.0693080306528169,
+"cplx_HETEROTRIMER_RH_pc":-1.0789895354206254,
 "enzyme_NH4t_rev_pc":1
 },
 "lower_bound":0,
@@ -15308,7 +16052,7 @@
 "id":"ENZFM_enzyme_NH4t_rev_cplx_HETEROTETRAMER_RH_pc",
 "name":"enzyme_NH4t_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_RH_pc":-1.33013311468102,
+"cplx_HETEROTETRAMER_RH_pc":-1.3421761272858557,
 "enzyme_NH4t_rev_pc":1
 },
 "lower_bound":0,
@@ -15335,7 +16079,7 @@
 "id":"ENZFM_enzyme_G6PDH2_fwd_cplx_HOMOTETRAMER_G6PD_pc",
 "name":"enzyme_G6PDH2_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_G6PD_pc":-1.6413847960409145,
+"cplx_HOMOTETRAMER_G6PD_pc":-1.6562458784167542,
 "enzyme_G6PDH2_fwd_pc":1
 },
 "lower_bound":0,
@@ -15388,7 +16132,7 @@
 "id":"ENZFM_enzyme_GAPD_fwd_cplx_HOMOTETRAMER_GAPDH_pc",
 "name":"enzyme_GAPD_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_GAPDH_pc":-1.1308751266489778,
+"cplx_HOMOTETRAMER_GAPDH_pc":-1.1411140593200098,
 "enzyme_GAPD_fwd_pc":1
 },
 "lower_bound":0,
@@ -15400,7 +16144,7 @@
 "id":"ENZFM_enzyme_GAPD_fwd_cplx_HOMOTETRAMER_GAPDHS_pc",
 "name":"enzyme_GAPD_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_GAPDHS_pc":-1.3242800281488747,
+"cplx_HOMOTETRAMER_GAPDHS_pc":-1.3362700469637614,
 "enzyme_GAPD_fwd_pc":1
 },
 "lower_bound":0,
@@ -15438,7 +16182,7 @@
 "id":"ENZFM_enzyme_GAPD_rev_cplx_HOMOTETRAMER_GAPDH_pc",
 "name":"enzyme_GAPD_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_GAPDH_pc":-1.1308751266489778,
+"cplx_HOMOTETRAMER_GAPDH_pc":-1.1411140593200098,
 "enzyme_GAPD_rev_pc":1
 },
 "lower_bound":0,
@@ -15450,7 +16194,7 @@
 "id":"ENZFM_enzyme_GAPD_rev_cplx_HOMOTETRAMER_GAPDHS_pc",
 "name":"enzyme_GAPD_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_GAPDHS_pc":-1.3242800281488747,
+"cplx_HOMOTETRAMER_GAPDHS_pc":-1.3362700469637614,
 "enzyme_GAPD_rev_pc":1
 },
 "lower_bound":0,
@@ -15477,7 +16221,7 @@
 "id":"ENZFM_enzyme_GTHP_fwd_cplx_HOMOTETRAMER_GPX1_pc",
 "name":"enzyme_GTHP_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_GPX1_pc":-0.7817933067024886,
+"cplx_HOMOTETRAMER_GPX1_pc":-0.7888716558865492,
 "enzyme_GTHP_fwd_pc":1
 },
 "lower_bound":0,
@@ -15489,7 +16233,7 @@
 "id":"ENZFM_enzyme_GTHP_fwd_cplx_MONOMER_GPX4_pc",
 "name":"enzyme_GTHP_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_GPX4_pc":-0.2519618576769978,
+"cplx_MONOMER_GPX4_pc":-0.2542431179467037,
 "enzyme_GTHP_fwd_pc":1
 },
 "lower_bound":0,
@@ -15542,7 +16286,7 @@
 "id":"ENZFM_enzyme_Kt1_fwd_cplx_HOMOTETRAMER_GRIA1_pc",
 "name":"enzyme_Kt1_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_GRIA1_pc":-2.457845772200268,
+"cplx_HOMOTETRAMER_GRIA1_pc":-2.48009908451063,
 "enzyme_Kt1_fwd_pc":1
 },
 "lower_bound":0,
@@ -15554,7 +16298,7 @@
 "id":"ENZFM_enzyme_Kt1_fwd_cplx_HOMOTETRAMER_KCNAB2_pc",
 "name":"enzyme_Kt1_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_KCNAB2_pc":-1.2454691078291398,
+"cplx_HOMOTETRAMER_KCNAB2_pc":-1.2567455733189243,
 "enzyme_Kt1_fwd_pc":1
 },
 "lower_bound":0,
@@ -15566,7 +16310,7 @@
 "id":"ENZFM_enzyme_Kt1_fwd_cplx_HOMODIMER_KCNK5_pc",
 "name":"enzyme_Kt1_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_KCNK5_pc":-0.9245477155775167,
+"cplx_HOMODIMER_KCNK5_pc":-0.932918561825595,
 "enzyme_Kt1_fwd_pc":1
 },
 "lower_bound":0,
@@ -15578,7 +16322,7 @@
 "id":"ENZFM_enzyme_Kt1_fwd_cplx_HOMOTETRAMER_KCNN4_pc",
 "name":"enzyme_Kt1_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_KCNN4_pc":-1.3953467656681293,
+"cplx_HOMOTETRAMER_KCNN4_pc":-1.4079802220504916,
 "enzyme_Kt1_fwd_pc":1
 },
 "lower_bound":0,
@@ -15590,7 +16334,7 @@
 "id":"ENZFM_enzyme_Kt1_fwd_cplx_HOMOTRIMER_P2RX1_pc",
 "name":"enzyme_Kt1_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_P2RX1_pc":-1.0759482010041717,
+"cplx_HOMOTRIMER_P2RX1_pc":-1.0856898258113632,
 "enzyme_Kt1_fwd_pc":1
 },
 "lower_bound":0,
@@ -15602,7 +16346,7 @@
 "id":"ENZFM_enzyme_Kt1_fwd_cplx_HOMOTRIMER_P2RX2_pc",
 "name":"enzyme_Kt1_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_P2RX2_pc":-1.1952700171186783,
+"cplx_HOMOTRIMER_P2RX2_pc":-1.2060919805172774,
 "enzyme_Kt1_fwd_pc":1
 },
 "lower_bound":0,
@@ -15614,7 +16358,7 @@
 "id":"ENZFM_enzyme_Kt1_fwd_cplx_HOMOTRIMER_P2RX7_pc",
 "name":"enzyme_Kt1_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_P2RX7_pc":-1.4764014020458383,
+"cplx_HOMOTRIMER_P2RX7_pc":-1.489768726337211,
 "enzyme_Kt1_fwd_pc":1
 },
 "lower_bound":0,
@@ -15626,7 +16370,7 @@
 "id":"ENZFM_enzyme_Kt1_fwd_cplx_HOMOHEPTAMER_PANX1_pc",
 "name":"enzyme_Kt1_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOHEPTAMER_PANX1_pc":-2.1340339668020745,
+"cplx_HOMOHEPTAMER_PANX1_pc":-2.1533554900975145,
 "enzyme_Kt1_fwd_pc":1
 },
 "lower_bound":0,
@@ -15638,7 +16382,7 @@
 "id":"ENZFM_enzyme_Kt1_fwd_cplx_HOMOTRIMER_PIEZO1_pc",
 "name":"enzyme_Kt1_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_PIEZO1_pc":-4.316657657033639,
+"cplx_HOMOTRIMER_PIEZO1_pc":-4.355740634519606,
 "enzyme_Kt1_fwd_pc":1
 },
 "lower_bound":0,
@@ -15650,7 +16394,7 @@
 "id":"ENZFM_enzyme_Kt1_fwd_cplx_MONOMER_SLC22A4_pc",
 "name":"enzyme_Kt1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC22A4_pc":-0.6015086523122518,
+"cplx_MONOMER_SLC22A4_pc":-0.6069547059453513,
 "enzyme_Kt1_fwd_pc":1
 },
 "lower_bound":0,
@@ -15662,7 +16406,7 @@
 "id":"ENZFM_enzyme_Kt1_fwd_cplx_MONOMER_TMEM109_pc",
 "name":"enzyme_Kt1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_TMEM109_pc":-0.31484489215584915,
+"cplx_MONOMER_TMEM109_pc":-0.31769549482331993,
 "enzyme_Kt1_fwd_pc":1
 },
 "lower_bound":0,
@@ -15674,7 +16418,7 @@
 "id":"ENZFM_enzyme_Kt1_fwd_cplx_HOMODIMER_VDAC1_pc",
 "name":"enzyme_Kt1_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_VDAC1_pc":-0.5971201328912316,
+"cplx_HOMODIMER_VDAC1_pc":-0.6025264529111154,
 "enzyme_Kt1_fwd_pc":1
 },
 "lower_bound":0,
@@ -15727,7 +16471,7 @@
 "id":"ENZFM_enzyme_NAt_fwd_cplx_HOMOTETRAMER_GRIA1_pc",
 "name":"enzyme_NAt_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_GRIA1_pc":-2.457845772200268,
+"cplx_HOMOTETRAMER_GRIA1_pc":-2.48009908451063,
 "enzyme_NAt_fwd_pc":1
 },
 "lower_bound":0,
@@ -15739,7 +16483,7 @@
 "id":"ENZFM_enzyme_NAt_fwd_cplx_HOMOTRIMER_P2RX1_pc",
 "name":"enzyme_NAt_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_P2RX1_pc":-1.0759482010041717,
+"cplx_HOMOTRIMER_P2RX1_pc":-1.0856898258113632,
 "enzyme_NAt_fwd_pc":1
 },
 "lower_bound":0,
@@ -15751,7 +16495,7 @@
 "id":"ENZFM_enzyme_NAt_fwd_cplx_HOMOTRIMER_P2RX2_pc",
 "name":"enzyme_NAt_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_P2RX2_pc":-1.1952700171186783,
+"cplx_HOMOTRIMER_P2RX2_pc":-1.2060919805172774,
 "enzyme_NAt_fwd_pc":1
 },
 "lower_bound":0,
@@ -15763,7 +16507,7 @@
 "id":"ENZFM_enzyme_NAt_fwd_cplx_HOMOTRIMER_P2RX7_pc",
 "name":"enzyme_NAt_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_P2RX7_pc":-1.4764014020458383,
+"cplx_HOMOTRIMER_P2RX7_pc":-1.489768726337211,
 "enzyme_NAt_fwd_pc":1
 },
 "lower_bound":0,
@@ -15775,7 +16519,7 @@
 "id":"ENZFM_enzyme_NAt_fwd_cplx_HOMOHEPTAMER_PANX1_pc",
 "name":"enzyme_NAt_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOHEPTAMER_PANX1_pc":-2.1340339668020745,
+"cplx_HOMOHEPTAMER_PANX1_pc":-2.1533554900975145,
 "enzyme_NAt_fwd_pc":1
 },
 "lower_bound":0,
@@ -15787,7 +16531,7 @@
 "id":"ENZFM_enzyme_NAt_fwd_cplx_HOMOTRIMER_PIEZO1_pc",
 "name":"enzyme_NAt_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_PIEZO1_pc":-4.316657657033639,
+"cplx_HOMOTRIMER_PIEZO1_pc":-4.355740634519606,
 "enzyme_NAt_fwd_pc":1
 },
 "lower_bound":0,
@@ -15799,7 +16543,7 @@
 "id":"ENZFM_enzyme_NAt_fwd_cplx_MONOMER_SCN4A_pc",
 "name":"enzyme_NAt_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SCN4A_pc":-1.488269032097035,
+"cplx_MONOMER_SCN4A_pc":-1.5017438057983348,
 "enzyme_NAt_fwd_pc":1
 },
 "lower_bound":0,
@@ -15811,7 +16555,7 @@
 "id":"ENZFM_enzyme_NAt_fwd_cplx_MONOMER_SCN9A_pc",
 "name":"enzyme_NAt_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SCN9A_pc":-1.5857816309965143,
+"cplx_MONOMER_SCN9A_pc":-1.6001392828434031,
 "enzyme_NAt_fwd_pc":1
 },
 "lower_bound":0,
@@ -15823,7 +16567,7 @@
 "id":"ENZFM_enzyme_NAt_fwd_cplx_HOMODIMER_VDAC1_pc",
 "name":"enzyme_NAt_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_VDAC1_pc":-0.5971201328912316,
+"cplx_HOMODIMER_VDAC1_pc":-0.6025264529111154,
 "enzyme_NAt_fwd_pc":1
 },
 "lower_bound":0,
@@ -15876,7 +16620,7 @@
 "id":"ENZFM_enzyme_HXPRT_fwd_cplx_HOMOTETRAMER_HPRT1_pc",
 "name":"enzyme_HXPRT_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_HPRT1_pc":-0.8483615961256454,
+"cplx_HOMOTETRAMER_HPRT1_pc":-0.8560426539707845,
 "enzyme_HXPRT_fwd_pc":1
 },
 "lower_bound":0,
@@ -15929,7 +16673,7 @@
 "id":"ENZFM_enzyme_LDH_L_fwd_cplx_HOMOTETRAMER_LDHA_pc",
 "name":"enzyme_LDH_L_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_LDHA_pc":-1.1457915695995322,
+"cplx_HOMOTETRAMER_LDHA_pc":-1.1561655556035655,
 "enzyme_LDH_L_fwd_pc":1
 },
 "lower_bound":0,
@@ -15941,7 +16685,7 @@
 "id":"ENZFM_enzyme_LDH_L_fwd_cplx_HETEROTETRAMER_LDHA_LDHB_A1B3_pc",
 "name":"enzyme_LDH_L_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_LDHA_LDHB_A1B3_pc":-1.1447497878748731,
+"cplx_HETEROTETRAMER_LDHA_LDHB_A1B3_pc":-1.155114341597052,
 "enzyme_LDH_L_fwd_pc":1
 },
 "lower_bound":0,
@@ -15953,7 +16697,7 @@
 "id":"ENZFM_enzyme_LDH_L_fwd_cplx_HETEROTETRAMER_LDHA_LDHB_A2B2_pc",
 "name":"enzyme_LDH_L_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_LDHA_LDHB_A2B2_pc":-1.1450970835506513,
+"cplx_HETEROTETRAMER_LDHA_LDHB_A2B2_pc":-1.1554647816845847,
 "enzyme_LDH_L_fwd_pc":1
 },
 "lower_bound":0,
@@ -15965,7 +16709,7 @@
 "id":"ENZFM_enzyme_LDH_L_fwd_cplx_HETEROTETRAMER_LDHA_LDHB_A3B1_pc",
 "name":"enzyme_LDH_L_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_LDHA_LDHB_A3B1_pc":-1.1454443441196254,
+"cplx_HETEROTETRAMER_LDHA_LDHB_A3B1_pc":-1.1558151863474566,
 "enzyme_LDH_L_fwd_pc":1
 },
 "lower_bound":0,
@@ -15977,7 +16721,7 @@
 "id":"ENZFM_enzyme_LDH_L_fwd_cplx_HOMOTETRAMER_LDHB_pc",
 "name":"enzyme_LDH_L_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_LDHB_pc":-1.1444024570745375,
+"cplx_HOMOTETRAMER_LDHB_pc":-1.1547638660669441,
 "enzyme_LDH_L_fwd_pc":1
 },
 "lower_bound":0,
@@ -16015,7 +16759,7 @@
 "id":"ENZFM_enzyme_LDH_L_rev_cplx_HOMOTETRAMER_LDHA_pc",
 "name":"enzyme_LDH_L_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_LDHA_pc":-1.1457915695995322,
+"cplx_HOMOTETRAMER_LDHA_pc":-1.1561655556035655,
 "enzyme_LDH_L_rev_pc":1
 },
 "lower_bound":0,
@@ -16027,7 +16771,7 @@
 "id":"ENZFM_enzyme_LDH_L_rev_cplx_HETEROTETRAMER_LDHA_LDHB_A1B3_pc",
 "name":"enzyme_LDH_L_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_LDHA_LDHB_A1B3_pc":-1.1447497878748731,
+"cplx_HETEROTETRAMER_LDHA_LDHB_A1B3_pc":-1.155114341597052,
 "enzyme_LDH_L_rev_pc":1
 },
 "lower_bound":0,
@@ -16039,7 +16783,7 @@
 "id":"ENZFM_enzyme_LDH_L_rev_cplx_HETEROTETRAMER_LDHA_LDHB_A2B2_pc",
 "name":"enzyme_LDH_L_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_LDHA_LDHB_A2B2_pc":-1.1450970835506513,
+"cplx_HETEROTETRAMER_LDHA_LDHB_A2B2_pc":-1.1554647816845847,
 "enzyme_LDH_L_rev_pc":1
 },
 "lower_bound":0,
@@ -16051,7 +16795,7 @@
 "id":"ENZFM_enzyme_LDH_L_rev_cplx_HETEROTETRAMER_LDHA_LDHB_A3B1_pc",
 "name":"enzyme_LDH_L_rev_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_LDHA_LDHB_A3B1_pc":-1.1454443441196254,
+"cplx_HETEROTETRAMER_LDHA_LDHB_A3B1_pc":-1.1558151863474566,
 "enzyme_LDH_L_rev_pc":1
 },
 "lower_bound":0,
@@ -16063,7 +16807,7 @@
 "id":"ENZFM_enzyme_LDH_L_rev_cplx_HOMOTETRAMER_LDHB_pc",
 "name":"enzyme_LDH_L_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_LDHB_pc":-1.1444024570745375,
+"cplx_HOMOTETRAMER_LDHB_pc":-1.1547638660669441,
 "enzyme_LDH_L_rev_pc":1
 },
 "lower_bound":0,
@@ -16090,7 +16834,7 @@
 "id":"ENZFM_enzyme_NTDAMP_fwd_cplx_HOMOTETRAMER_NT5C2_pc",
 "name":"enzyme_NTDAMP_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_NT5C2_pc":-1.758499214536952,
+"cplx_HOMOTETRAMER_NT5C2_pc":-1.774420649747097,
 "enzyme_NTDAMP_fwd_pc":1
 },
 "lower_bound":0,
@@ -16143,7 +16887,7 @@
 "id":"ENZFM_enzyme_NTDIMP_fwd_cplx_HOMOTETRAMER_NT5C2_pc",
 "name":"enzyme_NTDIMP_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_NT5C2_pc":-1.758499214536952,
+"cplx_HOMOTETRAMER_NT5C2_pc":-1.774420649747097,
 "enzyme_NTDIMP_fwd_pc":1
 },
 "lower_bound":0,
@@ -16196,7 +16940,7 @@
 "id":"ENZFM_enzyme_PFK_fwd_cplx_HOMOTETRAMER_PFKL_pc",
 "name":"enzyme_PFK_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_PFKL_pc":-2.151861546742224,
+"cplx_HOMOTETRAMER_PFKL_pc":-2.1713444807773588,
 "enzyme_PFK_fwd_pc":1
 },
 "lower_bound":0,
@@ -16208,7 +16952,7 @@
 "id":"ENZFM_enzyme_PFK_fwd_cplx_HETEROTETRAMER_PFKL_PFKM_M1L3_pc",
 "name":"enzyme_PFK_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_PFKL_PFKM_M1L3_pc":-2.152659350378256,
+"cplx_HETEROTETRAMER_PFKL_PFKM_M1L3_pc":-2.172149507719945,
 "enzyme_PFK_fwd_pc":1
 },
 "lower_bound":0,
@@ -16220,7 +16964,7 @@
 "id":"ENZFM_enzyme_PFK_fwd_cplx_HETEROTETRAMER_PFKL_PFKM_M2L2_pc",
 "name":"enzyme_PFK_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_PFKL_PFKM_M2L2_pc":-2.1534570554676478,
+"cplx_HETEROTETRAMER_PFKL_PFKM_M2L2_pc":-2.1729544352236494,
 "enzyme_PFK_fwd_pc":1
 },
 "lower_bound":0,
@@ -16232,7 +16976,7 @@
 "id":"ENZFM_enzyme_PFK_fwd_cplx_HETEROTETRAMER_PFKL_PFKM_M3L1_pc",
 "name":"enzyme_PFK_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_PFKL_PFKM_M3L1_pc":-2.154254662071232,
+"cplx_HETEROTETRAMER_PFKL_PFKM_M3L1_pc":-2.1737592633498575,
 "enzyme_PFK_fwd_pc":1
 },
 "lower_bound":0,
@@ -16244,7 +16988,7 @@
 "id":"ENZFM_enzyme_PFK_fwd_cplx_HETEROTETRAMER_PFKL_PFKP_P1L3_pc",
 "name":"enzyme_PFK_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_PFKL_PFKP_P1L3_pc":-2.154607037158469,
+"cplx_HETEROTETRAMER_PFKL_PFKP_P1L3_pc":-2.1741148288377934,
 "enzyme_PFK_fwd_pc":1
 },
 "lower_bound":0,
@@ -16256,7 +17000,7 @@
 "id":"ENZFM_enzyme_PFK_fwd_cplx_HETEROTETRAMER_PFKL_PFKP_P2L2_pc",
 "name":"enzyme_PFK_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_PFKL_PFKP_P2L2_pc":-2.15735136192975,
+"cplx_HETEROTETRAMER_PFKL_PFKP_P2L2_pc":-2.1768840006995247,
 "enzyme_PFK_fwd_pc":1
 },
 "lower_bound":0,
@@ -16268,7 +17012,7 @@
 "id":"ENZFM_enzyme_PFK_fwd_cplx_HETEROTETRAMER_PFKL_PFKP_P3L1_pc",
 "name":"enzyme_PFK_fwd_pc concentration",
 "metabolites":{
-"cplx_HETEROTETRAMER_PFKL_PFKP_P3L1_pc":-2.160094523526346,
+"cplx_HETEROTETRAMER_PFKL_PFKP_P3L1_pc":-2.1796519988551983,
 "enzyme_PFK_fwd_pc":1
 },
 "lower_bound":0,
@@ -16280,7 +17024,7 @@
 "id":"ENZFM_enzyme_PFK_fwd_cplx_HOMOTETRAMER_PFKM_pc",
 "name":"enzyme_PFK_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_PFKM_pc":-2.1550521702497742,
+"cplx_HOMOTETRAMER_PFKM_pc":-2.1745639921598845,
 "enzyme_PFK_fwd_pc":1
 },
 "lower_bound":0,
@@ -16292,7 +17036,7 @@
 "id":"ENZFM_enzyme_PFK_fwd_cplx_HOMOTETRAMER_PFKP_pc",
 "name":"enzyme_PFK_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_PFKP_pc":-2.162836524409126,
+"cplx_HOMOTETRAMER_PFKP_pc":-2.1824188257879658,
 "enzyme_PFK_fwd_pc":1
 },
 "lower_bound":0,
@@ -16345,7 +17089,7 @@
 "id":"ENZFM_enzyme_PYK_fwd_cplx_HOMOTETRAMER_PKLR_pc",
 "name":"enzyme_PYK_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_PKLR_pc":-1.694668583525275,
+"cplx_HOMOTETRAMER_PKLR_pc":-1.7100120968076347,
 "enzyme_PYK_fwd_pc":1
 },
 "lower_bound":0,
@@ -16357,7 +17101,7 @@
 "id":"ENZFM_enzyme_PYK_fwd_cplx_HOMOTETRAMER_PKM_pc",
 "name":"enzyme_PYK_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_PKM_pc":-1.614013421403417,
+"cplx_HOMOTETRAMER_PKM_pc":-1.6286266836128889,
 "enzyme_PYK_fwd_pc":1
 },
 "lower_bound":0,
@@ -16410,7 +17154,7 @@
 "id":"ENZFM_enzyme_GLC_Dt_fwd_cplx_HOMOTETRAMER_SLC2A1_pc",
 "name":"enzyme_GLC_Dt_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_SLC2A1_pc":-1.5329069626864504,
+"cplx_HOMOTETRAMER_SLC2A1_pc":-1.5467858877879435,
 "enzyme_GLC_Dt_fwd_pc":1
 },
 "lower_bound":0,
@@ -16422,7 +17166,7 @@
 "id":"ENZFM_enzyme_GLC_Dt_fwd_cplx_HOMOTETRAMER_SLC2A14_pc",
 "name":"enzyme_GLC_Dt_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_SLC2A14_pc":-1.5801145743149683,
+"cplx_HOMOTETRAMER_SLC2A14_pc":-1.594420916684411,
 "enzyme_GLC_Dt_fwd_pc":1
 },
 "lower_bound":0,
@@ -16434,7 +17178,7 @@
 "id":"ENZFM_enzyme_GLC_Dt_fwd_cplx_HOMOTETRAMER_SLC2A2_pc",
 "name":"enzyme_GLC_Dt_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_SLC2A2_pc":-1.6046565903861396,
+"cplx_HOMOTETRAMER_SLC2A2_pc":-1.619185135936325,
 "enzyme_GLC_Dt_fwd_pc":1
 },
 "lower_bound":0,
@@ -16446,7 +17190,7 @@
 "id":"ENZFM_enzyme_GLC_Dt_fwd_cplx_HOMOTETRAMER_SLC2A3_pc",
 "name":"enzyme_GLC_Dt_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_SLC2A3_pc":-1.5293869411531773,
+"cplx_HOMOTETRAMER_SLC2A3_pc":-1.5432339960130934,
 "enzyme_GLC_Dt_fwd_pc":1
 },
 "lower_bound":0,
@@ -16458,7 +17202,7 @@
 "id":"ENZFM_enzyme_GLC_Dt_fwd_cplx_HOMOTETRAMER_SLC2A4_pc",
 "name":"enzyme_GLC_Dt_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_SLC2A4_pc":-1.5476868413586686,
+"cplx_HOMOTETRAMER_SLC2A4_pc":-1.561699583341482,
 "enzyme_GLC_Dt_fwd_pc":1
 },
 "lower_bound":0,
@@ -16496,7 +17240,7 @@
 "id":"ENZFM_enzyme_GLC_Dt_rev_cplx_HOMOTETRAMER_SLC2A1_pc",
 "name":"enzyme_GLC_Dt_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_SLC2A1_pc":-1.5329069626864504,
+"cplx_HOMOTETRAMER_SLC2A1_pc":-1.5467858877879435,
 "enzyme_GLC_Dt_rev_pc":1
 },
 "lower_bound":0,
@@ -16508,7 +17252,7 @@
 "id":"ENZFM_enzyme_GLC_Dt_rev_cplx_HOMOTETRAMER_SLC2A14_pc",
 "name":"enzyme_GLC_Dt_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_SLC2A14_pc":-1.5801145743149683,
+"cplx_HOMOTETRAMER_SLC2A14_pc":-1.594420916684411,
 "enzyme_GLC_Dt_rev_pc":1
 },
 "lower_bound":0,
@@ -16520,7 +17264,7 @@
 "id":"ENZFM_enzyme_GLC_Dt_rev_cplx_HOMOTETRAMER_SLC2A2_pc",
 "name":"enzyme_GLC_Dt_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_SLC2A2_pc":-1.6046565903861396,
+"cplx_HOMOTETRAMER_SLC2A2_pc":-1.619185135936325,
 "enzyme_GLC_Dt_rev_pc":1
 },
 "lower_bound":0,
@@ -16532,7 +17276,7 @@
 "id":"ENZFM_enzyme_GLC_Dt_rev_cplx_HOMOTETRAMER_SLC2A3_pc",
 "name":"enzyme_GLC_Dt_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_SLC2A3_pc":-1.5293869411531773,
+"cplx_HOMOTETRAMER_SLC2A3_pc":-1.5432339960130934,
 "enzyme_GLC_Dt_rev_pc":1
 },
 "lower_bound":0,
@@ -16544,7 +17288,7 @@
 "id":"ENZFM_enzyme_GLC_Dt_rev_cplx_HOMOTETRAMER_SLC2A4_pc",
 "name":"enzyme_GLC_Dt_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_SLC2A4_pc":-1.5476868413586686,
+"cplx_HOMOTETRAMER_SLC2A4_pc":-1.561699583341482,
 "enzyme_GLC_Dt_rev_pc":1
 },
 "lower_bound":0,
@@ -16571,7 +17315,7 @@
 "id":"ENZFM_enzyme_PUNP5_fwd_cplx_HOMOTRIMER_PNP_pc",
 "name":"enzyme_PUNP5_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_PNP_pc":-0.8356317767047272,
+"cplx_HOMOTRIMER_PNP_pc":-0.8431975788855637,
 "enzyme_PUNP5_fwd_pc":1
 },
 "lower_bound":0,
@@ -16609,7 +17353,7 @@
 "id":"ENZFM_enzyme_PUNP5_rev_cplx_HOMOTRIMER_PNP_pc",
 "name":"enzyme_PUNP5_rev_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_PNP_pc":-0.8356317767047272,
+"cplx_HOMOTRIMER_PNP_pc":-0.8431975788855637,
 "enzyme_PUNP5_rev_pc":1
 },
 "lower_bound":0,
@@ -16633,10 +17377,63 @@
 }
 },
 {
+"id":"ENZFM_enzyme_BILRUBABCte_fwd_cplx_MONOMER_ABCC4_pc",
+"name":"enzyme_BILRUBABCte_fwd_pc concentration",
+"metabolites":{
+"cplx_MONOMER_ABCC4_pc":-1.1724735041559118,
+"enzyme_BILRUBABCte_fwd_pc":1
+},
+"lower_bound":0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"ABCC4",
+"subsystem":"Pseudoreactions, Enzyme concentrations"
+},
+{
+"id":"ENZDL_enzyme_BILRUBABCte_fwd_pc",
+"name":"enzyme_BILRUBABCte_fwd_pc concentration",
+"metabolites":{
+"enzyme_BILRUBABCte_fwd_pc":-1,
+"enzyme_BILRUBABCte_total_pc":1
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"ABCC4",
+"subsystem":"Pseudoreactions, Enzyme concentrations",
+"annotation":{
+"reaction":"BILRUBABCte"
+}
+},
+{
+"id":"ENZDL_enzyme_BILRUBABCte_total_pc",
+"name":"enzyme_BILRUBABCte_total_pc concentration",
+"metabolites":{
+"enzyme_BILRUBABCte_total_pc":-1
+},
+"lower_bound":0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"ABCC4",
+"subsystem":"Pseudoreactions, Enzyme concentrations"
+},
+{
+"id":"ENZDL_enzyme_BILRUBABCte_rev_pc",
+"name":"enzyme_BILRUBABCte_rev_pc concentration",
+"metabolites":{
+"enzyme_BILRUBABCte_rev_pc":-1,
+"enzyme_BILRUBABCte_total_pc":1
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"ABCC4",
+"subsystem":"Pseudoreactions, Enzyme concentrations",
+"annotation":{
+"reaction":"BILRUBABCte"
+}
+},
+{
 "id":"ENZFM_enzyme_ADA_fwd_cplx_MONOMER_ADA_pc",
 "name":"enzyme_ADA_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_ADA_pc":-0.43829330119831816,
+"cplx_MONOMER_ADA_pc":-0.44226160459042824,
 "enzyme_ADA_fwd_pc":1
 },
 "lower_bound":0,
@@ -16689,7 +17486,7 @@
 "id":"ENZFM_enzyme_ADNK1_fwd_cplx_MONOMER_ADK_pc",
 "name":"enzyme_ADNK1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_ADK_pc":-0.4365744506504929,
+"cplx_MONOMER_ADK_pc":-0.44052719158604514,
 "enzyme_ADNK1_fwd_pc":1
 },
 "lower_bound":0,
@@ -16742,7 +17539,7 @@
 "id":"ENZFM_enzyme_ADK1_fwd_cplx_MONOMER_AK1_pc",
 "name":"enzyme_ADK1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_AK1_pc":-0.27261211888325065,
+"cplx_MONOMER_AK1_pc":-0.2750803464220631,
 "enzyme_ADK1_fwd_pc":1
 },
 "lower_bound":0,
@@ -16780,7 +17577,7 @@
 "id":"ENZFM_enzyme_ADK1_rev_cplx_MONOMER_AK1_pc",
 "name":"enzyme_ADK1_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_AK1_pc":-0.27261211888325065,
+"cplx_MONOMER_AK1_pc":-0.2750803464220631,
 "enzyme_ADK1_rev_pc":1
 },
 "lower_bound":0,
@@ -16807,7 +17604,7 @@
 "id":"ENZFM_enzyme_CAATPS1_fwd_cplx_MONOMER_ATP2B1_pc",
 "name":"enzyme_CAATPS1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_ATP2B1_pc":-1.07417321358464,
+"cplx_MONOMER_ATP2B1_pc":-1.08389876767257,
 "enzyme_CAATPS1_fwd_pc":1
 },
 "lower_bound":0,
@@ -16819,7 +17616,7 @@
 "id":"ENZFM_enzyme_CAATPS1_fwd_cplx_MONOMER_ATP2B4_pc",
 "name":"enzyme_CAATPS1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_ATP2B4_pc":-1.0935373378234072,
+"cplx_MONOMER_ATP2B4_pc":-1.1034382145085377,
 "enzyme_CAATPS1_fwd_pc":1
 },
 "lower_bound":0,
@@ -16869,10 +17666,75 @@
 }
 },
 {
+"id":"ENZFM_enzyme_BILIREDy_fwd_cplx_MONOMER_BLVRA_pc",
+"name":"enzyme_BILIREDy_fwd_pc concentration",
+"metabolites":{
+"cplx_MONOMER_BLVRA_pc":-0.3811508478214247,
+"enzyme_BILIREDy_fwd_pc":1
+},
+"lower_bound":0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BLVRA",
+"subsystem":"Pseudoreactions, Enzyme concentrations"
+},
+{
+"id":"ENZFM_enzyme_BILIREDy_fwd_cplx_MONOMER_BLVRB_pc",
+"name":"enzyme_BILIREDy_fwd_pc concentration",
+"metabolites":{
+"cplx_MONOMER_BLVRB_pc":-0.27965843773188803,
+"enzyme_BILIREDy_fwd_pc":1
+},
+"lower_bound":0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BLVRB",
+"subsystem":"Pseudoreactions, Enzyme concentrations"
+},
+{
+"id":"ENZDL_enzyme_BILIREDy_fwd_pc",
+"name":"enzyme_BILIREDy_fwd_pc concentration",
+"metabolites":{
+"enzyme_BILIREDy_fwd_pc":-1,
+"enzyme_BILIREDy_total_pc":1
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"BLVRB or BLVRA",
+"subsystem":"Pseudoreactions, Enzyme concentrations",
+"annotation":{
+"reaction":"BILIREDy"
+}
+},
+{
+"id":"ENZDL_enzyme_BILIREDy_total_pc",
+"name":"enzyme_BILIREDy_total_pc concentration",
+"metabolites":{
+"enzyme_BILIREDy_total_pc":-1
+},
+"lower_bound":0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"BLVRB or BLVRA",
+"subsystem":"Pseudoreactions, Enzyme concentrations"
+},
+{
+"id":"ENZDL_enzyme_BILIREDy_rev_pc",
+"name":"enzyme_BILIREDy_rev_pc concentration",
+"metabolites":{
+"enzyme_BILIREDy_rev_pc":-1,
+"enzyme_BILIREDy_total_pc":1
+},
+"lower_bound":0,
+"upper_bound":1000000.0,
+"gene_reaction_rule":"BLVRB or BLVRA",
+"subsystem":"Pseudoreactions, Enzyme concentrations",
+"annotation":{
+"reaction":"BILIREDy"
+}
+},
+{
 "id":"ENZFM_enzyme_CA2t_fwd_cplx_MONOMER_CACNA1A_pc",
 "name":"enzyme_CA2t_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_CACNA1A_pc":-1.8728755200725589,
+"cplx_MONOMER_CACNA1A_pc":-1.8898325172682353,
 "enzyme_CA2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -16884,7 +17746,7 @@
 "id":"ENZFM_enzyme_CA2t_fwd_cplx_HOMOTETRAMER_GRIA1_pc",
 "name":"enzyme_CA2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_GRIA1_pc":-2.457845772200268,
+"cplx_HOMOTETRAMER_GRIA1_pc":-2.48009908451063,
 "enzyme_CA2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -16896,7 +17758,7 @@
 "id":"ENZFM_enzyme_CA2t_fwd_cplx_HOMOTRIMER_P2RX1_pc",
 "name":"enzyme_CA2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_P2RX1_pc":-1.0759482010041717,
+"cplx_HOMOTRIMER_P2RX1_pc":-1.0856898258113632,
 "enzyme_CA2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -16908,7 +17770,7 @@
 "id":"ENZFM_enzyme_CA2t_fwd_cplx_HOMOTRIMER_P2RX2_pc",
 "name":"enzyme_CA2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_P2RX2_pc":-1.1952700171186783,
+"cplx_HOMOTRIMER_P2RX2_pc":-1.2060919805172774,
 "enzyme_CA2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -16920,7 +17782,7 @@
 "id":"ENZFM_enzyme_CA2t_fwd_cplx_HOMOTRIMER_P2RX7_pc",
 "name":"enzyme_CA2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_P2RX7_pc":-1.4764014020458383,
+"cplx_HOMOTRIMER_P2RX7_pc":-1.489768726337211,
 "enzyme_CA2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -16932,7 +17794,7 @@
 "id":"ENZFM_enzyme_CA2t_fwd_cplx_HOMOHEPTAMER_PANX1_pc",
 "name":"enzyme_CA2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOHEPTAMER_PANX1_pc":-2.1340339668020745,
+"cplx_HOMOHEPTAMER_PANX1_pc":-2.1533554900975145,
 "enzyme_CA2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -16944,7 +17806,7 @@
 "id":"ENZFM_enzyme_CA2t_fwd_cplx_HOMOTRIMER_PIEZO1_pc",
 "name":"enzyme_CA2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTRIMER_PIEZO1_pc":-4.316657657033639,
+"cplx_HOMOTRIMER_PIEZO1_pc":-4.355740634519606,
 "enzyme_CA2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -16956,7 +17818,7 @@
 "id":"ENZFM_enzyme_CA2t_fwd_cplx_MONOMER_TMEM109_pc",
 "name":"enzyme_CA2t_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_TMEM109_pc":-0.31484489215584915,
+"cplx_MONOMER_TMEM109_pc":-0.31769549482331993,
 "enzyme_CA2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -16968,7 +17830,7 @@
 "id":"ENZFM_enzyme_CA2t_fwd_cplx_HOMODIMER_TRPC6_pc",
 "name":"enzyme_CA2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_TRPC6_pc":-1.5130833485930297,
+"cplx_HOMODIMER_TRPC6_pc":-1.5267827908805358,
 "enzyme_CA2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -16980,7 +17842,7 @@
 "id":"ENZFM_enzyme_CA2t_fwd_cplx_HOMOTETRAMER_TRPV2_pc",
 "name":"enzyme_CA2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMOTETRAMER_TRPV2_pc":-2.1698038896562686,
+"cplx_HOMOTETRAMER_TRPV2_pc":-2.189449273493975,
 "enzyme_CA2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -16992,7 +17854,7 @@
 "id":"ENZFM_enzyme_CA2t_fwd_cplx_HOMODIMER_VDAC1_pc",
 "name":"enzyme_CA2t_fwd_pc concentration",
 "metabolites":{
-"cplx_HOMODIMER_VDAC1_pc":-0.5971201328912316,
+"cplx_HOMODIMER_VDAC1_pc":-0.6025264529111154,
 "enzyme_CA2t_fwd_pc":1
 },
 "lower_bound":0,
@@ -17045,7 +17907,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_fwd_cplx_MONOMER_HBA_pc",
 "name":"enzyme_HB23DPGB_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBA_pc":-0.20979287321945925,
+"cplx_MONOMER_HBA_pc":-0.21169233590383318,
 "enzyme_HB23DPGB_fwd_pc":1
 },
 "lower_bound":0,
@@ -17057,7 +17919,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_fwd_cplx_MONOMER_HBB_pc",
 "name":"enzyme_HB23DPGB_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBB_pc":-0.21735570558803502,
+"cplx_MONOMER_HBB_pc":-0.2193236420849453,
 "enzyme_HB23DPGB_fwd_pc":1
 },
 "lower_bound":0,
@@ -17069,7 +17931,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_fwd_cplx_MONOMER_HBD_pc",
 "name":"enzyme_HB23DPGB_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBD_pc":-0.21795759341649876,
+"cplx_MONOMER_HBD_pc":-0.21993097940009934,
 "enzyme_HB23DPGB_fwd_pc":1
 },
 "lower_bound":0,
@@ -17081,7 +17943,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_fwd_cplx_MONOMER_HBE1_pc",
 "name":"enzyme_HB23DPGB_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBE1_pc":-0.21946614376027931,
+"cplx_MONOMER_HBE1_pc":-0.2214531881443849,
 "enzyme_HB23DPGB_fwd_pc":1
 },
 "lower_bound":0,
@@ -17093,7 +17955,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_fwd_cplx_MONOMER_HBG1_pc",
 "name":"enzyme_HB23DPGB_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG1_pc":-0.218679205667752,
+"cplx_MONOMER_HBG1_pc":-0.22065912512183142,
 "enzyme_HB23DPGB_fwd_pc":1
 },
 "lower_bound":0,
@@ -17105,7 +17967,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_fwd_cplx_MONOMER_HBG2_pc",
 "name":"enzyme_HB23DPGB_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG2_pc":-0.2186591507043399,
+"cplx_MONOMER_HBG2_pc":-0.22063888858097083,
 "enzyme_HB23DPGB_fwd_pc":1
 },
 "lower_bound":0,
@@ -17117,7 +17979,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_fwd_cplx_MONOMER_HBM_pc",
 "name":"enzyme_HB23DPGB_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBM_pc":-0.21344804360900038,
+"cplx_MONOMER_HBM_pc":-0.2153806001714142,
 "enzyme_HB23DPGB_fwd_pc":1
 },
 "lower_bound":0,
@@ -17129,7 +17991,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_fwd_cplx_MONOMER_HBQ1_pc",
 "name":"enzyme_HB23DPGB_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBQ1_pc":-0.21234713659217544,
+"cplx_MONOMER_HBQ1_pc":-0.21426972555290033,
 "enzyme_HB23DPGB_fwd_pc":1
 },
 "lower_bound":0,
@@ -17141,7 +18003,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_fwd_cplx_MONOMER_HBZ_pc",
 "name":"enzyme_HB23DPGB_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBZ_pc":-0.21368328642610632,
+"cplx_MONOMER_HBZ_pc":-0.2156179728747551,
 "enzyme_HB23DPGB_fwd_pc":1
 },
 "lower_bound":0,
@@ -17179,7 +18041,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_rev_cplx_MONOMER_HBA_pc",
 "name":"enzyme_HB23DPGB_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBA_pc":-0.20979287321945925,
+"cplx_MONOMER_HBA_pc":-0.21169233590383318,
 "enzyme_HB23DPGB_rev_pc":1
 },
 "lower_bound":0,
@@ -17191,7 +18053,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_rev_cplx_MONOMER_HBB_pc",
 "name":"enzyme_HB23DPGB_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBB_pc":-0.21735570558803502,
+"cplx_MONOMER_HBB_pc":-0.2193236420849453,
 "enzyme_HB23DPGB_rev_pc":1
 },
 "lower_bound":0,
@@ -17203,7 +18065,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_rev_cplx_MONOMER_HBD_pc",
 "name":"enzyme_HB23DPGB_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBD_pc":-0.21795759341649876,
+"cplx_MONOMER_HBD_pc":-0.21993097940009934,
 "enzyme_HB23DPGB_rev_pc":1
 },
 "lower_bound":0,
@@ -17215,7 +18077,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_rev_cplx_MONOMER_HBE1_pc",
 "name":"enzyme_HB23DPGB_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBE1_pc":-0.21946614376027931,
+"cplx_MONOMER_HBE1_pc":-0.2214531881443849,
 "enzyme_HB23DPGB_rev_pc":1
 },
 "lower_bound":0,
@@ -17227,7 +18089,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_rev_cplx_MONOMER_HBG1_pc",
 "name":"enzyme_HB23DPGB_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG1_pc":-0.218679205667752,
+"cplx_MONOMER_HBG1_pc":-0.22065912512183142,
 "enzyme_HB23DPGB_rev_pc":1
 },
 "lower_bound":0,
@@ -17239,7 +18101,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_rev_cplx_MONOMER_HBG2_pc",
 "name":"enzyme_HB23DPGB_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG2_pc":-0.2186591507043399,
+"cplx_MONOMER_HBG2_pc":-0.22063888858097083,
 "enzyme_HB23DPGB_rev_pc":1
 },
 "lower_bound":0,
@@ -17251,7 +18113,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_rev_cplx_MONOMER_HBM_pc",
 "name":"enzyme_HB23DPGB_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBM_pc":-0.21344804360900038,
+"cplx_MONOMER_HBM_pc":-0.2153806001714142,
 "enzyme_HB23DPGB_rev_pc":1
 },
 "lower_bound":0,
@@ -17263,7 +18125,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_rev_cplx_MONOMER_HBQ1_pc",
 "name":"enzyme_HB23DPGB_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBQ1_pc":-0.21234713659217544,
+"cplx_MONOMER_HBQ1_pc":-0.21426972555290033,
 "enzyme_HB23DPGB_rev_pc":1
 },
 "lower_bound":0,
@@ -17275,7 +18137,7 @@
 "id":"ENZFM_enzyme_HB23DPGB_rev_cplx_MONOMER_HBZ_pc",
 "name":"enzyme_HB23DPGB_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBZ_pc":-0.21368328642610632,
+"cplx_MONOMER_HBZ_pc":-0.2156179728747551,
 "enzyme_HB23DPGB_rev_pc":1
 },
 "lower_bound":0,
@@ -17302,7 +18164,7 @@
 "id":"ENZFM_enzyme_HBO2B1_fwd_cplx_MONOMER_HBA_pc",
 "name":"enzyme_HBO2B1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBA_pc":-0.20979287321945925,
+"cplx_MONOMER_HBA_pc":-0.21169233590383318,
 "enzyme_HBO2B1_fwd_pc":1
 },
 "lower_bound":0,
@@ -17314,7 +18176,7 @@
 "id":"ENZFM_enzyme_HBO2B1_fwd_cplx_MONOMER_HBB_pc",
 "name":"enzyme_HBO2B1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBB_pc":-0.21735570558803502,
+"cplx_MONOMER_HBB_pc":-0.2193236420849453,
 "enzyme_HBO2B1_fwd_pc":1
 },
 "lower_bound":0,
@@ -17326,7 +18188,7 @@
 "id":"ENZFM_enzyme_HBO2B1_fwd_cplx_MONOMER_HBD_pc",
 "name":"enzyme_HBO2B1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBD_pc":-0.21795759341649876,
+"cplx_MONOMER_HBD_pc":-0.21993097940009934,
 "enzyme_HBO2B1_fwd_pc":1
 },
 "lower_bound":0,
@@ -17338,7 +18200,7 @@
 "id":"ENZFM_enzyme_HBO2B1_fwd_cplx_MONOMER_HBE1_pc",
 "name":"enzyme_HBO2B1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBE1_pc":-0.21946614376027931,
+"cplx_MONOMER_HBE1_pc":-0.2214531881443849,
 "enzyme_HBO2B1_fwd_pc":1
 },
 "lower_bound":0,
@@ -17350,7 +18212,7 @@
 "id":"ENZFM_enzyme_HBO2B1_fwd_cplx_MONOMER_HBG1_pc",
 "name":"enzyme_HBO2B1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG1_pc":-0.218679205667752,
+"cplx_MONOMER_HBG1_pc":-0.22065912512183142,
 "enzyme_HBO2B1_fwd_pc":1
 },
 "lower_bound":0,
@@ -17362,7 +18224,7 @@
 "id":"ENZFM_enzyme_HBO2B1_fwd_cplx_MONOMER_HBG2_pc",
 "name":"enzyme_HBO2B1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG2_pc":-0.2186591507043399,
+"cplx_MONOMER_HBG2_pc":-0.22063888858097083,
 "enzyme_HBO2B1_fwd_pc":1
 },
 "lower_bound":0,
@@ -17374,7 +18236,7 @@
 "id":"ENZFM_enzyme_HBO2B1_fwd_cplx_MONOMER_HBM_pc",
 "name":"enzyme_HBO2B1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBM_pc":-0.21344804360900038,
+"cplx_MONOMER_HBM_pc":-0.2153806001714142,
 "enzyme_HBO2B1_fwd_pc":1
 },
 "lower_bound":0,
@@ -17386,7 +18248,7 @@
 "id":"ENZFM_enzyme_HBO2B1_fwd_cplx_MONOMER_HBQ1_pc",
 "name":"enzyme_HBO2B1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBQ1_pc":-0.21234713659217544,
+"cplx_MONOMER_HBQ1_pc":-0.21426972555290033,
 "enzyme_HBO2B1_fwd_pc":1
 },
 "lower_bound":0,
@@ -17398,7 +18260,7 @@
 "id":"ENZFM_enzyme_HBO2B1_fwd_cplx_MONOMER_HBZ_pc",
 "name":"enzyme_HBO2B1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBZ_pc":-0.21368328642610632,
+"cplx_MONOMER_HBZ_pc":-0.2156179728747551,
 "enzyme_HBO2B1_fwd_pc":1
 },
 "lower_bound":0,
@@ -17436,7 +18298,7 @@
 "id":"ENZFM_enzyme_HBO2B1_rev_cplx_MONOMER_HBA_pc",
 "name":"enzyme_HBO2B1_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBA_pc":-0.20979287321945925,
+"cplx_MONOMER_HBA_pc":-0.21169233590383318,
 "enzyme_HBO2B1_rev_pc":1
 },
 "lower_bound":0,
@@ -17448,7 +18310,7 @@
 "id":"ENZFM_enzyme_HBO2B1_rev_cplx_MONOMER_HBB_pc",
 "name":"enzyme_HBO2B1_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBB_pc":-0.21735570558803502,
+"cplx_MONOMER_HBB_pc":-0.2193236420849453,
 "enzyme_HBO2B1_rev_pc":1
 },
 "lower_bound":0,
@@ -17460,7 +18322,7 @@
 "id":"ENZFM_enzyme_HBO2B1_rev_cplx_MONOMER_HBD_pc",
 "name":"enzyme_HBO2B1_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBD_pc":-0.21795759341649876,
+"cplx_MONOMER_HBD_pc":-0.21993097940009934,
 "enzyme_HBO2B1_rev_pc":1
 },
 "lower_bound":0,
@@ -17472,7 +18334,7 @@
 "id":"ENZFM_enzyme_HBO2B1_rev_cplx_MONOMER_HBE1_pc",
 "name":"enzyme_HBO2B1_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBE1_pc":-0.21946614376027931,
+"cplx_MONOMER_HBE1_pc":-0.2214531881443849,
 "enzyme_HBO2B1_rev_pc":1
 },
 "lower_bound":0,
@@ -17484,7 +18346,7 @@
 "id":"ENZFM_enzyme_HBO2B1_rev_cplx_MONOMER_HBG1_pc",
 "name":"enzyme_HBO2B1_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG1_pc":-0.218679205667752,
+"cplx_MONOMER_HBG1_pc":-0.22065912512183142,
 "enzyme_HBO2B1_rev_pc":1
 },
 "lower_bound":0,
@@ -17496,7 +18358,7 @@
 "id":"ENZFM_enzyme_HBO2B1_rev_cplx_MONOMER_HBG2_pc",
 "name":"enzyme_HBO2B1_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG2_pc":-0.2186591507043399,
+"cplx_MONOMER_HBG2_pc":-0.22063888858097083,
 "enzyme_HBO2B1_rev_pc":1
 },
 "lower_bound":0,
@@ -17508,7 +18370,7 @@
 "id":"ENZFM_enzyme_HBO2B1_rev_cplx_MONOMER_HBM_pc",
 "name":"enzyme_HBO2B1_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBM_pc":-0.21344804360900038,
+"cplx_MONOMER_HBM_pc":-0.2153806001714142,
 "enzyme_HBO2B1_rev_pc":1
 },
 "lower_bound":0,
@@ -17520,7 +18382,7 @@
 "id":"ENZFM_enzyme_HBO2B1_rev_cplx_MONOMER_HBQ1_pc",
 "name":"enzyme_HBO2B1_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBQ1_pc":-0.21234713659217544,
+"cplx_MONOMER_HBQ1_pc":-0.21426972555290033,
 "enzyme_HBO2B1_rev_pc":1
 },
 "lower_bound":0,
@@ -17532,7 +18394,7 @@
 "id":"ENZFM_enzyme_HBO2B1_rev_cplx_MONOMER_HBZ_pc",
 "name":"enzyme_HBO2B1_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBZ_pc":-0.21368328642610632,
+"cplx_MONOMER_HBZ_pc":-0.2156179728747551,
 "enzyme_HBO2B1_rev_pc":1
 },
 "lower_bound":0,
@@ -17559,7 +18421,7 @@
 "id":"ENZFM_enzyme_HBO2B2_fwd_cplx_MONOMER_HBA_pc",
 "name":"enzyme_HBO2B2_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBA_pc":-0.20979287321945925,
+"cplx_MONOMER_HBA_pc":-0.21169233590383318,
 "enzyme_HBO2B2_fwd_pc":1
 },
 "lower_bound":0,
@@ -17571,7 +18433,7 @@
 "id":"ENZFM_enzyme_HBO2B2_fwd_cplx_MONOMER_HBB_pc",
 "name":"enzyme_HBO2B2_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBB_pc":-0.21735570558803502,
+"cplx_MONOMER_HBB_pc":-0.2193236420849453,
 "enzyme_HBO2B2_fwd_pc":1
 },
 "lower_bound":0,
@@ -17583,7 +18445,7 @@
 "id":"ENZFM_enzyme_HBO2B2_fwd_cplx_MONOMER_HBD_pc",
 "name":"enzyme_HBO2B2_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBD_pc":-0.21795759341649876,
+"cplx_MONOMER_HBD_pc":-0.21993097940009934,
 "enzyme_HBO2B2_fwd_pc":1
 },
 "lower_bound":0,
@@ -17595,7 +18457,7 @@
 "id":"ENZFM_enzyme_HBO2B2_fwd_cplx_MONOMER_HBE1_pc",
 "name":"enzyme_HBO2B2_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBE1_pc":-0.21946614376027931,
+"cplx_MONOMER_HBE1_pc":-0.2214531881443849,
 "enzyme_HBO2B2_fwd_pc":1
 },
 "lower_bound":0,
@@ -17607,7 +18469,7 @@
 "id":"ENZFM_enzyme_HBO2B2_fwd_cplx_MONOMER_HBG1_pc",
 "name":"enzyme_HBO2B2_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG1_pc":-0.218679205667752,
+"cplx_MONOMER_HBG1_pc":-0.22065912512183142,
 "enzyme_HBO2B2_fwd_pc":1
 },
 "lower_bound":0,
@@ -17619,7 +18481,7 @@
 "id":"ENZFM_enzyme_HBO2B2_fwd_cplx_MONOMER_HBG2_pc",
 "name":"enzyme_HBO2B2_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG2_pc":-0.2186591507043399,
+"cplx_MONOMER_HBG2_pc":-0.22063888858097083,
 "enzyme_HBO2B2_fwd_pc":1
 },
 "lower_bound":0,
@@ -17631,7 +18493,7 @@
 "id":"ENZFM_enzyme_HBO2B2_fwd_cplx_MONOMER_HBM_pc",
 "name":"enzyme_HBO2B2_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBM_pc":-0.21344804360900038,
+"cplx_MONOMER_HBM_pc":-0.2153806001714142,
 "enzyme_HBO2B2_fwd_pc":1
 },
 "lower_bound":0,
@@ -17643,7 +18505,7 @@
 "id":"ENZFM_enzyme_HBO2B2_fwd_cplx_MONOMER_HBQ1_pc",
 "name":"enzyme_HBO2B2_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBQ1_pc":-0.21234713659217544,
+"cplx_MONOMER_HBQ1_pc":-0.21426972555290033,
 "enzyme_HBO2B2_fwd_pc":1
 },
 "lower_bound":0,
@@ -17655,7 +18517,7 @@
 "id":"ENZFM_enzyme_HBO2B2_fwd_cplx_MONOMER_HBZ_pc",
 "name":"enzyme_HBO2B2_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBZ_pc":-0.21368328642610632,
+"cplx_MONOMER_HBZ_pc":-0.2156179728747551,
 "enzyme_HBO2B2_fwd_pc":1
 },
 "lower_bound":0,
@@ -17693,7 +18555,7 @@
 "id":"ENZFM_enzyme_HBO2B2_rev_cplx_MONOMER_HBA_pc",
 "name":"enzyme_HBO2B2_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBA_pc":-0.20979287321945925,
+"cplx_MONOMER_HBA_pc":-0.21169233590383318,
 "enzyme_HBO2B2_rev_pc":1
 },
 "lower_bound":0,
@@ -17705,7 +18567,7 @@
 "id":"ENZFM_enzyme_HBO2B2_rev_cplx_MONOMER_HBB_pc",
 "name":"enzyme_HBO2B2_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBB_pc":-0.21735570558803502,
+"cplx_MONOMER_HBB_pc":-0.2193236420849453,
 "enzyme_HBO2B2_rev_pc":1
 },
 "lower_bound":0,
@@ -17717,7 +18579,7 @@
 "id":"ENZFM_enzyme_HBO2B2_rev_cplx_MONOMER_HBD_pc",
 "name":"enzyme_HBO2B2_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBD_pc":-0.21795759341649876,
+"cplx_MONOMER_HBD_pc":-0.21993097940009934,
 "enzyme_HBO2B2_rev_pc":1
 },
 "lower_bound":0,
@@ -17729,7 +18591,7 @@
 "id":"ENZFM_enzyme_HBO2B2_rev_cplx_MONOMER_HBE1_pc",
 "name":"enzyme_HBO2B2_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBE1_pc":-0.21946614376027931,
+"cplx_MONOMER_HBE1_pc":-0.2214531881443849,
 "enzyme_HBO2B2_rev_pc":1
 },
 "lower_bound":0,
@@ -17741,7 +18603,7 @@
 "id":"ENZFM_enzyme_HBO2B2_rev_cplx_MONOMER_HBG1_pc",
 "name":"enzyme_HBO2B2_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG1_pc":-0.218679205667752,
+"cplx_MONOMER_HBG1_pc":-0.22065912512183142,
 "enzyme_HBO2B2_rev_pc":1
 },
 "lower_bound":0,
@@ -17753,7 +18615,7 @@
 "id":"ENZFM_enzyme_HBO2B2_rev_cplx_MONOMER_HBG2_pc",
 "name":"enzyme_HBO2B2_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG2_pc":-0.2186591507043399,
+"cplx_MONOMER_HBG2_pc":-0.22063888858097083,
 "enzyme_HBO2B2_rev_pc":1
 },
 "lower_bound":0,
@@ -17765,7 +18627,7 @@
 "id":"ENZFM_enzyme_HBO2B2_rev_cplx_MONOMER_HBM_pc",
 "name":"enzyme_HBO2B2_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBM_pc":-0.21344804360900038,
+"cplx_MONOMER_HBM_pc":-0.2153806001714142,
 "enzyme_HBO2B2_rev_pc":1
 },
 "lower_bound":0,
@@ -17777,7 +18639,7 @@
 "id":"ENZFM_enzyme_HBO2B2_rev_cplx_MONOMER_HBQ1_pc",
 "name":"enzyme_HBO2B2_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBQ1_pc":-0.21234713659217544,
+"cplx_MONOMER_HBQ1_pc":-0.21426972555290033,
 "enzyme_HBO2B2_rev_pc":1
 },
 "lower_bound":0,
@@ -17789,7 +18651,7 @@
 "id":"ENZFM_enzyme_HBO2B2_rev_cplx_MONOMER_HBZ_pc",
 "name":"enzyme_HBO2B2_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBZ_pc":-0.21368328642610632,
+"cplx_MONOMER_HBZ_pc":-0.2156179728747551,
 "enzyme_HBO2B2_rev_pc":1
 },
 "lower_bound":0,
@@ -17816,7 +18678,7 @@
 "id":"ENZFM_enzyme_OXYHBAOX_fwd_cplx_MONOMER_HBA_pc",
 "name":"enzyme_OXYHBAOX_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBA_pc":-0.20979287321945925,
+"cplx_MONOMER_HBA_pc":-0.21169233590383318,
 "enzyme_OXYHBAOX_fwd_pc":1
 },
 "lower_bound":0,
@@ -17828,7 +18690,7 @@
 "id":"ENZFM_enzyme_OXYHBAOX_fwd_cplx_MONOMER_HBB_pc",
 "name":"enzyme_OXYHBAOX_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBB_pc":-0.21735570558803502,
+"cplx_MONOMER_HBB_pc":-0.2193236420849453,
 "enzyme_OXYHBAOX_fwd_pc":1
 },
 "lower_bound":0,
@@ -17840,7 +18702,7 @@
 "id":"ENZFM_enzyme_OXYHBAOX_fwd_cplx_MONOMER_HBD_pc",
 "name":"enzyme_OXYHBAOX_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBD_pc":-0.21795759341649876,
+"cplx_MONOMER_HBD_pc":-0.21993097940009934,
 "enzyme_OXYHBAOX_fwd_pc":1
 },
 "lower_bound":0,
@@ -17852,7 +18714,7 @@
 "id":"ENZFM_enzyme_OXYHBAOX_fwd_cplx_MONOMER_HBE1_pc",
 "name":"enzyme_OXYHBAOX_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBE1_pc":-0.21946614376027931,
+"cplx_MONOMER_HBE1_pc":-0.2214531881443849,
 "enzyme_OXYHBAOX_fwd_pc":1
 },
 "lower_bound":0,
@@ -17864,7 +18726,7 @@
 "id":"ENZFM_enzyme_OXYHBAOX_fwd_cplx_MONOMER_HBG1_pc",
 "name":"enzyme_OXYHBAOX_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG1_pc":-0.218679205667752,
+"cplx_MONOMER_HBG1_pc":-0.22065912512183142,
 "enzyme_OXYHBAOX_fwd_pc":1
 },
 "lower_bound":0,
@@ -17876,7 +18738,7 @@
 "id":"ENZFM_enzyme_OXYHBAOX_fwd_cplx_MONOMER_HBG2_pc",
 "name":"enzyme_OXYHBAOX_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBG2_pc":-0.2186591507043399,
+"cplx_MONOMER_HBG2_pc":-0.22063888858097083,
 "enzyme_OXYHBAOX_fwd_pc":1
 },
 "lower_bound":0,
@@ -17888,7 +18750,7 @@
 "id":"ENZFM_enzyme_OXYHBAOX_fwd_cplx_MONOMER_HBM_pc",
 "name":"enzyme_OXYHBAOX_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBM_pc":-0.21344804360900038,
+"cplx_MONOMER_HBM_pc":-0.2153806001714142,
 "enzyme_OXYHBAOX_fwd_pc":1
 },
 "lower_bound":0,
@@ -17900,7 +18762,7 @@
 "id":"ENZFM_enzyme_OXYHBAOX_fwd_cplx_MONOMER_HBQ1_pc",
 "name":"enzyme_OXYHBAOX_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBQ1_pc":-0.21234713659217544,
+"cplx_MONOMER_HBQ1_pc":-0.21426972555290033,
 "enzyme_OXYHBAOX_fwd_pc":1
 },
 "lower_bound":0,
@@ -17912,7 +18774,7 @@
 "id":"ENZFM_enzyme_OXYHBAOX_fwd_cplx_MONOMER_HBZ_pc",
 "name":"enzyme_OXYHBAOX_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HBZ_pc":-0.21368328642610632,
+"cplx_MONOMER_HBZ_pc":-0.2156179728747551,
 "enzyme_OXYHBAOX_fwd_pc":1
 },
 "lower_bound":0,
@@ -17965,7 +18827,7 @@
 "id":"ENZFM_enzyme_HEX1_fwd_cplx_MONOMER_HK1_pc",
 "name":"enzyme_HEX1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HK1_pc":-0.8733641113125556,
+"cplx_MONOMER_HK1_pc":-0.8812715416930635,
 "enzyme_HEX1_fwd_pc":1
 },
 "lower_bound":0,
@@ -17977,7 +18839,7 @@
 "id":"ENZFM_enzyme_HEX1_fwd_cplx_MONOMER_HK3_pc",
 "name":"enzyme_HEX1_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_HK3_pc":-0.8528150483188155,
+"cplx_MONOMER_HK3_pc":-0.8605364276778731,
 "enzyme_HEX1_fwd_pc":1
 },
 "lower_bound":0,
@@ -18030,7 +18892,7 @@
 "id":"ENZFM_enzyme_PGK_fwd_cplx_MONOMER_PGK1_pc",
 "name":"enzyme_PGK_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_PGK1_pc":-0.46909952161730006,
+"cplx_MONOMER_PGK1_pc":-0.47334674423690565,
 "enzyme_PGK_fwd_pc":1
 },
 "lower_bound":0,
@@ -18042,7 +18904,7 @@
 "id":"ENZFM_enzyme_PGK_fwd_cplx_MONOMER_PGK2_pc",
 "name":"enzyme_PGK_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_PGK2_pc":-0.4705533237223976,
+"cplx_MONOMER_PGK2_pc":-0.4748137090524743,
 "enzyme_PGK_fwd_pc":1
 },
 "lower_bound":0,
@@ -18080,7 +18942,7 @@
 "id":"ENZFM_enzyme_PGK_rev_cplx_MONOMER_PGK1_pc",
 "name":"enzyme_PGK_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_PGK1_pc":-0.46909952161730006,
+"cplx_MONOMER_PGK1_pc":-0.47334674423690565,
 "enzyme_PGK_rev_pc":1
 },
 "lower_bound":0,
@@ -18092,7 +18954,7 @@
 "id":"ENZFM_enzyme_PGK_rev_cplx_MONOMER_PGK2_pc",
 "name":"enzyme_PGK_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_PGK2_pc":-0.4705533237223976,
+"cplx_MONOMER_PGK2_pc":-0.4748137090524743,
 "enzyme_PGK_rev_pc":1
 },
 "lower_bound":0,
@@ -18119,7 +18981,7 @@
 "id":"ENZFM_enzyme_PGL_fwd_cplx_MONOMER_PGLS_pc",
 "name":"enzyme_PGL_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_PGLS_pc":-0.3266845128571824,
+"cplx_MONOMER_PGLS_pc":-0.3296423113381918,
 "enzyme_PGL_fwd_pc":1
 },
 "lower_bound":0,
@@ -18157,7 +19019,7 @@
 "id":"ENZFM_enzyme_PGL_rev_cplx_MONOMER_PGLS_pc",
 "name":"enzyme_PGL_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_PGLS_pc":-0.3266845128571824,
+"cplx_MONOMER_PGLS_pc":-0.3296423113381918,
 "enzyme_PGL_rev_pc":1
 },
 "lower_bound":0,
@@ -18184,7 +19046,7 @@
 "id":"ENZFM_enzyme_PPM_fwd_cplx_MONOMER_PGM2_pc",
 "name":"enzyme_PPM_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_PGM2_pc":-0.6454259334990323,
+"cplx_MONOMER_PGM2_pc":-0.6512696137794685,
 "enzyme_PPM_fwd_pc":1
 },
 "lower_bound":0,
@@ -18222,7 +19084,7 @@
 "id":"ENZFM_enzyme_PPM_rev_cplx_MONOMER_PGM2_pc",
 "name":"enzyme_PPM_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_PGM2_pc":-0.6454259334990323,
+"cplx_MONOMER_PGM2_pc":-0.6512696137794685,
 "enzyme_PPM_rev_pc":1
 },
 "lower_bound":0,
@@ -18249,7 +19111,7 @@
 "id":"ENZFM_enzyme_ADNt_fwd_cplx_MONOMER_SLC29A1_pc",
 "name":"enzyme_ADNt_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC29A1_pc":-0.5126498292274692,
+"cplx_MONOMER_SLC29A1_pc":-0.5172913559191296,
 "enzyme_ADNt_fwd_pc":1
 },
 "lower_bound":0,
@@ -18287,7 +19149,7 @@
 "id":"ENZFM_enzyme_ADNt_rev_cplx_MONOMER_SLC29A1_pc",
 "name":"enzyme_ADNt_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC29A1_pc":-0.5126498292274692,
+"cplx_MONOMER_SLC29A1_pc":-0.5172913559191296,
 "enzyme_ADNt_rev_pc":1
 },
 "lower_bound":0,
@@ -18314,7 +19176,7 @@
 "id":"ENZFM_enzyme_INSt_fwd_cplx_MONOMER_SLC29A1_pc",
 "name":"enzyme_INSt_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC29A1_pc":-0.5126498292274692,
+"cplx_MONOMER_SLC29A1_pc":-0.5172913559191296,
 "enzyme_INSt_fwd_pc":1
 },
 "lower_bound":0,
@@ -18352,7 +19214,7 @@
 "id":"ENZFM_enzyme_INSt_rev_cplx_MONOMER_SLC29A1_pc",
 "name":"enzyme_INSt_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC29A1_pc":-0.5126498292274692,
+"cplx_MONOMER_SLC29A1_pc":-0.5172913559191296,
 "enzyme_INSt_rev_pc":1
 },
 "lower_bound":0,
@@ -18379,7 +19241,7 @@
 "id":"ENZFM_enzyme_ADEt_fwd_cplx_MONOMER_SLC29A1_pc",
 "name":"enzyme_ADEt_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC29A1_pc":-0.5126498292274692,
+"cplx_MONOMER_SLC29A1_pc":-0.5172913559191296,
 "enzyme_ADEt_fwd_pc":1
 },
 "lower_bound":0,
@@ -18391,7 +19253,7 @@
 "id":"ENZFM_enzyme_ADEt_fwd_cplx_MONOMER_SLC43A3_pc",
 "name":"enzyme_ADEt_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC43A3_pc":-0.5453131912940169,
+"cplx_MONOMER_SLC43A3_pc":-0.5502504517560362,
 "enzyme_ADEt_fwd_pc":1
 },
 "lower_bound":0,
@@ -18429,7 +19291,7 @@
 "id":"ENZFM_enzyme_ADEt_rev_cplx_MONOMER_SLC29A1_pc",
 "name":"enzyme_ADEt_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC29A1_pc":-0.5126498292274692,
+"cplx_MONOMER_SLC29A1_pc":-0.5172913559191296,
 "enzyme_ADEt_rev_pc":1
 },
 "lower_bound":0,
@@ -18441,7 +19303,7 @@
 "id":"ENZFM_enzyme_ADEt_rev_cplx_MONOMER_SLC43A3_pc",
 "name":"enzyme_ADEt_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC43A3_pc":-0.5453131912940169,
+"cplx_MONOMER_SLC43A3_pc":-0.5502504517560362,
 "enzyme_ADEt_rev_pc":1
 },
 "lower_bound":0,
@@ -18468,7 +19330,7 @@
 "id":"ENZFM_enzyme_HYXNt_fwd_cplx_MONOMER_SLC29A1_pc",
 "name":"enzyme_HYXNt_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC29A1_pc":-0.5126498292274692,
+"cplx_MONOMER_SLC29A1_pc":-0.5172913559191296,
 "enzyme_HYXNt_fwd_pc":1
 },
 "lower_bound":0,
@@ -18480,7 +19342,7 @@
 "id":"ENZFM_enzyme_HYXNt_fwd_cplx_MONOMER_SLC43A3_pc",
 "name":"enzyme_HYXNt_fwd_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC43A3_pc":-0.5453131912940169,
+"cplx_MONOMER_SLC43A3_pc":-0.5502504517560362,
 "enzyme_HYXNt_fwd_pc":1
 },
 "lower_bound":0,
@@ -18518,7 +19380,7 @@
 "id":"ENZFM_enzyme_HYXNt_rev_cplx_MONOMER_SLC29A1_pc",
 "name":"enzyme_HYXNt_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC29A1_pc":-0.5126498292274692,
+"cplx_MONOMER_SLC29A1_pc":-0.5172913559191296,
 "enzyme_HYXNt_rev_pc":1
 },
 "lower_bound":0,
@@ -18530,7 +19392,7 @@
 "id":"ENZFM_enzyme_HYXNt_rev_cplx_MONOMER_SLC43A3_pc",
 "name":"enzyme_HYXNt_rev_pc concentration",
 "metabolites":{
-"cplx_MONOMER_SLC43A3_pc":-0.5453131912940169,
+"cplx_MONOMER_SLC43A3_pc":-0.5502504517560362,
 "enzyme_HYXNt_rev_pc":1
 },
 "lower_bound":0,
@@ -37707,6 +38569,771 @@
 "uniparc":"UPI0000072CF3",
 "uniprot":"Q9BVC6",
 "uniprot.chain":"PRO_0000044618"
+}
+},
+{
+"id":"BLVRB",
+"name":"G_BLVRB",
+"annotation":{
+"bgee.gene":"ENSG00000090013",
+"biogrid":"107114",
+"brenda":[
+"1.3.1.24",
+"1.5.1.30"
+],
+"ccds":"CCDS33029.1",
+"cdd":"cd05244",
+"chembl.target":"CHEMBL5019",
+"chromosome":"19",
+"dbsnp":"rs11547746",
+"drugbank":[
+"DB00140",
+"DB00157",
+"DB02073",
+"DB03247",
+"DB03461",
+"DB04345",
+"DB04363",
+"DB09241"
+],
+"drugcentral":"2834",
+"ec-code":[
+"1.3.1.-",
+"1.5.1.30",
+"2.6.99.-"
+],
+"eggnog":"ENOG502RY9R",
+"ena.embl":[
+"D26308",
+"D32143",
+"AK312137",
+"AY340485",
+"AC010271",
+"CH471126",
+"BC109371"
+],
+"ensembl":"ENSG00000090013",
+"genecards":"BLVRB",
+"genetree":"ENSGT00390000014810",
+"go":[
+"0004074",
+"0005654",
+"0005737",
+"0005829",
+"0005886",
+"0008752",
+"0030219",
+"0035605",
+"0042167",
+"0042602",
+"0043231",
+"0046627",
+"0052873",
+"0052874",
+"0070062"
+],
+"hgnc":"1063",
+"hgnc.symbol":"BLVRB",
+"hogenom":"CLU_025711_2_0_1",
+"hpa":"ENSG00000090013",
+"intact":"P30043",
+"interpro":[
+"IPR016040",
+"IPR036291",
+"IPR051606"
+],
+"kegg.genes":"hsa:645",
+"mgi":"MGI:2385271",
+"mim":"600941",
+"ncbigene":"645",
+"nextprot":"NX_P30043",
+"oma.grp":"DWTIICP",
+"orthodb":"2511224at2759",
+"panther.family":[
+"PTHR43355",
+"PTHR43355:SF10"
+],
+"pdb":[
+"1HDO",
+"1HE2",
+"1HE3",
+"1HE4",
+"1HE5",
+"5OOG",
+"5OOH",
+"6OPL",
+"7ER6",
+"7ER7",
+"7ER8",
+"7ER9",
+"7ERA",
+"7ERB",
+"7ERC",
+"7ERD",
+"7ERE",
+"8ELL",
+"8ELM"
+],
+"pfam":"PF13460",
+"pharmgkb.gene":"PA25374",
+"proteomicsdb.protein":"54623",
+"pubchem.compound":[
+"23666409",
+"493570",
+"6099"
+],
+"reactome":[
+"R-HSA-189483",
+"R-HSA-9707564"
+],
+"references":[
+"pubmed:10858451",
+"pubmed:34598",
+"pubmed:8117274"
+],
+"refseq":"NP_000704.1",
+"rhea":[
+"19377",
+"78395",
+"21620",
+"21624",
+"78379",
+"78383",
+"78387"
+],
+"sbo":"SBO:0000243",
+"smr":"P30043",
+"supfam":"SSF51735",
+"taxonomy":"9606",
+"treefam":"TF324063",
+"uniparc":"UPI0000111B1A",
+"uniprot":"P30043",
+"uniprot.chain":"PRO_0000064948"
+}
+},
+{
+"id":"BLVRA",
+"name":"G_BLVRA",
+"annotation":{
+"bgee.gene":"ENSG00000106605",
+"biocyc":"MetaCyc:HS02928-MONOMER",
+"biogrid":"107113",
+"brenda":"1.3.1.24",
+"ccds":"CCDS5472.1",
+"chromosome":"7",
+"dbsnp":[
+"rs699512",
+"rs17245918",
+"rs1050916"
+],
+"dip":"DIP-42180N",
+"drugbank":"DB00157",
+"ec-code":"1.3.1.24",
+"eggnog":"ENOG502QTSZ",
+"ena.embl":[
+"U34877",
+"X93086",
+"AK291862",
+"AY616754",
+"AC005189",
+"AC004939",
+"AC004985",
+"BC005902",
+"BC008456"
+],
+"ensembl":"ENSG00000106605",
+"genecards":"BLVRA",
+"genetree":"ENSGT00390000011072",
+"go":[
+"0000166",
+"0004074",
+"0005829",
+"0008270",
+"0042167",
+"0070062",
+"0106276",
+"0106277"
+],
+"hgnc":"1062",
+"hgnc.symbol":"BLVRA",
+"hogenom":"CLU_053157_0_0_1",
+"hpa":"ENSG00000106605",
+"intact":"P53004",
+"interpro":[
+"IPR017094",
+"IPR015249",
+"IPR000683",
+"IPR051450",
+"IPR036291"
+],
+"kegg.genes":"hsa:644",
+"mgi":"MGI:88170",
+"mim":[
+"109750",
+"614156"
+],
+"ncbigene":"644",
+"ncbigi":[
+"1034656552",
+"767945692",
+"359465572",
+"33589854"
+],
+"nextprot":"NX_P53004",
+"oma.grp":"HEGHIRQ",
+"orphanet":"276405",
+"orthodb":"2906063at2759",
+"panther.family":[
+"PTHR43377",
+"PTHR43377:SF1"
+],
+"pdb":"2H63",
+"pfam":[
+"PF09166",
+"PF01408"
+],
+"pharmgkb.gene":"PA25373",
+"pirsf":"PIRSF037032",
+"proteomicsdb.protein":"56566",
+"reactome":[
+"R-HSA-189483",
+"R-HSA-9707564"
+],
+"references":"pubmed:10858451",
+"refseq":[
+"NP_000703.2",
+"NP_001240752.1",
+"XP_011513776.1",
+"XP_016868009.1"
+],
+"rhea":[
+"15797",
+"15793"
+],
+"sbo":"SBO:0000243",
+"smpdb":[
+"SMP0000024",
+"SMP0000342",
+"SMP0000344",
+"SMP0000345",
+"SMP0000346"
+],
+"smr":"P53004",
+"supfam":[
+"SSF55347",
+"SSF51735"
+],
+"taxonomy":"9606",
+"treefam":"TF342889",
+"uniparc":"UPI0000126937",
+"uniprot":"P53004",
+"uniprot.chain":"PRO_0000010853",
+"uniprot.isoform":"P53004-1"
+}
+},
+{
+"id":"STEAP3",
+"name":"G_STEAP3",
+"annotation":{
+"bgee.gene":"ENSG00000115107",
+"biogrid":"120533",
+"ccds":[
+"CCDS2125.1",
+"CCDS42738.1"
+],
+"chromosome":"2",
+"dbsnp":"rs17013371",
+"ec-code":"1.16.1.-",
+"eggnog":"ENOG502QRP3",
+"ena.embl":[
+"AY214461",
+"AF423424",
+"AF238864",
+"AF262322",
+"AY029585",
+"AY082673",
+"AK001691",
+"AK291608",
+"AL833624",
+"BX538047",
+"AC016673",
+"AC016736",
+"CH471103",
+"BC042150",
+"BC095421"
+],
+"genecards":"STEAP3",
+"genetree":"ENSGT00390000008042",
+"genewiki":"STEAP3",
+"go":[
+"0005737",
+"0005768",
+"0005771",
+"0005886",
+"0006826",
+"0006915",
+"0008823",
+"0009306",
+"0010008",
+"0015677",
+"0020037",
+"0042802",
+"0046872",
+"0052851",
+"0071949"
+],
+"hgnc":"24592",
+"hgnc.symbol":"STEAP3",
+"hogenom":"CLU_034618_1_1_1",
+"hpa":"ENSG00000115107",
+"intact":"Q658P3",
+"interpro":[
+"IPR013130",
+"IPR036291",
+"IPR028939",
+"IPR051267"
+],
+"kegg.genes":"hsa:55240",
+"mgi":"MGI:1915678",
+"mim":[
+"609671",
+"615234"
+],
+"ncbigene":"55240",
+"nextprot":"NX_Q658P3",
+"oma.grp":"AIFREHY",
+"orphanet":"300298",
+"orthodb":"5361at2759",
+"panther.family":[
+"PTHR14239",
+"PTHR14239:SF8"
+],
+"pdb":[
+"2VNS",
+"2VQ3"
+],
+"pfam":[
+"PF03807",
+"PF01794"
+],
+"pharmgkb.gene":"PA142670863",
+"proteomicsdb.protein":[
+"65924",
+"65925",
+"65926",
+"65927"
+],
+"reactome":[
+"R-HSA-6803204",
+"R-HSA-9013148",
+"R-HSA-9013405",
+"R-HSA-9013406",
+"R-HSA-9013409",
+"R-HSA-9035034",
+"R-HSA-917977"
+],
+"references":[
+"pubmed:16227996",
+"pubmed:26675350"
+],
+"refseq":[
+"NP_001008410.1",
+"NP_060704.2",
+"NP_619543.2",
+"NP_878919.2",
+"XP_006712677.1",
+"XP_006712678.1",
+"XP_011509705.1"
+],
+"rhea":[
+"71767",
+"71771"
+],
+"sbo":"SBO:0000243",
+"smr":"Q658P3",
+"supfam":"SSF51735",
+"taxonomy":"9606",
+"tcdb":"5.B.6.1.1",
+"treefam":"TF332031",
+"uniparc":"UPI000000D8FA",
+"uniprot":"Q658P3",
+"uniprot.chain":"PRO_0000285171",
+"uniprot.isoform":[
+"Q658P3-1",
+"Q658P3-2",
+"Q658P3-3",
+"Q658P3-4"
+]
+}
+},
+{
+"id":"ABCC4",
+"name":"G_ABCC4",
+"annotation":{
+"bgee.gene":"ENSG00000125257",
+"biogrid":"115551",
+"brenda":[
+"7.6.2.2",
+"7.6.2.3"
+],
+"ccds":[
+"CCDS45061.1",
+"CCDS76643.1",
+"CCDS86356.1",
+"CCDS9474.1"
+],
+"cdd":[
+"cd18593",
+"cd18601",
+"cd03250",
+"cd03244"
+],
+"chembl.target":"CHEMBL1743128",
+"chromosome":"13",
+"dbsnp":[
+"rs11568681",
+"rs11568689",
+"rs4148460",
+"rs45454092",
+"rs11568658",
+"rs11568684",
+"rs2274407",
+"rs11568701",
+"rs11568705",
+"rs11568668",
+"rs11568669",
+"rs753414892",
+"rs11568699",
+"rs11568697",
+"rs9282570",
+"rs3765534",
+"rs146708960",
+"rs11568659",
+"rs11568694",
+"rs45477596",
+"rs139970608",
+"rs45504892",
+"rs11568644"
+],
+"drugbank":[
+"DB00143",
+"DB00158",
+"DB00171",
+"DB00198",
+"DB00203",
+"DB00286",
+"DB00300",
+"DB00328",
+"DB00352",
+"DB00398",
+"DB00481",
+"DB00482",
+"DB00495",
+"DB00533",
+"DB00544",
+"DB00563",
+"DB00586",
+"DB00619",
+"DB00661",
+"DB00709",
+"DB00712",
+"DB00718",
+"DB00731",
+"DB00770",
+"DB00814",
+"DB00917",
+"DB00975",
+"DB00999",
+"DB01009",
+"DB01032",
+"DB01033",
+"DB01050",
+"DB01069",
+"DB01076",
+"DB01098",
+"DB01138",
+"DB01268",
+"DB01327",
+"DB01586",
+"DB01708",
+"DB02527",
+"DB02659",
+"DB04348",
+"DB08884",
+"DB09213",
+"DB09299",
+"DB12332",
+"DB13146",
+"DB14126",
+"DB14761"
+],
+"drugcentral":[
+"269",
+"1482",
+"1708",
+"1751",
+"2632",
+"2707"
+],
+"ec-code":[
+"7.6.2.-",
+"7.6.2.2",
+"7.6.2.3"
+],
+"eggnog":"KOG0054",
+"ena.embl":[
+"AF071202",
+"AY081219",
+"AY207008",
+"AF541977",
+"AK296247",
+"AL139381",
+"AL157818",
+"AL356257",
+"AL359750",
+"CH471085",
+"BC041560",
+"U83660"
+],
+"ensembl":"ENSG00000125257",
+"genecards":"ABCC4",
+"genetree":"ENSGT00940000153931",
+"genewiki":"ABCC4",
+"go":[
+"0001409",
+"0002576",
+"0005524",
+"0005730",
+"0005794",
+"0005886",
+"0006805",
+"0006855",
+"0008559",
+"0015132",
+"0015143",
+"0015216",
+"0015431",
+"0015432",
+"0015562",
+"0015721",
+"0015732",
+"0015747",
+"0016020",
+"0016323",
+"0016324",
+"0016404",
+"0016887",
+"0031088",
+"0032310",
+"0034634",
+"0042626",
+"0042910",
+"0043225",
+"0055085",
+"0060271",
+"0070730",
+"0071716",
+"0098591",
+"0140115",
+"0140359",
+"0150104"
+],
+"hgnc":"55",
+"hgnc.symbol":"ABCC4",
+"hogenom":"CLU_000604_27_1_1",
+"hpa":"ENSG00000125257",
+"intact":"O15439",
+"interpro":[
+"IPR003593",
+"IPR011527",
+"IPR036640",
+"IPR003439",
+"IPR017871",
+"IPR050173",
+"IPR030240",
+"IPR047083",
+"IPR027417"
+],
+"iuphar.receptor":"782.0",
+"kegg.genes":"hsa:10257",
+"mgi":"MGI:2443111",
+"mim":"605250",
+"ncbigene":"10257",
+"nextprot":"NX_O15439",
+"oma.grp":"ACAQWFH",
+"orthodb":"3384185at2759",
+"panther.family":[
+"PTHR24223",
+"PTHR24223:SF357"
+],
+"pdb":[
+"8BJF",
+"8BWO",
+"8BWP",
+"8BWQ",
+"8BWR",
+"8I4A",
+"8I4B",
+"8I4C",
+"8IZ7",
+"8IZ8",
+"8IZ9",
+"8IZA",
+"8J3W",
+"8J3Z",
+"8XOK",
+"8XOL",
+"8XOM"
+],
+"pfam":[
+"PF00664",
+"PF00005"
+],
+"pharmgkb.gene":"PA397",
+"prosite":[
+"PS50929",
+"PS00211",
+"PS50893"
+],
+"proteomicsdb.protein":[
+"48664",
+"48665",
+"48666",
+"6540"
+],
+"pubchem.compound":[
+"11954236",
+"121304016",
+"121490161",
+"123596",
+"124886",
+"126941",
+"15787",
+"160352",
+"216239",
+"221493",
+"23667301",
+"23667642",
+"23675322",
+"23684814",
+"2520",
+"2662",
+"2723601",
+"3033",
+"3108",
+"31401",
+"33255",
+"3385",
+"3394",
+"35370",
+"3639",
+"3672",
+"3715",
+"3825",
+"39912",
+"406563",
+"446157",
+"46215462",
+"464205",
+"468908",
+"4911",
+"4927",
+"5018304",
+"5035",
+"5090",
+"5212",
+"5280360",
+"5280723",
+"5282455",
+"5291",
+"53240376",
+"5329102",
+"5342",
+"54677470",
+"54900",
+"5881",
+"5957",
+"60026",
+"6014",
+"6037",
+"60822",
+"60823",
+"60825",
+"62853",
+"62969",
+"6398764",
+"6456015",
+"65028",
+"667490",
+"71492247",
+"78000",
+"9574768",
+"9931953",
+"9931954"
+],
+"reactome":[
+"R-HSA-114608",
+"R-HSA-382556",
+"R-HSA-9748787",
+"R-HSA-9753281"
+],
+"references":[
+"pubmed:15794947",
+"pubmed:32996603"
+],
+"refseq":[
+"NP_001098985.1",
+"NP_001288758.1",
+"NP_001288759.1",
+"NP_005836.2"
+],
+"rhea":[
+"19121",
+"60128",
+"61364",
+"38963",
+"66424",
+"16461",
+"66188",
+"66184",
+"66388",
+"66392",
+"66380",
+"66396",
+"66400",
+"66404",
+"66408",
+"66412",
+"66416",
+"66420"
+],
+"sbo":"SBO:0000243",
+"smart":"SM00382",
+"smpdb":[
+"SMP0000427",
+"SMP0000428",
+"SMP0000430",
+"SMP0000609",
+"SMP0000640",
+"SMP0000649"
+],
+"smr":"O15439",
+"supfam":[
+"SSF90123",
+"SSF52540"
+],
+"taxonomy":"9606",
+"tcdb":"3.A.1.208.7",
+"treefam":"TF105202",
+"uniparc":"UPI00001A36E6",
+"uniprot":"O15439",
+"uniprot.chain":"PRO_0000093362",
+"uniprot.isoform":[
+"O15439-1",
+"O15439-2",
+"O15439-3",
+"O15439-4"
+]
 }
 }
 ],
