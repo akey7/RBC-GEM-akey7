@@ -339,3 +339,6 @@ data/external/database/*/
 
 # Copy numbers if they have been added
 Proteomics_CopyNumbers.tsv
+
+# G6PD Data
+RBComics_G6PD/
