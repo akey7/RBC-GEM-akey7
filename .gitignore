@@ -336,3 +336,6 @@ data/external/database/*/
 # For now, ignore intermediate figures
 *.png 
 *.svg
+
+# Copy numbers if they have been added
+Proteomics_CopyNumbers.tsv
