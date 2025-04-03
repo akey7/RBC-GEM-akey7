@@ -139,7 +139,7 @@ class FluxOptimizationViz:
                 format="svg",
             )
         return fig
-    
+
     def iterate_make_optimum_min_max_plots(self, fluxes_to_plot, flux_plots_path):
         flat_list = list(chain(*fluxes_to_plot))
         for flux in flat_list:
@@ -190,7 +190,9 @@ class FluxOptimizationViz:
                     max_y = max_y if max(y_maxs) < max_y else max(y_maxs)
         return min_y, max_y
 
-    def alleles_day_flux_small_multiples(self, day, flux_group, title, flux_plots_path=None, figsize=(15, 8)):
+    def alleles_day_flux_small_multiples(
+        self, day, flux_group, title, flux_plots_path=None, figsize=(15, 8)
+    ):
         flux_alleles_positions = self.make_flux_alleles_positions_for_day(
             day, flux_group
         )
