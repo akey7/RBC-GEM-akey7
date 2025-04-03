@@ -141,6 +141,22 @@ class FluxOptimizationViz:
         return fig
 
     def iterate_make_optimum_min_max_plots(self, fluxes_to_plot, flux_plots_path):
+        """
+        Iterate over nested lists of reaction names and plot the associated
+        flux ranges with make_optimum_min_max_plot().
+
+        Parameters
+        ----------
+        fluxes_to_plot : List[List[str]]
+            The reactions to plot.
+
+        flux_plots_path : Path
+            Path to the folder to hold the resulting plots.
+
+        Returns
+        -------
+        None
+        """
         flat_list = list(chain(*fluxes_to_plot))
         for flux in flat_list:
             if flux:
@@ -153,6 +169,31 @@ class FluxOptimizationViz:
                     print(save_filename, "saved")
 
     def make_flux_alleles_positions_for_day(self, day, fluxes_to_plot):
+        """
+        Used by alleles_day_flux_small_multiples() and shouldn't need to
+        be called outside of instances of this class.
+
+        Given a day and nested lists of fluxes to plot, generate the
+        allele copy number, day, and reaction elements that will
+        eventually be used to select from the self.df_pcfva_alleles
+        DataFrame to generate small multiples of groups of reactions
+        and their corresponding flux ranges.
+
+        Parameters
+        ----------
+        day : int
+            The day to create the indices for.
+
+        fluxes_to_plot : List[List[str]]
+            The nested lists of reaction ids that will be in the generated
+            indices.
+
+        Returns
+        -------
+        List[List[List[int, int, str]]]
+            Lists of 3 of the 4 elements of the multi index to plot in each
+            position.
+        """
         flux_alleles_positions = []
         for row_idx, row in enumerate(fluxes_to_plot):
             flux_alleles_positions.append([])
@@ -169,10 +210,27 @@ class FluxOptimizationViz:
         return flux_alleles_positions
 
     def min_max_y_for_alleles_day_reaction(self, alleles_days_reactions):
+        """
+        Used by alleles_day_flux_small_multiples(). Should not need to be
+        called outside of instances of this class.
+
+        Given lists of alleles, day, and flux names, find the minimum and
+        maximum extents for y limits on plots. Used to make small multiples
+        of flux ranges.
+
+        Parameters
+        ----------
+        alleles_days_reactions : List[List[int, int, str]]
+            List of lists of an allele count, day number, and flux name.
+
+        Returns
+        -------
+        Tuple[float, float]
+            Minimum and maximum extent of the y values, respectively.
+        """
         min_y = 0.0
         max_y = 0.0
         optima = [0.0, 0.5, 0.9, 0.99]
-        # print(alleles_days_reactions)
         for alleles_day_reaction in alleles_days_reactions:
             if alleles_day_reaction:
                 alleles, day, flux = alleles_day_reaction
@@ -193,6 +251,34 @@ class FluxOptimizationViz:
     def alleles_day_flux_small_multiples(
         self, day, flux_group, title, flux_plots_path=None, figsize=(15, 8)
     ):
+        """
+        Create a grid of plots of flux ranges related in some way and
+        specified as a nested lists of lists as a flux group. The rows
+        and columns of the list of lists specify the fluxes to plot
+        in those positions.
+
+        If this method is called in a Jupyter notebook, the output should
+        render after its invocation, and might be repeated twice. The second
+        repeat can be supressed with a `;` after the call to this method.
+
+        Parameters
+        ----------
+        day : int
+            A day to plot the fluxes for.
+
+        flux_group : List[List[str]]
+            Names and positions of the fluxes to plot.
+
+        title : str
+            Title to place over all the plots.
+
+        flux_plots_path : Path, optional
+            Path to save the plot to. If left as the default of None, 
+            will not save the resulting plot.
+
+        figsize : Tuple[float, float]
+            Figsize of the entire plot. Defaults to (15, 8).
+        """
         flux_alleles_positions = self.make_flux_alleles_positions_for_day(
             day, flux_group
         )
