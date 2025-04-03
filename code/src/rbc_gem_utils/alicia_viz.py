@@ -86,7 +86,7 @@ class FluxOptimizationViz:
 
         optimum_color : List[str]
             Color specifications for each of the optima. If left as the default
-            value of None, will use a spectrum of blues: 
+            value of None, will use a spectrum of blues:
             `["#87CEEB", "#3399CC", "#004C99", "#000080"]`
 
         save_filename : str
@@ -138,3 +138,117 @@ class FluxOptimizationViz:
                 format="svg",
             )
         return fig
+
+    def make_flux_alleles_positions_for_day(self, day, fluxes_to_plot):
+        flux_alleles_positions = []
+        for row_idx, row in enumerate(fluxes_to_plot):
+            flux_alleles_positions.append([])
+            for reaction in row:
+                if not reaction:
+                    alleles_day_reaction = [[], [], []]
+                else:
+                    alleles_day_reaction = [
+                        [0, day, reaction],
+                        [1, day, reaction],
+                        [2, day, reaction],
+                    ]
+                flux_alleles_positions[row_idx].append(alleles_day_reaction)
+        return flux_alleles_positions
+
+    def min_max_y_for_alleles_day_reaction(self, alleles_days_reactions):
+        min_y = 0.0
+        max_y = 0.0
+        optima = [0.0, 0.5, 0.9, 0.99]
+        # print(alleles_days_reactions)
+        for alleles_day_reaction in alleles_days_reactions:
+            if alleles_day_reaction:
+                alleles, day, flux = alleles_day_reaction
+                for optimum in optima:
+                    multi_index = (alleles, day, flux, optimum)
+                    multi_index = (alleles, day, flux, optimum)
+                    df = (
+                        self.df_pcfva_alleles.loc[multi_index]
+                        .sort_values(by="range")
+                        .copy()
+                    )
+                    y_mins = df["minimum"]
+                    y_maxs = df["maximum"]
+                    min_y = min_y if min(y_mins) > min_y else min(y_mins)
+                    max_y = max_y if max(y_maxs) < max_y else max(y_maxs)
+        return min_y, max_y
+
+    def alleles_day_flux_small_multiples(self, day, flux_group, title, flux_plots_path=None, figsize=(15, 8)):
+        flux_alleles_positions = self.make_flux_alleles_positions_for_day(
+            day, flux_group
+        )
+        fig = plt.figure(figsize=figsize)
+        zero_one_two_padding = 4
+        rows = len(flux_alleles_positions)
+        cols = len(flux_alleles_positions[0]) * zero_one_two_padding
+        optima = [0.0, 0.5, 0.9, 0.99]
+        optima_colors = ["#87CEEB", "#3399CC", "#004C99", "#000080"]
+        gs = GridSpec(rows, cols, wspace=0)
+        for gs_row, day_flux_alleles_positions_row in zip(
+            range(rows), flux_alleles_positions
+        ):
+            for gs_col_left, alleles_day_flux_group in zip(
+                range(0, cols, zero_one_two_padding), day_flux_alleles_positions_row
+            ):
+                ylim_min, ylim_max = self.min_max_y_for_alleles_day_reaction(
+                    alleles_day_flux_group
+                )
+                for group_idx in range(zero_one_two_padding):
+                    if group_idx == zero_one_two_padding - 1:
+                        ax = fig.add_subplot(gs[gs_row, gs_col_left + group_idx])
+                        ax.axis("off")
+                    elif alleles_day_flux_group[group_idx]:
+                        alleles, day, flux = alleles_day_flux_group[group_idx]
+                        ax = fig.add_subplot(gs[gs_row, gs_col_left + group_idx])
+                        ax.set_ylim(ylim_min, ylim_max)
+                        if group_idx == 0:
+                            ax.tick_params(right=False)
+                            ax.spines["right"].set_visible(False)
+                            ax.set_title(flux)
+                        elif group_idx == 1:
+                            ax.tick_params(left=False, right=False)
+                            ax.spines["left"].set_visible(False)
+                            ax.spines["right"].set_visible(False)
+                            ax.set_yticklabels([])
+                        elif group_idx == 2:
+                            ax.spines["left"].set_visible(False)
+                            ax.tick_params(left=False)
+                            ax.set_yticklabels([])
+                        for optimum, optimum_color in zip(optima, optima_colors):
+                            multi_index = (alleles, day, flux, optimum)
+                            df = (
+                                self.df_pcfva_alleles.loc[multi_index]
+                                .sort_values(by="range")
+                                .copy()
+                            )
+                            y_mins = df["minimum"]
+                            y_maxs = df["maximum"]
+                            xs = np.arange(1, len(y_maxs) + 1)
+                            ax.fill_between(
+                                xs,
+                                y_mins,
+                                y_maxs,
+                                color=optimum_color,
+                                label=f"{optimum*100:.0f}% Max NaKt",
+                            )
+                            ax.set_xlabel(alleles, fontsize=14)
+                            ax.set_xticks([])
+        fig.suptitle(f"{title} Storage Day {day}", fontsize=24)
+        fig.tight_layout()
+        clean_title = title.lower().strip().replace(" ", "_")
+        if flux_plots_path:
+            flux_small_mutiples_plot_filename = (
+                flux_plots_path / f"{clean_title}_small_mutiples_day_{day}.svg"
+            )
+            plt.savefig(
+                flux_small_mutiples_plot_filename,
+                dpi=300,
+                transparent=False,
+                bbox_inches="tight",
+                pad_inches=0.5,
+                format="svg",
+            )
