@@ -1,3 +1,4 @@
+from itertools import chain
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -138,6 +139,18 @@ class FluxOptimizationViz:
                 format="svg",
             )
         return fig
+    
+    def iterate_make_optimum_min_max_plots(self, fluxes_to_plot, flux_plots_path):
+        flat_list = list(chain(*fluxes_to_plot))
+        for flux in flat_list:
+            if flux:
+                for day in [10, 23, 42]:
+                    save_filename = flux_plots_path / f"{flux}_day_{day}.svg"
+                    self.make_optimum_min_max_plot(
+                        day, flux, figsize=(5, 2.5), save_filename=save_filename
+                    )
+                    plt.close()
+                    print(save_filename, "saved")
 
     def make_flux_alleles_positions_for_day(self, day, fluxes_to_plot):
         flux_alleles_positions = []
