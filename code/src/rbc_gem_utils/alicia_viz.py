@@ -1,10 +1,264 @@
 from itertools import chain
+import textwrap
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 from matplotlib.gridspec import GridSpec
+from mpl_toolkits.axes_grid1 import make_axes_locatable
 from rbc_gem_utils import read_cobra_model
+
+
+class CorrelationsViz:
+    def __init__(self, df_flux_abundance_correlation_filename):
+        self.df_flux_abundance_correlation = pd.read_csv(
+            df_flux_abundance_correlation_filename
+        )
+
+    def plot_correlations(
+        self,
+        df,
+        vertical_lines,
+        ax=None,
+        histx=True,
+        histy=True,
+        colorbar=True,
+        **kwargs,
+    ):
+        # Define figure if no axes provided.
+        scatter_inch = kwargs.get("scatter_inch", 5.0)
+        hist_inch = kwargs.get("hist_inch", 1.0)
+        hist_pad = kwargs.get("hist_pad", 0.25)
+        if ax is None:
+            _, ax = plt.subplots(
+                nrows=1,
+                ncols=1,
+                figsize=(
+                    scatter_inch + (hist_inch + hist_pad if histy else 0),
+                    scatter_inch + (hist_inch + hist_pad if histx else 0),
+                ),
+            )
+        xy = {"x": "rho", "y": "neg_log10_adj_p_value"}
+        limits = {
+            "x": (kwargs.get("xmin", -1.0), kwargs.get("xmax", 1.0)),
+            "y": (kwargs.get("ymin", 0.0), kwargs.get("ymax", df[xy["y"]].max())),
+        }
+        pads = {
+            axis: kwargs.get(f"{axis}pad", (limits[axis][1] - limits[axis][0]) / 2 / 20)
+            for axis in list(xy)
+        }
+        cmap = kwargs.get("cmap", "viridis")
+        zorder = kwargs.get("zorder", 2)
+        edgecolor = kwargs.get("edgecolor", "black")
+        edgewidth = kwargs.get("edgewidth", 0.5)
+        scatter = ax.scatter(
+            xy["x"],
+            xy["y"],
+            data=df,
+            c=kwargs.get("c", xy["y"]),
+            s=kwargs.get("s", 40),
+            alpha=0.5,
+            zorder=zorder,
+            edgecolor=edgecolor,
+            linewidth=edgewidth,
+            cmap=mpl.colormaps.get_cmap(cmap) if isinstance(cmap, str) else cmap,
+            norm=mpl.colors.Normalize(
+                vmin=limits["y"][0] - pads["y"], vmax=limits["y"][1] + pads["y"]
+            ),
+        )
+        ax.set_xlabel(r"Spearman Correlation $(\rho)$", fontdict={"size": "xx-large"})
+        ax.set_ylabel("-log$_{10}$(adj p-value)", fontdict={"size": "xx-large"})
+        ax.set_xlim((limits["x"][0] - pads["x"], limits["x"][1] + pads["x"]))
+        ax.set_ylim((limits["y"][0] - pads["y"], limits["y"][1] + pads["y"]))
+
+        major_ticks = {axis: kwargs.get(f"{axis}tick_major") for axis in list(xy)}
+        minor_ticks = {
+            axis: kwargs.get(
+                f"{axis}tick_minor",
+                major_ticks[axis] / 2 if major_ticks[axis] is not None else None,
+            )
+            for axis in list(xy)
+        }
+        for axis in list(xy):
+            if major_ticks[axis] is not None:
+                getattr(ax, f"{axis}axis").set_major_locator(
+                    mpl.ticker.MultipleLocator(major_ticks[axis])
+                )
+            if minor_ticks[axis] is not None:
+                getattr(ax, f"{axis}axis").set_minor_locator(
+                    mpl.ticker.MultipleLocator(minor_ticks[axis])
+                )
+            ax.tick_params(axis=axis, labelsize="large")
+
+        if vertical_lines:
+            for lineval, (lineprops, textprops) in vertical_lines.items():
+                if lineprops:
+                    ax.vlines(
+                        x=lineval,
+                        ymin=limits["y"][0] - pads["y"],
+                        ymax=limits["y"][1] + pads["y"],
+                        **lineprops,
+                    )
+                if textprops:
+                    ax.text(
+                        x=lineval + pads["x"] / 2, transform=ax.transData, **textprops
+                    )
+
+        if kwargs.get("grid", False):
+            ax.grid(True, **dict(which="both", alpha=0.75))
+
+        if colorbar:
+            cax = ax.inset_axes(
+                [
+                    limits["x"][0] - pads["x"],  # lower left corner xpos
+                    limits["y"][0] - pads["y"],  # lower left corner ypos
+                    pads["x"],  # width of colorbar
+                    limits["y"][1]
+                    + pads["y"]
+                    + pads[
+                        "y"
+                    ],  # height of colorbar, need extra ypad to make up for lowering ypos
+                ],
+                transform=ax.transData,
+            )
+            cbar = ax.get_figure().colorbar(scatter, cax=cax)
+            cax.set_ylim((limits["y"][0] - pads["y"], limits["y"][1] + pads["y"]))
+            cax.set_xticks([])
+            cax.set_yticks([])
+
+        ax_histx = None
+        ax_histy = None
+        if histx or histy:
+            divider = make_axes_locatable(ax)
+            # Histogram axes
+            ax_histx = (
+                divider.append_axes("top", hist_inch, pad=hist_pad, sharex=ax)
+                if histx
+                else None
+            )
+            ax_histy = (
+                divider.append_axes("right", hist_inch, pad=hist_pad, sharey=ax)
+                if histy
+                else None
+            )
+
+            for axis, ax_hist in zip(list(xy), [ax_histx, ax_histy]):
+                if ax_hist is None:
+                    continue
+                binwidth = kwargs.get(
+                    f"{axis}binwidth",
+                    (
+                        minor_ticks[axis]
+                        if minor_ticks[axis] is not None
+                        else major_ticks[axis]
+                    ),
+                )
+                counts, bins, patches = ax_hist.hist(
+                    df[xy[axis]],
+                    bins=np.arange(
+                        limits[axis][0], limits[axis][1] + binwidth, binwidth
+                    ),
+                    orientation="vertical" if axis == "x" else "horizontal",
+                    zorder=zorder,
+                    edgecolor=edgecolor,
+                    linewidth=edgewidth,
+                )
+                other = "y" if axis == "x" else "x"
+                ax_hist.tick_params(
+                    axis=axis, **{f"label{'bottom' if axis == 'x' else 'left'}": False}
+                )
+                ax_hist.tick_params(axis=other, labelsize="large")
+                getattr(ax_hist, f"set_{other}label")("Frequency", fontsize="large")
+
+                tick_major_int = kwargs.get(f"hist{axis}_{other}tick_major")
+                if tick_major_int is not None:
+                    getattr(ax_hist, f"{other}axis").set_major_locator(
+                        mpl.ticker.MultipleLocator(tick_major_int)
+                    )
+                    getattr(ax_hist, f"{other}axis").set_minor_locator(
+                        mpl.ticker.MultipleLocator(tick_major_int / 2)
+                    )
+                getattr(ax_hist, f"set_{other}lim")((0, max(counts) * 1.1))
+                if kwargs.get("grid", False):
+                    ax_hist.grid(True, **dict(which="both", alpha=0.75))
+
+                if vertical_lines and (axis == "x" and ax_hist is not None):
+                    for lineval, (lineprops, _) in vertical_lines.items():
+                        if lineprops:
+                            ax_hist.vlines(
+                                x=lineval, ymin=0.0, ymax=max(counts) * 1.1, **lineprops
+                            )
+
+        return ax, ax_histx, ax_histy
+
+    def plot_flux_abundance_correlations(
+        self, histx=True, histy=True, colorbar=True, **kwargs
+    ):
+        scatter_inch = kwargs.get("scatter_inch", 5.0)
+        hist_inch = kwargs.get("hist_inch", 1.0)
+        hist_pad = kwargs.get("hist_pad", 0.5)
+        nrows, ncols = (1, 1)
+        expression_dep_rho_lb = 0.8
+        expression_cor_rho_lb = 0.5
+        ypos = 4
+        ww = 11
+        rotation = 90
+        fontsize = "large"
+        linewidth = 2
+        vertical_lines = {
+            expression_dep_rho_lb: (
+                dict(color="black", linestyle="-", linewidth=linewidth),
+                dict(
+                    y=ypos,
+                    s="\n".join(textwrap.wrap("Expression dependent", width=ww)),
+                    rotation=rotation,
+                    fontsize=fontsize,
+                ),
+            ),
+            expression_cor_rho_lb: (
+                dict(color="xkcd:dark grey", linestyle="--", linewidth=linewidth),
+                dict(
+                    y=ypos,
+                    s="\n".join(textwrap.wrap("Expression correlated", width=ww)),
+                    rotation=rotation,
+                    fontsize=fontsize,
+                ),
+            ),
+            0.0: (
+                dict(),
+                dict(
+                    y=ypos + 50.0,
+                    s="\n".join(textwrap.wrap("Expression independent", width=ww)),
+                    rotation=rotation,
+                    fontsize=fontsize,
+                ),
+            ),
+        }
+        fig, ax = plt.subplots(
+            nrows=nrows,
+            ncols=ncols,
+            figsize=(
+                (scatter_inch + (hist_inch + hist_pad if histx else 0)) * ncols,
+                (scatter_inch + (hist_inch + hist_pad if histy else 0)) * nrows,
+            ),
+        )
+        ax_scatter, ax_histx, ax_histy = self.plot_correlations(
+            self.df_flux_abundance_correlation,
+            ax=ax,
+            histx=histx,
+            histy=histy,
+            colorbar=True,
+            vertical_lines=vertical_lines,
+            xbinwidth=0.1,
+            ybinwidth=10,
+            **kwargs,
+        )
+        # ax_scatter.set_title(
+        #     f"Correlates between Flux and Abundance",
+        #     fontsize="x-large",
+        # )
+        fig.suptitle("Correlates Between Flux and Abundance", fontsize=18)
+        return fig
 
 
 class FluxOptimizationViz:
@@ -273,7 +527,7 @@ class FluxOptimizationViz:
             Title to place over all the plots.
 
         flux_plots_path : Path, optional
-            Path to save the plot to. If left as the default of None, 
+            Path to save the plot to. If left as the default of None,
             will not save the resulting plot.
 
         figsize : Tuple[float, float]
