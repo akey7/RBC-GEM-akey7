@@ -235,7 +235,7 @@ class CorrelationsViz:
         return ax, ax_histx, ax_histy
 
     def plot_flux_abundance_correlations(
-        self, histx=True, histy=True, colorbar=True, **kwargs
+        self, histx=True, histy=True, colorbar=True, save_filename=None, **kwargs
     ):
         """
         Plot the correlations in self.df_flux_abundance_correlation by calling
@@ -254,6 +254,9 @@ class CorrelationsViz:
 
         colorbar : bool, optional
             Defaults to true which plots a colorbar legend on the plot.
+
+        save_filename : str, optional
+            If specified, saves an svg to this path.
 
         **kwargs : optional
             If additional arguments are provided, they can further customize
@@ -323,6 +326,15 @@ class CorrelationsViz:
         #     fontsize="x-large",
         # )
         fig.suptitle("Correlates Between Flux and Abundance", fontsize=18)
+        if save_filename:
+            plt.savefig(
+                save_filename,
+                dpi=300,
+                transparent=False,
+                bbox_inches="tight",
+                pad_inches=0.5,
+                format="svg",
+            )
         return fig
 
 
