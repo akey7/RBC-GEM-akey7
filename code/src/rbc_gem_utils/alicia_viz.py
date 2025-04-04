@@ -336,6 +336,74 @@ class CorrelationsViz:
                 format="svg",
             )
         return fig
+    
+    def plot_donuts_of_categories_by_abundance_dependence(
+        self, abundance_dependence, save_filename=None, figsize=(8, 8), title_y=1.2, center_title=None
+    ):
+        """
+        Plot a donunt chart of the number of reactions in various categories
+        based on abundance dependence.
+
+        The underlying data is in self.df_flux_abundance_correlation.
+
+        Parameters
+        ----------
+        abundance_dependence : str
+            One of "Dependent", "Correlated", "Independent".
+
+        figsize : Tuple[float, float], optional
+            Figure size. If unspecified, defaults to (8, 8)
+
+        title_y : float, optional
+            Offset of y title that floats above the chart. Defaults to 1.2
+
+        center_title : str, optional
+            Title in the center of the donuts. Defaults to no title.
+        """
+        color_for_category = {
+            "Nucleotide metabolism": "#332288",
+            "Transport reactions": "#117733",
+            "Metabolism of cofactors and vitamins": "#44AA99",
+            "Carbohydrate metabolism": "#88CCEE",
+            "Reactive species": "#999933",
+            "Metabolism of other amino acids": "#DDCC77",
+        }
+        df = self.df_flux_abundance_correlation
+        ring_series = df[df["abundance_dependence"] == abundance_dependence]["category"]
+        ring_series = ring_series.value_counts()
+        wedge_labels = [
+            f"{value}: {'\n'.join(textwrap.wrap(index, width=20))}"
+            for index, value in ring_series.items()
+        ]
+        wedge_colors = [color_for_category[category] for category, _ in ring_series.items()]
+        # Create a figure and axis
+        fig, ax = plt.subplots(figsize=figsize)
+        wedges, texts = ax.pie(
+            ring_series,
+            labels=wedge_labels,
+            startangle=90,
+            wedgeprops={"edgecolor": "white"},
+            colors=wedge_colors,
+            labeldistance=1.2,
+        )
+        center_circle = plt.Circle((0, 0), 0.75, fc="white")
+        ax.add_artist(center_circle)
+        ax.set_aspect("equal")
+        formatted_center_title = (
+            f"{center_title}\n{sum(ring_series)}" if center_title else sum(ring_series)
+        )
+        ax.text(0, 0, formatted_center_title, ha="center", va="center", fontsize=12)
+        plt.title(abundance_dependence, fontsize=14, y=title_y)
+        if save_filename:
+            plt.savefig(
+                save_filename,
+                dpi=300,
+                transparent=False,
+                bbox_inches="tight",
+                pad_inches=0.5,
+                format="svg",
+            )
+        return fig
 
 
 class FluxOptimizationViz:
