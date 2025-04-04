@@ -11,6 +11,15 @@ from rbc_gem_utils import read_cobra_model
 
 class CorrelationsViz:
     def __init__(self, df_flux_abundance_correlation_filename):
+        """
+        Instantiate a class to make plots correlations
+
+        Parameters
+        ----------
+        df_flux_abundance_correlation_filename
+            Full path to the csv that holds the flux-anundance
+            correlation data.
+        """
         self.df_flux_abundance_correlation = pd.read_csv(
             df_flux_abundance_correlation_filename
         )
@@ -25,6 +34,40 @@ class CorrelationsViz:
         colorbar=True,
         **kwargs,
     ):
+        """
+        Create a u-plot with horizontal and vertical historgrams above and
+        to the side.
+
+        This method is meant to be called by other methods in this class,
+        and not by methods outside this class. See
+        plot_flux_abundance_correlations() as an example.
+
+        Parameters
+        ----------
+        df : pd.DataFrame
+            DataFrame with `rho` and `neg_log10_adj_p_value` columns to plot.
+
+        vertical_lines
+            Vertical lines to place on the u plot as provided by the caller.
+
+        ax : Axis, optional
+            Axis on which to draw the plot.
+
+        histx : bool, optional
+            Defaults to True, which draws a histogram on the x-axis above
+            the plot.
+
+        histy : bool, optional
+            Defaults to True, which draws a histogram on the y-axis
+            to the right of the plot.
+
+        colorbar : bool, optional
+            Defaults to true which plots a colorbar legend on the plot.
+
+        **kwargs
+            Various plotting options accessed by this method. If left unspecified
+            this method will use default values.
+        """
         # Define figure if no axes provided.
         scatter_inch = kwargs.get("scatter_inch", 5.0)
         hist_inch = kwargs.get("hist_inch", 1.0)
@@ -194,6 +237,28 @@ class CorrelationsViz:
     def plot_flux_abundance_correlations(
         self, histx=True, histy=True, colorbar=True, **kwargs
     ):
+        """
+        Plot the correlations in self.df_flux_abundance_correlation by calling
+        plot_correlations() with appropriate defaults. If called with no
+        parameters, there will be reasonsable defaults.
+
+        Parameters
+        ----------
+        histx : bool, optional
+            Defaults to True, which draws a histogram on the x-axis above
+            the plot.
+
+        histy : bool, optional
+            Defaults to True, which draws a histogram on the y-axis
+            to the right of the plot.
+
+        colorbar : bool, optional
+            Defaults to true which plots a colorbar legend on the plot.
+
+        **kwargs : optional
+            If additional arguments are provided, they can further customize
+            the plot, but these areguments are optional.
+        """
         scatter_inch = kwargs.get("scatter_inch", 5.0)
         hist_inch = kwargs.get("hist_inch", 1.0)
         hist_pad = kwargs.get("hist_pad", 0.5)
