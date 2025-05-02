@@ -39971,19 +39971,19 @@
     <groups:listOfGroups>
       <groups:group groups:id="G_Glycolysis__32____47____32__Gluconeogenesis" groups:name="Glycolysis / Gluconeogenesis" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Phosphoglycerate mutase" groups:idRef="R_PGM"/>
-          <groups:member groups:name="Pyruvate kinase" groups:idRef="R_PYK"/>
-          <groups:member groups:name="Phosphofructokinase" groups:idRef="R_PFK"/>
-          <groups:member groups:name="Phosphoglycerate kinase" groups:idRef="R_PGK"/>
-          <groups:member groups:name="Triose-phosphate isomerase" groups:idRef="R_TPI"/>
-          <groups:member groups:name="L-lactate dehydrogenase" groups:idRef="R_LDH_L"/>
           <groups:member groups:name="Diphosphoglyceromutase" groups:idRef="R_DPGM"/>
+          <groups:member groups:name="L-lactate dehydrogenase" groups:idRef="R_LDH_L"/>
           <groups:member groups:name="Fructose-bisphosphate aldolase" groups:idRef="R_FBA"/>
           <groups:member groups:name="Glucose-6-phosphate isomerase (beta-D-glucose 6-phosphate)" groups:idRef="R_PGI"/>
           <groups:member groups:name="2,3-bisphosphoglycerate 2-phosphatase" groups:idRef="R_DPGase"/>
+          <groups:member groups:name="Pyruvate kinase" groups:idRef="R_PYK"/>
           <groups:member groups:name="Hexokinase (beta-D-glucose:ATP)" groups:idRef="R_HEX1"/>
+          <groups:member groups:name="Phosphoglycerate mutase" groups:idRef="R_PGM"/>
           <groups:member groups:name="Glyceraldehyde-3-phosphate dehydrogenase" groups:idRef="R_GAPD"/>
           <groups:member groups:name="Enolase" groups:idRef="R_ENO"/>
+          <groups:member groups:name="Phosphofructokinase" groups:idRef="R_PFK"/>
+          <groups:member groups:name="Phosphoglycerate kinase" groups:idRef="R_PGK"/>
+          <groups:member groups:name="Triose-phosphate isomerase" groups:idRef="R_TPI"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Nicotinate__32__and__32__nicotinamide__32__metabolism" groups:name="Nicotinate and nicotinamide metabolism" groups:kind="collection">
@@ -39993,33 +39993,33 @@
       </groups:group>
       <groups:group groups:id="G_Reactive__32__species__32__formation__32__and__32__detoxification" groups:name="Reactive species formation and detoxification" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Oxidation of iron (II) via hydrogen peroxide" groups:idRef="R_FE2H2O2X"/>
           <groups:member groups:name="Superoxide dismutase" groups:idRef="R_SPODM"/>
           <groups:member groups:name="Oxidation of Iron (II) via O2" groups:idRef="R_FE2O2OX"/>
           <groups:member groups:name="Iron(III):NADP+ oxidoreductase" groups:idRef="R_FE3RD"/>
+          <groups:member groups:name="Oxidation of iron (II) via hydrogen peroxide" groups:idRef="R_FE2H2O2X"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Purine__32__metabolism" groups:name="Purine metabolism" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Adenosine monophosphate deaminase" groups:idRef="R_AMPDA"/>
-          <groups:member groups:name="5&apos;-nucleotidase (IMP)" groups:idRef="R_NTDIMP"/>
-          <groups:member groups:name="Adenosine deaminase" groups:idRef="R_ADA"/>
           <groups:member groups:name="Adenylate kinase (AMP:ATP)" groups:idRef="R_ADK1"/>
           <groups:member groups:name="Adenine phosphoribosyltransferase" groups:idRef="R_ADPT"/>
           <groups:member groups:name="Hypoxanthine phosphoribosyltransferase (Hypoxanthine)" groups:idRef="R_HXPRT"/>
           <groups:member groups:name="Adenosine kinase" groups:idRef="R_ADNK1"/>
           <groups:member groups:name="5&apos;-nucleotidase (AMP)" groups:idRef="R_NTDAMP"/>
           <groups:member groups:name="Purine-nucleoside phosphorylase (inosine)" groups:idRef="R_PUNP5"/>
+          <groups:member groups:name="Adenosine monophosphate deaminase" groups:idRef="R_AMPDA"/>
+          <groups:member groups:name="5&apos;-nucleotidase (IMP)" groups:idRef="R_NTDIMP"/>
+          <groups:member groups:name="Adenosine deaminase" groups:idRef="R_ADA"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Carbon monoxide demand" groups:idRef="R_DM_co_c"/>
-          <groups:member groups:name="Hydroxide demand" groups:idRef="R_DM_oh1_c"/>
           <groups:member groups:name="Heme oxygenase 1" groups:idRef="R_HOXG"/>
           <groups:member groups:name="Hydroxyl radical demand" groups:idRef="R_DM_oh1r_c"/>
           <groups:member groups:name="Iron (II) demand" groups:idRef="R_DM_fe2_c"/>
           <groups:member groups:name="Ferroprotoheme sink" groups:idRef="R_SK_pheme_c"/>
+          <groups:member groups:name="Carbon monoxide demand" groups:idRef="R_DM_co_c"/>
+          <groups:member groups:name="Hydroxide demand" groups:idRef="R_DM_oh1_c"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Glutathione__32__metabolism" groups:name="Glutathione metabolism" groups:kind="collection">
@@ -40030,11 +40030,11 @@
       </groups:group>
       <groups:group groups:id="G_Hemoglobin__32__binding__32__and__32__degradation" groups:name="Hemoglobin binding and degradation" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Oxyhemoglobin binding (Protonated Carbamino Hemoglobin)" groups:idRef="R_HBO2B2"/>
           <groups:member groups:name="Nonenzymatic reduction of methemoglobin (Cytochrome b5)" groups:idRef="R_METHBCYTBR"/>
           <groups:member groups:name="Deoxyhemoglobin binding to 2,3-diphosphoglycerate" groups:idRef="R_HB23DPGB"/>
           <groups:member groups:name="Auto-oxidation of oxyhemoglobin" groups:idRef="R_OXYHBAOX"/>
           <groups:member groups:name="Oxyhemoglobin binding" groups:idRef="R_HBO2B1"/>
+          <groups:member groups:name="Oxyhemoglobin binding (Protonated Carbamino Hemoglobin)" groups:idRef="R_HBO2B2"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Nucleotide__32__metabolism" groups:name="Nucleotide metabolism" groups:kind="collection">
@@ -40045,16 +40045,16 @@
       </groups:group>
       <groups:group groups:id="G_Pentose__32__phosphate__32__pathway" groups:name="Pentose phosphate pathway" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Transketolase" groups:idRef="R_TKT2"/>
-          <groups:member groups:name="Glucose 6-phosphate dehydrogenase" groups:idRef="R_G6PDH2"/>
-          <groups:member groups:name="Phosphopentomutase" groups:idRef="R_PPM"/>
-          <groups:member groups:name="Ribose-5-phosphate isomerase" groups:idRef="R_RPI"/>
           <groups:member groups:name="Phosphoribosylpyrophosphate synthetase" groups:idRef="R_PRPPS"/>
-          <groups:member groups:name="Transaldolase" groups:idRef="R_TALA"/>
+          <groups:member groups:name="Phosphopentomutase" groups:idRef="R_PPM"/>
           <groups:member groups:name="6-phosphogluconolactonase" groups:idRef="R_PGL"/>
+          <groups:member groups:name="Transaldolase" groups:idRef="R_TALA"/>
           <groups:member groups:name="Phosphogluconate dehydrogenase" groups:idRef="R_GND"/>
           <groups:member groups:name="Transketolase" groups:idRef="R_TKT1"/>
           <groups:member groups:name="Ribulose 5-phosphate 3-epimerase" groups:idRef="R_RPE"/>
+          <groups:member groups:name="Transketolase" groups:idRef="R_TKT2"/>
+          <groups:member groups:name="Glucose 6-phosphate dehydrogenase" groups:idRef="R_G6PDH2"/>
+          <groups:member groups:name="Ribose-5-phosphate isomerase" groups:idRef="R_RPI"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Porphyrin__32__metabolism" groups:name="Porphyrin metabolism" groups:kind="collection">
@@ -40064,8 +40064,6 @@
       </groups:group>
       <groups:group groups:id="G_Pseudoreactions" groups:name="Pseudoreactions" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="H2O exchange" groups:idRef="R_EX_h2o_e"/>
-          <groups:member groups:name="H2O2 exchange" groups:idRef="R_EX_h2o2_e"/>
           <groups:member groups:name="Adenine exchange" groups:idRef="R_EX_ade_e"/>
           <groups:member groups:name="Hypoxanthine exchange" groups:idRef="R_EX_hxan_e"/>
           <groups:member groups:name="Bilirubin exchange" groups:idRef="R_EX_bilirub_e"/>
@@ -40088,6 +40086,8 @@
           <groups:member groups:name="Calcium sink" groups:idRef="R_SK_ca2_c"/>
           <groups:member groups:name="H+ exchange" groups:idRef="R_EX_h_e"/>
           <groups:member groups:name="beta-D-Glucose exchange" groups:idRef="R_EX_glc__D_e"/>
+          <groups:member groups:name="H2O exchange" groups:idRef="R_EX_h2o_e"/>
+          <groups:member groups:name="H2O2 exchange" groups:idRef="R_EX_h2o2_e"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Transport__44____32__extracellular" groups:name="Transport, extracellular" groups:kind="collection">
@@ -40102,11 +40102,11 @@
           <groups:member groups:name="P-type Ca(2+) transporter (1:1 stoichiometry)" groups:idRef="R_CAATPS1"/>
           <groups:member groups:name="Adenine transport via facilitated diffusion" groups:idRef="R_ADEt"/>
           <groups:member groups:name="ATP-binding Cassette (ABC) export of unconjugated billirubin" groups:idRef="R_BILRUBABCte"/>
-          <groups:member groups:name="Hypoxanthine transport via facilitated diffusion" groups:idRef="R_HYXNt"/>
           <groups:member groups:name="Transport of ammonium" groups:idRef="R_NH4t"/>
           <groups:member groups:name="Sodium leak" groups:idRef="R_NAt"/>
           <groups:member groups:name="Adenosine transport via facilitated diffusion" groups:idRef="R_ADNt"/>
           <groups:member groups:name="Transport of potassium" groups:idRef="R_Kt1"/>
+          <groups:member groups:name="Hypoxanthine transport via facilitated diffusion" groups:idRef="R_HYXNt"/>
           <groups:member groups:name="Proton diffusion" groups:idRef="R_Ht"/>
           <groups:member groups:name="Calcium (II) import" groups:idRef="R_CA2t"/>
           <groups:member groups:name="Inosine transport via facilitated diffusion" groups:idRef="R_INSt"/>

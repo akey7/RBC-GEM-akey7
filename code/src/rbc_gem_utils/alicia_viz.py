@@ -372,7 +372,8 @@ class CorrelationsViz:
         ring_series = df[df["abundance_dependence"] == abundance_dependence]["category"]
         ring_series = ring_series.value_counts()
         wedge_labels = [
-            f"{value}: {'\n'.join(textwrap.wrap(index, width=20))}"
+            # f"{value}: {'\n'.join(textwrap.wrap(index, width=20))}"
+            f"{value}: {' '.join(textwrap.wrap(index, width=20))}"
             for index, value in ring_series.items()
         ]
         wedge_colors = [color_for_category[category] for category, _ in ring_series.items()]
