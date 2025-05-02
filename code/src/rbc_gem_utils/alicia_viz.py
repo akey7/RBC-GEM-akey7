@@ -739,6 +739,8 @@ class FluxOptimizationViz:
                             ax.set_xlabel(alleles, fontsize=14)
                             ax.set_xticks([])
         fig.suptitle(f"{title} Storage Day {day}", fontsize=24)
+        fig.supylabel("Flux (mmol/gDW/hr)")
+        fig.supxlabel("G6PDd Allele Count")
         fig.tight_layout()
         clean_title = title.lower().strip().replace(" ", "_")
         if flux_plots_path:
