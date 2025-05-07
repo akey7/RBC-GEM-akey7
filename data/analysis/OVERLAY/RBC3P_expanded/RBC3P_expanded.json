@@ -2472,7 +2472,7 @@
 "ins_c":1.0,
 "nh4_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"ADA",
 "subsystem":"Purine metabolism",
@@ -2582,7 +2582,7 @@
 "atp_c":-1.0,
 "h_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"ADK",
 "subsystem":"Purine metabolism",
@@ -2659,7 +2659,7 @@
 "ca2_c":1.0,
 "ca2_e":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"CACNA1A or GRIA1 or TRPC6 or TRPV2 or PIEZO1 or P2RX1 or P2RX2 or P2RX7 or PANX1 or TMEM109 or VDAC1",
 "subsystem":"Transport, extracellular",
@@ -2714,7 +2714,7 @@
 "ppi_c":1.0,
 "prpp_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"APRT",
 "subsystem":"Purine metabolism",
@@ -2793,7 +2793,7 @@
 "imp_c":1.0,
 "nh4_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"AMPD3",
 "subsystem":"Purine metabolism",
@@ -2873,7 +2873,7 @@
 "h2o_c":-1.0,
 "pi_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"BPGM",
 "subsystem":"Glycolysis / Gluconeogenesis",
@@ -3067,7 +3067,7 @@
 "glc__D_c":-1.0,
 "h_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"HK3 or HK1",
 "subsystem":"Glycolysis / Gluconeogenesis",
@@ -3117,7 +3117,7 @@
 "nadp_c":-1.0,
 "nadph_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"G6PD",
 "subsystem":"Pentose phosphate pathway",
@@ -3161,7 +3161,7 @@
 "ppi_c":1.0,
 "prpp_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"HPRT1",
 "subsystem":"Purine metabolism",
@@ -3270,7 +3270,7 @@
 "ins_c":1.0,
 "pi_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"NT5C2",
 "subsystem":"Purine metabolism",
@@ -3471,7 +3471,7 @@
 "h2o_c":-1.0,
 "pi_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"NT5C2",
 "subsystem":"Purine metabolism",
@@ -3514,7 +3514,7 @@
 "na1_e":3.0,
 "pi_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(ATP1A1 and ATP1B1) or (ATP1A1 and ATP1B2) or (ATP1A1 and ATP1B3) or (ATP1A3 and ATP1B1) or (ATP1A3 and ATP1B2) or (ATP1A3 and ATP1B3) or (ATP1A4 and ATP1B1) or (ATP1A4 and ATP1B2) or (ATP1A4 and ATP1B3)",
 "objective_coefficient":1.0,
@@ -3570,7 +3570,7 @@
 "nadph_c":1.0,
 "ru5p__D_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PGD",
 "subsystem":"Pentose phosphate pathway",
@@ -3605,7 +3605,7 @@
 "nadp_c":1.0,
 "nadph_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"GSR",
 "subsystem":"Glutathione metabolism",
@@ -3651,7 +3651,7 @@
 "h2o2_c":-1.0,
 "h2o_c":2.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"GPX1 or GPX4",
 "subsystem":"Glutathione metabolism",
@@ -3699,7 +3699,7 @@
 "fdp_c":1.0,
 "h_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PFKL and PFKM) or (PFKL and PFKP) or PFKP or PFKL or PFKM",
 "subsystem":"Glycolysis / Gluconeogenesis",
@@ -3762,7 +3762,7 @@
 "na1_c":1.0,
 "na1_e":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"SCN9A or SCN4A or PIEZO1 or P2RX1 or P2RX2 or P2RX7 or PANX1 or GRIA1 or VDAC1",
 "subsystem":"Transport, extracellular",
@@ -3955,7 +3955,7 @@
 "prpp_c":1.0,
 "r5p_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PRPS1 or PRPS2 or PRPS1L1",
 "subsystem":"Pentose phosphate pathway",
@@ -4054,7 +4054,7 @@
 "pi_c":2.0,
 "ppi_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PPA1 or LHPP or PRUNE1 or PPA2",
 "subsystem":"Nucleotide metabolism",
@@ -4095,7 +4095,7 @@
 "pep_c":-1.0,
 "pyr_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PKM or PKLR",
 "subsystem":"Glycolysis / Gluconeogenesis",
@@ -4442,7 +4442,7 @@
 "hb_c":1.0,
 "methb_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(CYB5A and HBA) or (CYB5A and HBB) or (CYB5A and HBD) or (CYB5A and HBE1) or (CYB5A and HBG1) or (CYB5A and HBG2) or (CYB5A and HBM) or (CYB5A and HBZ) or (CYB5A and HBQ1) or (CYB5B and HBA) or (CYB5B and HBB) or (CYB5B and HBD) or (CYB5B and HBE1) or (CYB5B and HBG1) or (CYB5B and HBG2) or (CYB5B and HBM) or (CYB5B and HBZ) or (CYB5B and HBQ1)",
 "subsystem":"Hemoglobin binding and degradation",
@@ -4464,7 +4464,7 @@
 "o2s_c":1.0,
 "oxyhb_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"HBA or HBB or HBD or HBE1 or HBG1 or HBG2 or HBM or HBQ1 or HBZ",
 "subsystem":"Hemoglobin binding and degradation",
@@ -4485,7 +4485,7 @@
 "nad_c":1.0,
 "nadh_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(CYB5R3 and CYB5B) or (CYB5R3 and CYB5A)",
 "subsystem":"Nicotinate and nicotinamide metabolism",
@@ -4519,7 +4519,7 @@
 "h_c":1.0,
 "pi_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Nucleotide metabolism",
@@ -4547,7 +4547,7 @@
 "o2_c":1.0,
 "o2s_c":-2.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"SOD1",
 "subsystem":"Reactive species formation and detoxification",
@@ -4576,7 +4576,7 @@
 "h_c":1.0,
 "pi_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"ATP2B4 or ATP2B1",
 "subsystem":"Transport, extracellular",
@@ -4645,7 +4645,7 @@
 "k_c":-1.0,
 "k_e":1.0
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"KCNN4 or KCNAB2 or KCNK5 or PIEZO1 or P2RX1 or P2RX2 or P2RX7 or PANX1 or GRIA1 or TMEM109 or SLC22A4 or VDAC1",
 "subsystem":"Transport, extracellular",
@@ -4676,7 +4676,7 @@
 "id":"EX_ca2_e",
 "name":"Calcium exchange",
 "metabolites":{
-"ca2_e":-1.0
+"ca2_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4690,7 +4690,7 @@
 "id":"EX_co2_e",
 "name":"CO2 exchange",
 "metabolites":{
-"co2_e":-1.0
+"co2_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4704,7 +4704,7 @@
 "id":"EX_glc__D_e",
 "name":"beta-D-Glucose exchange",
 "metabolites":{
-"glc__D_e":-1.0
+"glc__D_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4718,7 +4718,7 @@
 "id":"EX_h_e",
 "name":"H+ exchange",
 "metabolites":{
-"h_e":-1.0
+"h_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4732,7 +4732,7 @@
 "id":"EX_h2o_e",
 "name":"H2O exchange",
 "metabolites":{
-"h2o_e":-1.0
+"h2o_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4746,7 +4746,7 @@
 "id":"EX_h2o2_e",
 "name":"H2O2 exchange",
 "metabolites":{
-"h2o2_e":-1.0
+"h2o2_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4760,7 +4760,7 @@
 "id":"EX_ade_e",
 "name":"Adenine exchange",
 "metabolites":{
-"ade_e":-1.0
+"ade_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4774,7 +4774,7 @@
 "id":"EX_hxan_e",
 "name":"Hypoxanthine exchange",
 "metabolites":{
-"hxan_e":-1.0
+"hxan_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4788,7 +4788,7 @@
 "id":"EX_adn_e",
 "name":"Adenosine exchange",
 "metabolites":{
-"adn_e":-1.0
+"adn_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4802,7 +4802,7 @@
 "id":"EX_ins_e",
 "name":"Inosine exchange",
 "metabolites":{
-"ins_e":-1.0
+"ins_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4816,7 +4816,7 @@
 "id":"EX_k_e",
 "name":"K+ exchange",
 "metabolites":{
-"k_e":-1.0
+"k_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4830,7 +4830,7 @@
 "id":"EX_lac__L_e",
 "name":"L-Lactate exchange",
 "metabolites":{
-"lac__L_e":-1.0
+"lac__L_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4844,7 +4844,7 @@
 "id":"EX_na1_e",
 "name":"Sodium exchange",
 "metabolites":{
-"na1_e":-1.0
+"na1_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4858,7 +4858,7 @@
 "id":"EX_nh4_e",
 "name":"Ammonium exchange",
 "metabolites":{
-"nh4_e":-1.0
+"nh4_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4872,7 +4872,7 @@
 "id":"EX_o2_e",
 "name":"O2 exchange",
 "metabolites":{
-"o2_e":-1.0
+"o2_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4886,7 +4886,7 @@
 "id":"EX_pi_e",
 "name":"Orthophosphate exchange",
 "metabolites":{
-"pi_e":-1.0
+"pi_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4900,7 +4900,7 @@
 "id":"EX_pyr_e",
 "name":"Pyruvate exchange",
 "metabolites":{
-"pyr_e":-1.0
+"pyr_e":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4914,7 +4914,7 @@
 "id":"SK_hb4_23dpg_c",
 "name":"Deoxyhemoglobin (tetramer, 2,3-bisphospho-D-glycerate) sink",
 "metabolites":{
-"hb4_23dpg_c":-1.0
+"hb4_23dpg_c":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4928,7 +4928,7 @@
 "id":"SK_oxyhb_c",
 "name":"Oxyhemoglobin (O2) sink",
 "metabolites":{
-"oxyhb_c":-1.0
+"oxyhb_c":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4942,7 +4942,7 @@
 "id":"SK_hb_hco2_c",
 "name":"Oxyhemoglobin (Protonated Carbamino Deoxyhemoglobin) sink",
 "metabolites":{
-"hb_hco2_c":-1.0
+"hb_hco2_c":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4956,7 +4956,7 @@
 "id":"SK_na1_c",
 "name":"Sodium sink",
 "metabolites":{
-"na1_c":-1.0
+"na1_c":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4970,7 +4970,7 @@
 "id":"SK_k_c",
 "name":"K+ sink",
 "metabolites":{
-"k_c":-1.0
+"k_c":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -4984,7 +4984,7 @@
 "id":"SK_ca2_c",
 "name":"Calcium sink",
 "metabolites":{
-"ca2_c":-1.0
+"ca2_c":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -5153,9 +5153,9 @@
 "id":"DM_oh1_c",
 "name":"Hydroxide demand",
 "metabolites":{
-"oh1_c":-1.0
+"oh1_c":-1
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
@@ -5166,9 +5166,9 @@
 "id":"DM_oh1r_c",
 "name":"Hydroxyl radical demand",
 "metabolites":{
-"oh1r_c":-1.0
+"oh1r_c":-1
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
@@ -5179,9 +5179,9 @@
 "id":"DM_fe2_c",
 "name":"Iron (II) demand",
 "metabolites":{
-"fe2_c":-1.0
+"fe2_c":-1
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
@@ -5192,7 +5192,7 @@
 "id":"SK_pheme_c",
 "name":"Ferroprotoheme sink",
 "metabolites":{
-"pheme_c":-1.0
+"pheme_c":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -5205,9 +5205,9 @@
 "id":"DM_co_c",
 "name":"Carbon monoxide demand",
 "metabolites":{
-"co_c":-1.0
+"co_c":-1
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
@@ -24351,7 +24351,7 @@
 },
 {
 "id":"BLVRB",
-"name":"G_BLVRB",
+"name":"",
 "annotation":{
 "bgee.gene":"ENSG00000090013",
 "biogrid":"107114",
@@ -24491,7 +24491,7 @@
 },
 {
 "id":"BLVRA",
-"name":"G_BLVRA",
+"name":"",
 "annotation":{
 "bgee.gene":"ENSG00000106605",
 "biocyc":"MetaCyc:HS02928-MONOMER",
@@ -24611,7 +24611,7 @@
 },
 {
 "id":"STEAP3",
-"name":"G_STEAP3",
+"name":"",
 "annotation":{
 "bgee.gene":"ENSG00000115107",
 "biogrid":"120533",
@@ -24746,7 +24746,7 @@
 },
 {
 "id":"ABCC4",
-"name":"G_ABCC4",
+"name":"",
 "annotation":{
 "bgee.gene":"ENSG00000125257",
 "biogrid":"115551",
