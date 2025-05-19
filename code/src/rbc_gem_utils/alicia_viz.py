@@ -336,9 +336,14 @@ class CorrelationsViz:
                 format="svg",
             )
         return fig
-    
+
     def plot_donuts_of_categories_by_abundance_dependence(
-        self, abundance_dependence, save_filename=None, figsize=(8, 8), title_y=1.2, center_title=None
+        self,
+        abundance_dependence,
+        save_filename=None,
+        figsize=(8, 8),
+        title_y=1.2,
+        center_title=None,
     ):
         """
         Plot a donunt chart of the number of reactions in various categories
@@ -376,7 +381,9 @@ class CorrelationsViz:
             f"{value}: {' '.join(textwrap.wrap(index, width=20))}"
             for index, value in ring_series.items()
         ]
-        wedge_colors = [color_for_category[category] for category, _ in ring_series.items()]
+        wedge_colors = [
+            color_for_category[category] for category, _ in ring_series.items()
+        ]
         # Create a figure and axis
         fig, ax = plt.subplots(figsize=figsize)
         wedges, texts = ax.pie(
@@ -756,10 +763,18 @@ class FluxOptimizationViz:
                 format="svg",
             )
 
+
 class FluxOptimizationAggregator:
     def __init__(self, df_pcfva_alleles_filename):
         self.df_pcfva_alleles = pd.read_csv(df_pcfva_alleles_filename)
 
     def average_range_by_allele(self, day=10, optimum=0.99):
-        df_01 = self.df_pcfva_alleles.copy()
-        return df_01[df_01["day"] == day & df_01["optimum"] == optimum]
+        df_02 = self.df_pcfva_alleles.query(
+            "day == @day and optimum == @optimum"
+        ).copy()
+        return (
+            df_02[["reactions", "G6PD_alleles", "range"]]
+            .groupby(["reactions", "G6PD_alleles"])
+            .mean()
+            .reset_index()
+        )
