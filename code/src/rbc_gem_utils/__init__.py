@@ -30,7 +30,7 @@ from .util import (
     split_string,
 )
 from .visualization import visualize_comparison
-from .alicia_viz import FluxOptimizationViz, CorrelationsViz
+from .alicia_viz import FluxOptimizationViz, CorrelationsViz, FluxOptimizationAggregator
 
 
 # FIXME Find a way to single source version with version.txt outside repository, only if tools are to be included as same version as model

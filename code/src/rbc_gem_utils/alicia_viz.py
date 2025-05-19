@@ -755,3 +755,11 @@ class FluxOptimizationViz:
                 pad_inches=0.5,
                 format="svg",
             )
+
+class FluxOptimizationAggregator:
+    def __init__(self, df_pcfva_alleles_filename):
+        self.df_pcfva_alleles = pd.read_csv(df_pcfva_alleles_filename)
+
+    def average_range_by_allele(self, day=10, optimum=0.99):
+        df_01 = self.df_pcfva_alleles.copy()
+        return df_01[df_01["day"] == day & df_01["optimum"] == optimum]
