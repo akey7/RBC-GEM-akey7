@@ -778,6 +778,24 @@ class FluxOptimizationAggregator:
             .mean()
             .reset_index()
         )
-    
-    def compare_to_baseline(self, df_average_range_by_allele):
-        pass
+
+    def pct_diff_comapred_to_baseline(
+        self,
+        df_average_range_by_allele,
+        reaction,
+        baseline_alleles,
+        comparison_alleles,
+    ):
+        col_name_order = ["minimum", "maximum", "range"]
+        df_baseline = df_average_range_by_allele.query(
+            "reactions == @reaction and G6PD_alleles == @baseline_alleles"
+        )[col_name_order].copy()
+        df_comparison = df_average_range_by_allele.query(
+            "reactions == @reaction and G6PD_alleles == @comparison_alleles"
+        )[col_name_order].copy()
+        result = {
+            "minimum_pct_diff": df_comparison.iloc[0, 0] / df_baseline.iloc[0, 0] - 1.0,
+            "maximum_pct_diff": df_comparison.iloc[0, 1] / df_baseline.iloc[0, 1] - 1.0,
+            "range_pct_diff": df_comparison.iloc[0, 2] / df_baseline.iloc[0, 2] - 1.0,
+        }
+        return result
