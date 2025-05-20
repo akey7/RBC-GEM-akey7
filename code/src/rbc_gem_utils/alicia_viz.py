@@ -768,13 +768,16 @@ class FluxOptimizationAggregator:
     def __init__(self, df_pcfva_alleles_filename):
         self.df_pcfva_alleles = pd.read_csv(df_pcfva_alleles_filename)
 
-    def average_range_by_allele(self, day=10, optimum=0.99):
+    def average_by_allele(self, day=10, optimum=0.99):
         df_02 = self.df_pcfva_alleles.query(
             "day == @day and optimum == @optimum"
         ).copy()
         return (
-            df_02[["reactions", "G6PD_alleles", "range"]]
+            df_02[["reactions", "G6PD_alleles", "minimum", "maximum", "range"]]
             .groupby(["reactions", "G6PD_alleles"])
             .mean()
             .reset_index()
         )
+    
+    def compare_to_baseline(self, df_average_range_by_allele):
+        pass
