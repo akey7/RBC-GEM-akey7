@@ -799,3 +799,6 @@ class FluxOptimizationAggregator:
             "range_pct_diff": df_comparison.iloc[0, 2] / df_baseline.iloc[0, 2] - 1.0,
         }
         return result
+    
+    def filter_pseudoreactions(self):
+        return [r_id for r_id in self.df_pcfva_alleles["reactions"].unique() if "_" not in r_id]
