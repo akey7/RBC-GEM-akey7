@@ -779,7 +779,7 @@ class FluxOptimizationAggregator:
             .reset_index()
         )
 
-    def pct_diff_comapred_to_baseline(
+    def pct_diff_compared_to_baseline(
         self,
         df_average_range_by_allele,
         reaction,
@@ -806,3 +806,20 @@ class FluxOptimizationAggregator:
             for r_id in self.df_pcfva_alleles["reactions"].unique()
             if "_" not in r_id
         ]
+
+    def pct_diff_compared_to_baseline_all_reactions(
+        self, df_average_range_by_allele, baseline_alleles, comparison_alleles
+    ):
+        r_ids = self.filter_pseudoreactions()
+        result_rows = []
+        for r_id in r_ids:
+            row = self.pct_diff_compared_to_baseline(
+                df_average_range_by_allele=df_average_range_by_allele,
+                reaction=r_id,
+                baseline_alleles=baseline_alleles,
+                comparison_alleles=comparison_alleles,
+            )
+            row["reaction"] = r_id
+            result_rows.append(row)
+        result = pd.DataFrame(result_rows)
+        return result.sort_values(by="range_pct_diff")
