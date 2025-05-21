@@ -793,10 +793,25 @@ class FluxOptimizationAggregator:
         df_comparison = df_average_range_by_allele.query(
             "reactions == @reaction and G6PD_alleles == @comparison_alleles"
         )[col_name_order].copy()
+        minimum_pct_diff = (
+            df_comparison.iloc[0, 0] / df_baseline.iloc[0, 0] - 1.0
+            if df_baseline.iloc[0, 0] != 0.0
+            else pd.NA
+        )
+        maximum_pct_diff = (
+            df_comparison.iloc[0, 1] / df_baseline.iloc[0, 1] - 1.0
+            if df_baseline.iloc[0, 1] != 0.0
+            else pd.NA
+        )
+        range_pct_diff = (
+            df_comparison.iloc[0, 2] / df_baseline.iloc[0, 2] - 1.0
+            if df_baseline.iloc[0, 2] != 0.0
+            else pd.NA
+        )
         result = {
-            "minimum_pct_diff": df_comparison.iloc[0, 0] / df_baseline.iloc[0, 0] - 1.0,
-            "maximum_pct_diff": df_comparison.iloc[0, 1] / df_baseline.iloc[0, 1] - 1.0,
-            "range_pct_diff": df_comparison.iloc[0, 2] / df_baseline.iloc[0, 2] - 1.0,
+            "minimum_pct_diff": minimum_pct_diff,
+            "maximum_pct_diff": maximum_pct_diff,
+            "range_pct_diff": range_pct_diff,
         }
         return result
 
