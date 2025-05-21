@@ -834,7 +834,8 @@ class FluxOptimizationAggregator:
                 baseline_alleles=baseline_alleles,
                 comparison_alleles=comparison_alleles,
             )
+            row["abs_range_pct_diff"] = np.abs(row["range_pct_diff"])
             row["reaction"] = r_id
             result_rows.append(row)
         result = pd.DataFrame(result_rows)
-        return result.sort_values(by="range_pct_diff")
+        return result.sort_values(by="abs_range_pct_diff", ascending=False)
