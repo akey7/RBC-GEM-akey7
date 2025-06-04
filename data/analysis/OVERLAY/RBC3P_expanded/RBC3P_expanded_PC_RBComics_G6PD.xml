@@ -5699,158 +5699,153 @@
       <parameter sboTerm="SBO:0000626" id="cobra_0_bound" value="0" constant="true"/>
       <parameter sboTerm="SBO:0000626" id="minus_inf" value="-INF" constant="true"/>
       <parameter sboTerm="SBO:0000626" id="plus_inf" value="INF" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ADA_upper_bound" value="0.402232006572753" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ADA_upper_bound" value="0.351169076603887" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ADEt_lower_bound" value="-0.0429701132123043" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ADK1_upper_bound" value="0.0429701132123043" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ADNK1_upper_bound" value="0.0429701132123043" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ADNt_lower_bound" value="-0.402232006572753" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ADNt_lower_bound" value="-0.351169076603887" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ADNt_upper_bound" value="0.0429701132123043" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CA2t_upper_bound" value="1.38625197609921" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ADPT_upper_bound" value="0.0429701132123043" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_CO2t_lower_bound" value="-0.599043586525215" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_CO2t_upper_bound" value="0.603157704034375" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_CO2t_lower_bound" value="-0.583222489702275" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_CO2t_upper_bound" value="0.549284198281649" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_AMPDA_upper_bound" value="0.0158430745841059" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_DPGM_lower_bound" value="-0.115356927264327" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_DPGM_upper_bound" value="0.195074015710992" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_DPGase_upper_bound" value="0.207657228871049" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_DPGM_upper_bound" value="0.184787925048952" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_DPGase_upper_bound" value="0.201495182107292" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENO_upper_bound" value="0.105297671415811" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_H2O2t_lower_bound" value="-0.3802786205148" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_H2O2t_upper_bound" value="0.193700703445777" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_FBA_lower_bound" value="-6.93889390390723e-18" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_H2O2t_lower_bound" value="-0.323014788246748" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_H2O2t_upper_bound" value="0.168592027977247" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_FBA_upper_bound" value="0.0583958514215935" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_H2Ot_lower_bound" value="-0.236813935467223" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_H2Ot_upper_bound" value="0.210717275159257" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_HEX1_upper_bound" value="0.152992029302106" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_G6PDH2_lower_bound" value="-1.04083408558608e-17" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_G6PDH2_upper_bound" value="0.0577490722109053" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_H2Ot_upper_bound" value="0.181148926144366" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_HEX1_upper_bound" value="0.147371743994994" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_G6PDH2_lower_bound" value="-1.73472347597681e-18" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_G6PDH2_upper_bound" value="0.0371904213156095" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_HXPRT_upper_bound" value="0.0429701132123043" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_HYXNt_lower_bound" value="-0.19247233676201" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_HYXNt_upper_bound" value="0.128459939892688" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_Ht_lower_bound" value="-0.858623909888113" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_Ht_upper_bound" value="1.21900512244304" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_HYXNt_lower_bound" value="-0.180548682926456" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_HYXNt_upper_bound" value="0.118166648427388" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_Ht_lower_bound" value="-0.808414073125128" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_Ht_upper_bound" value="1.11099089538056" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NTDIMP_upper_bound" value="0.0429701132123043" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_GAPD_lower_bound" value="-0.0491848928764046" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GAPD_upper_bound" value="0.167399551112009" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_INSt_lower_bound" value="-0.128459939892688" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_INSt_upper_bound" value="0.489924153880657" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_GAPD_upper_bound" value="0.157106259646709" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_INSt_lower_bound" value="-0.118166648427388" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_INSt_upper_bound" value="0.4483572828538" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_L_LACt2_lower_bound" value="-0.0903935956827667" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_L_LACt2_upper_bound" value="0.130791352709363" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_L_LACt2_upper_bound" value="0.127970784730463" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_LDH_L_lower_bound" value="-0.0903935956827667" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_LDH_L_upper_bound" value="0.130791352709363" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_LDH_L_upper_bound" value="0.127970784730463" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NTDAMP_upper_bound" value="0.0429701132123043" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_NaKt_upper_bound" value="0.200411538394234" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_NaKt_upper_bound" value="0.196920335521734" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_O2t_lower_bound" value="-0.174906751763084" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_O2t_upper_bound" value="0.174906751763084" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GND_lower_bound" value="-1.14925430283463e-17" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GND_upper_bound" value="0.0577490722109053" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GTHOy_upper_bound" value="0.115498144421811" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GTHP_upper_bound" value="0.115498144421811" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_GND_upper_bound" value="0.0371904213156095" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_GTHOy_upper_bound" value="0.074380842631219" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_GTHP_upper_bound" value="0.074380842631219" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PFK_upper_bound" value="0.0583958514215935" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PGI_lower_bound" value="-0.0577490722109053" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PGI_lower_bound" value="-0.0371904213156095" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PGI_upper_bound" value="0.136738032595165" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_NAt_upper_bound" value="0.413359460527507" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PGK_lower_bound" value="-0.102872887599738" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PGK_lower_bound" value="-0.0978985591011692" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PGK_upper_bound" value="0.105297671415811" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PGL_lower_bound" value="-4.75422652634894e-17" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PGL_upper_bound" value="0.0577490722109053" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PGL_upper_bound" value="0.0371904213156095" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PGM_upper_bound" value="0.105297671415811" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PPM_lower_bound" value="-0.19247233676201" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PPM_upper_bound" value="0.128459939892688" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PPM_lower_bound" value="-0.180548682926456" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PPM_upper_bound" value="0.118166648427388" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PRPPS_upper_bound" value="0.0429701132123043" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PIt_lower_bound" value="-0.252080974384959" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PIt_lower_bound" value="-0.235804843088674" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PIt_upper_bound" value="0.230713854528654" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PUNP5_lower_bound" value="-0.19247233676201" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PUNP5_upper_bound" value="0.128459939892688" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PUNP5_lower_bound" value="-0.180548682926456" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PUNP5_upper_bound" value="0.118166648427388" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PPA_upper_bound" value="0.0429701132123043" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PYK_upper_bound" value="0.105297671415811" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PYRt2_lower_bound" value="-0.0818540492676969" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PYRt2_lower_bound" value="-0.0807133389951769" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PYRt2_upper_bound" value="0.133051590173528" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RPE_lower_bound" value="-0.107884441483485" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_RPE_upper_bound" value="0.106977436306803" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_RPE_upper_bound" value="0.0863908533762038" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RPI_lower_bound" value="-0.0583958514215935" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_RPI_upper_bound" value="0.14636835520627" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_RPI_upper_bound" value="0.131395655113185" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_TALA_lower_bound" value="-0.0539422207417423" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_TALA_upper_bound" value="0.0534887181534014" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_TALA_upper_bound" value="0.0431954266881019" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_TKT1_lower_bound" value="-0.0539422207417423" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_TKT1_upper_bound" value="0.0534887181534014" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_TKT1_upper_bound" value="0.0431954266881019" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_TKT2_lower_bound" value="-0.0539422207417423" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_TKT2_upper_bound" value="0.0534887181534014" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_TKT2_upper_bound" value="0.0431954266881019" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_TPI_upper_bound" value="0.0583958514215935" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_HB23DPGB_lower_bound" value="-0.115356927264327" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_HB23DPGB_upper_bound" value="0.126040483344703" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_HBO2B1_lower_bound" value="-0.417668092518261" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_HB23DPGB_upper_bound" value="0.117902421544337" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_HBO2B1_lower_bound" value="-0.392890686173342" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_HBO2B1_upper_bound" value="0.461427709057307" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_HBO2B2_lower_bound" value="-0.647263472637192" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_HBO2B2_upper_bound" value="0.554937817922398" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_METHBCYTBR_lower_bound" value="-8.67361737988404e-19" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_METHBCYTBR_upper_bound" value="0.228087879099276" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_OXYHBAOX_upper_bound" value="0.228087879099276" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_FCYTOB5OXR_upper_bound" value="0.228087879099276" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_NTPA_upper_bound" value="0.207657228871049" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_SPODM_upper_bound" value="0.193700703445777" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_HBO2B2_lower_bound" value="-0.610889909305419" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_HBO2B2_upper_bound" value="0.522050860103476" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_METHBCYTBR_upper_bound" value="0.218886517972096" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_OXYHBAOX_upper_bound" value="0.218886517972096" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_FCYTOB5OXR_upper_bound" value="0.218886517972096" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_NTPA_upper_bound" value="0.201495182107292" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_SPODM_upper_bound" value="0.168592027977247" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CAATPS1_upper_bound" value="0.180858994962797" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_GLC_Dt_lower_bound" value="-0.152992029302106" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_GLC_Dt_lower_bound" value="-0.147371743994994" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_Kt1_upper_bound" value="1.72724845268983" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_NH4t_lower_bound" value="-6.07153216591883e-18" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_NH4t_upper_bound" value="0.402232006572753" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_NH4t_upper_bound" value="0.351169076603887" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_ca2_e_lower_bound" value="-1.38625197609921" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_ca2_e_upper_bound" value="0.180858994962797" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_co2_e_lower_bound" value="-0.599043586525215" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_co2_e_upper_bound" value="0.603157704034375" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_glc__D_e_lower_bound" value="-0.152992029302106" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_h_e_lower_bound" value="-0.787304004454025" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_h_e_upper_bound" value="1.24078473014375" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_co2_e_lower_bound" value="-0.583222489702275" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_co2_e_upper_bound" value="0.549284198281649" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_glc__D_e_lower_bound" value="-0.147371743994994" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_glc__D_e_upper_bound" value="2.16840434497101e-19" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_h_e_lower_bound" value="-0.745064053276467" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_h_e_upper_bound" value="1.13350753623158" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_h2o_e_lower_bound" value="-0.236813935467223" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_h2o_e_upper_bound" value="0.210717275159257" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_h2o2_e_lower_bound" value="-0.3802786205148" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_h2o2_e_upper_bound" value="0.193700703445777" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_h2o_e_upper_bound" value="0.181148926144366" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_h2o2_e_lower_bound" value="-0.323014788246748" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_h2o2_e_upper_bound" value="0.168592027977247" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_ade_e_lower_bound" value="-0.0429701132123043" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_hxan_e_lower_bound" value="-0.19247233676201" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_hxan_e_upper_bound" value="0.128459939892688" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_adn_e_lower_bound" value="-0.402232006572753" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_hxan_e_lower_bound" value="-0.180548682926456" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_hxan_e_upper_bound" value="0.118166648427388" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_adn_e_lower_bound" value="-0.351169076603887" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_adn_e_upper_bound" value="0.0429701132123043" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_ins_e_lower_bound" value="-0.128459939892688" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_ins_e_upper_bound" value="0.489924153880657" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_k_e_lower_bound" value="-0.400823076788469" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_ins_e_lower_bound" value="-0.118166648427388" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_ins_e_upper_bound" value="0.4483572828538" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_k_e_lower_bound" value="-0.393840671043468" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_k_e_upper_bound" value="1.72724845268983" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_lac__L_e_lower_bound" value="-0.0903935956827667" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_lac__L_e_upper_bound" value="0.130791352709363" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_lac__L_e_upper_bound" value="0.127970784730463" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_na1_e_lower_bound" value="-0.413359460527507" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_na1_e_upper_bound" value="0.601234615182703" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_nh4_e_upper_bound" value="0.402232006572753" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_na1_e_upper_bound" value="0.590761006565202" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_nh4_e_upper_bound" value="0.351169076603887" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_o2_e_lower_bound" value="-0.174906751763084" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_o2_e_upper_bound" value="0.174906751763084" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_pi_e_lower_bound" value="-0.252080974384959" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_pi_e_lower_bound" value="-0.235804843088674" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_pi_e_upper_bound" value="0.230713854528653" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_pyr_e_lower_bound" value="-0.0818540492676968" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_pyr_e_lower_bound" value="-0.0807133389951769" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_EX_pyr_e_upper_bound" value="0.133051590173528" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SK_hb4_23dpg_c_lower_bound" value="-0.115356927264327" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_SK_hb4_23dpg_c_upper_bound" value="0.126040487192479" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_SK_oxyhb_c_lower_bound" value="-0.352736022458419" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_SK_hb4_23dpg_c_upper_bound" value="0.117902421544337" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_SK_oxyhb_c_lower_bound" value="-0.307855141517384" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SK_oxyhb_c_upper_bound" value="0.174906751763084" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_SK_hb_hco2_c_lower_bound" value="-0.554937817922398" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_SK_hb_hco2_c_upper_bound" value="0.647263472637192" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_SK_na1_c_lower_bound" value="-0.601234615182703" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_SK_hb_hco2_c_lower_bound" value="-0.522050860103476" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_SK_hb_hco2_c_upper_bound" value="0.610889909305419" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_SK_na1_c_lower_bound" value="-0.590761006565202" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SK_na1_c_upper_bound" value="0.413359460527507" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SK_k_c_lower_bound" value="-1.72724845268983" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_SK_k_c_upper_bound" value="0.400823076788469" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_SK_k_c_upper_bound" value="0.393840671043468" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SK_ca2_c_lower_bound" value="-0.180858994962797" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_SK_ca2_c_upper_bound" value="1.38625197609921" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_BILIREDy_upper_bound" value="0.0288745361054526" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_FE2O2OX_lower_bound" value="-0.211343112783817" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_FE2O2OX_upper_bound" value="0.15982428731442" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_FE3RD_upper_bound" value="0.0799121436572102" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_FE2H2O2X_upper_bound" value="0.363185999534714" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_BILRUBABCte_upper_bound" value="0.0288745361054526" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_EX_bilirub_e_upper_bound" value="0.0288745361054526" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_HOXG_upper_bound" value="0.0288745361054526" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_DM_oh1_c_upper_bound" value="0.363185999534714" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_DM_oh1r_c_upper_bound" value="0.363185999534714" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_DM_fe2_c_upper_bound" value="0.0288745361054526" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_SK_pheme_c_lower_bound" value="-0.0288745361054526" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_SK_pheme_c_upper_bound" value="2.16840434497101e-18" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_DM_co_c_lower_bound" value="-2.60208521396521e-18" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_DM_co_c_upper_bound" value="0.0288745361054526" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_BILIREDy_upper_bound" value="0.0185952106578047" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_FE2O2OX_lower_bound" value="-0.20492770240493" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_FE2O2OX_upper_bound" value="0.148761685262438" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_FE3RD_upper_bound" value="0.074380842631219" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_FE2H2O2X_upper_bound" value="0.323014788246748" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_BILRUBABCte_upper_bound" value="0.0185952106578047" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_EX_bilirub_e_upper_bound" value="0.0185952106578047" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_HOXG_upper_bound" value="0.0185952106578047" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_DM_oh1_c_upper_bound" value="0.323014788246748" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_DM_oh1r_c_upper_bound" value="0.323014788246748" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_DM_fe2_c_upper_bound" value="0.0185952106578047" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_SK_pheme_c_lower_bound" value="-0.0185952106578047" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_DM_co_c_lower_bound" value="-1.04083408558608e-17" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_DM_co_c_upper_bound" value="0.0185952106578047" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PBDL_proteome_budget_lower_bound" value="4.64822144381266" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PBDL_proteome_budget_upper_bound" value="9.6995970778078" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PROTDL_protein_ABCC4_pc_lower_bound" value="0.0098429162024224" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6006,7 +6001,7 @@
       <parameter sboTerm="SBO:0000625" id="R_CPLXDL_cplx_HOMODIMER_APRT_pc_upper_bound" value="3.45283564894434" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CPLXFM_cplx_HOMOTETRAMER_AQP1_pc_lower_bound" value="0.0120465685665538" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CPLXFM_cplx_HOMOTETRAMER_AQP1_pc_upper_bound" value="0.715508920303857" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_CPLXDL_cplx_HOMOTETRAMER_AQP1_pc_upper_bound" value="0.715508920303857" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_CPLXDL_cplx_HOMOTETRAMER_AQP1_pc_upper_bound" value="0.715508920303858" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CPLXFM_cplx_HOMOTETRAMER_AQP3_pc_upper_bound" value="0.27383019672775" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CPLXDL_cplx_HOMOTETRAMER_AQP3_pc_upper_bound" value="0.27383019672775" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CPLXFM_cplx_HETERODIMER_ATP1_A1B1_pc_upper_bound" value="0.385250951632509" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6103,8 +6098,8 @@
       <parameter sboTerm="SBO:0000625" id="R_CPLXDL_cplx_HETERODIMER_ENO_BG_pc_upper_bound" value="0.735285061304989" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CPLXFM_cplx_HOMODIMER_ENO3_pc_upper_bound" value="0.367642530652495" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CPLXDL_cplx_HOMODIMER_ENO3_pc_upper_bound" value="0.367642530652495" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_CPLXFM_cplx_HOMOTETRAMER_G6PD_pc_upper_bound" value="0.408746422357706" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_CPLXDL_cplx_HOMOTETRAMER_G6PD_pc_upper_bound" value="0.408746422357706" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_CPLXFM_cplx_HOMOTETRAMER_G6PD_pc_upper_bound" value="0.263232829147695" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_CPLXDL_cplx_HOMOTETRAMER_G6PD_pc_upper_bound" value="0.263232829147695" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CPLXFM_cplx_HOMOTETRAMER_GAPDH_pc_lower_bound" value="0.347340602301647" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CPLXFM_cplx_HOMOTETRAMER_GAPDH_pc_upper_bound" value="3.55381526716713" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_CPLXDL_cplx_HOMOTETRAMER_GAPDH_pc_upper_bound" value="3.55381526716713" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6311,9 +6306,9 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_FCYTOB5OXR_fwd_cplx_COMPLEX_CYB5R3_B5A_pc_upper_bound" value="3.60084061113264" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_FCYTOB5OXR_fwd_cplx_COMPLEX_CYB5R3_B5B_pc_upper_bound" value="1.64945672293749" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_FCYTOB5OXR_fwd_pc_upper_bound" value="3.89354089215849" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_FCYTOB5OXR_total_pc_lower_bound" value="-1.43552074311175e-16" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_FCYTOB5OXR_total_pc_lower_bound" value="-6.31024197757032e-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_FCYTOB5OXR_total_pc_upper_bound" value="3.89354089215849" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_FCYTOB5OXR_rev_pc_upper_bound" value="0.974734526065283" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_FCYTOB5OXR_rev_pc_upper_bound" value="0.935412469966221" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBA_CYB5A_pc_upper_bound" value="6.95594177102888" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBB_CYB5A_pc_upper_bound" value="6.85575728429008" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBD_CYB5A_pc_upper_bound" value="6.84787871572969" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6333,9 +6328,9 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBQ1_CYB5B_pc_upper_bound" value="2.04260369423311" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_METHBCYTBR_fwd_cplx_COMPLEX_HBZ_CYB5B_pc_upper_bound" value="2.03853115175741" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_METHBCYTBR_fwd_pc_upper_bound" value="8.49028453303999" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_METHBCYTBR_total_pc_lower_bound" value="-8.32667268468867e-17" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_METHBCYTBR_total_pc_lower_bound" value="-5.83578769354248e-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_METHBCYTBR_total_pc_upper_bound" value="8.49028453303999" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_METHBCYTBR_rev_pc_upper_bound" value="0.974734526065283" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_METHBCYTBR_rev_pc_upper_bound" value="0.93541246996622" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A1B1_pc_upper_bound" value="0.331230427074996" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A1B2_pc_upper_bound" value="0.33410764688343" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A1B3_pc_upper_bound" value="0.337320879783459" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6346,8 +6341,8 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A4B2_pc_upper_bound" value="0.260747254053847" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_NaKt_fwd_cplx_HETERODIMER_ATP1_A4B3_pc_upper_bound" value="0.263232842621019" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_NaKt_fwd_pc_upper_bound" value="0.872193212752172" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_NaKt_total_pc_upper_bound" value="0.872193212752173" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_NaKt_rev_pc_upper_bound" value="0.856459565787326" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_NaKt_total_pc_upper_bound" value="0.872193212752172" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_NaKt_rev_pc_upper_bound" value="0.841539895392025" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_L_LACt2_fwd_cplx_HETEROTETRAMER_SLC16A1_BSG_pc_upper_bound" value="0.33028099969787" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_L_LACt2_fwd_cplx_HETEROTETRAMER_SLC16A7_BSG_pc_upper_bound" value="0.236895951267977" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_L_LACt2_fwd_cplx_HETEROTETRAMER_SLC16A1_EMB_pc_upper_bound" value="0.344512878310701" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6355,7 +6350,7 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_L_LACt2_fwd_cplx_HOMODIMER_SLC16A1_pc_upper_bound" value="0.509382618231194" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_L_LACt2_fwd_cplx_HOMODIMER_SLC16A7_pc_upper_bound" value="0.369299436668326" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_L_LACt2_fwd_pc_upper_bound" value="0.772594834895442" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_L_LACt2_total_pc_lower_bound" value="-2.77555756156289e-17" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_L_LACt2_total_pc_lower_bound" value="-2.4231918555051e-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_L_LACt2_total_pc_upper_bound" value="0.772594834895442" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_L_LACt2_rev_cplx_HETEROTETRAMER_SLC16A1_BSG_pc_upper_bound" value="0.33028099969787" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_L_LACt2_rev_cplx_HETEROTETRAMER_SLC16A7_BSG_pc_upper_bound" value="0.236895951267977" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6371,7 +6366,6 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PYRt2_fwd_cplx_HOMODIMER_SLC16A1_pc_upper_bound" value="0.509382618231194" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PYRt2_fwd_cplx_HOMODIMER_SLC16A7_pc_upper_bound" value="0.369299436668326" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PYRt2_fwd_pc_upper_bound" value="0.772594834895442" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PYRt2_total_pc_lower_bound" value="-2.77555756156289e-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PYRt2_total_pc_upper_bound" value="0.772594834895442" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PYRt2_rev_cplx_HETEROTETRAMER_SLC16A1_BSG_pc_upper_bound" value="0.33028099969787" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PYRt2_rev_cplx_HETEROTETRAMER_SLC16A7_BSG_pc_upper_bound" value="0.236895951267977" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6387,7 +6381,7 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_DPGase_fwd_cplx_HOMODIMER_BPGM_pc_upper_bound" value="7.25253645473347" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_DPGase_fwd_pc_upper_bound" value="7.25253645473347" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_DPGase_total_pc_upper_bound" value="7.25253645473347" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_DPGase_rev_pc_upper_bound" value="0.88742405500448" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_DPGase_rev_pc_upper_bound" value="0.861090521826032" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_DPGM_fwd_cplx_HOMODIMER_BPGM_pc_upper_bound" value="7.25253645473347" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_DPGM_fwd_cplx_HOMODIMER_PGAM1_pc_upper_bound" value="3.56403580141584" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_DPGM_fwd_pc_upper_bound" value="9.490117334029" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6417,17 +6411,17 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_ENO_rev_cplx_HOMODIMER_ENO2_pc_upper_bound" value="1.92272922159058" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_ENO_rev_cplx_HETERODIMER_ENO_BG_pc_upper_bound" value="0.886617736788023" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_ENO_rev_cplx_HOMODIMER_ENO3_pc_upper_bound" value="0.444237406186963" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_ENO_rev_pc_lower_bound" value="-8.88178419700125e-16" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_ENO_rev_pc_upper_bound" value="9.2145953749412" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PGI_fwd_cplx_HOMODIMER_GPI_pc_upper_bound" value="0.587435551542688" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PGI_fwd_pc_upper_bound" value="0.587435551542688" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PGI_total_pc_upper_bound" value="0.587435551542688" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PGI_rev_cplx_HOMODIMER_GPI_pc_upper_bound" value="0.587435551542688" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PGI_rev_pc_upper_bound" value="0.587435551542688" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_GTHOy_fwd_cplx_HOMODIMER_GSR_pc_lower_bound" value="-2.94902990916057e-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_GTHOy_fwd_cplx_HOMODIMER_GSR_pc_upper_bound" value="0.752221828252365" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GTHOy_fwd_pc_upper_bound" value="0.752221828252365" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GTHOy_total_pc_upper_bound" value="0.752221828252365" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GTHOy_rev_pc_upper_bound" value="0.493581813768422" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GTHOy_rev_pc_upper_bound" value="0.317866848851363" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PPA_fwd_cplx_HOMODIMER_LHPP_pc_upper_bound" value="2.77212553526887" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PPA_fwd_cplx_HOMODIMER_PPA1_pc_upper_bound" value="1.46662721411889" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PPA_fwd_cplx_HOMODIMER_PPA2_pc_upper_bound" value="0.646496379856352" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6435,11 +6429,11 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PPA_fwd_pc_upper_bound" value="5.02735637682872" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PPA_total_pc_upper_bound" value="5.02735637682872" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PPA_rev_pc_upper_bound" value="0.183632962445745" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_GND_fwd_cplx_HOMODIMER_PGD_pc_lower_bound" value="-4.85722573273506e-17" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_GND_fwd_cplx_HOMODIMER_PGD_pc_lower_bound" value="-1.09287578986539e-16" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_GND_fwd_cplx_HOMODIMER_PGD_pc_upper_bound" value="2.39830520697127" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GND_fwd_pc_upper_bound" value="2.39830520697127" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GND_total_pc_upper_bound" value="2.39830520697127" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GND_rev_pc_upper_bound" value="0.246790906884211" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GND_rev_pc_upper_bound" value="0.158933424425682" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PRPPS_fwd_cplx_HOMODIMER_PRPS1_pc_upper_bound" value="2.85916646628738" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PRPPS_fwd_cplx_HOMODIMER_PRPS1L1_pc_upper_bound" value="0.750028375037595" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PRPPS_fwd_cplx_HOMODIMER_PRPS2_pc_upper_bound" value="2.78223309147471" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6456,15 +6450,14 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_RPI_total_pc_upper_bound" value="3.10742319522616" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_RPI_rev_cplx_HOMODIMER_RPIA_pc_upper_bound" value="3.10742319522616" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_RPI_rev_pc_upper_bound" value="3.10742319522616" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_SPODM_fwd_cplx_HOMODIMER_SOD1_pc_lower_bound" value="-4.07141082481394e-15" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_SPODM_fwd_cplx_HOMODIMER_SOD1_pc_upper_bound" value="54.9596530941547" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_SPODM_fwd_pc_upper_bound" value="54.9596530941547" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_SPODM_total_pc_upper_bound" value="54.9596530941547" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_SPODM_rev_pc_upper_bound" value="0.827780783956313" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_SPODM_rev_pc_upper_bound" value="0.720478752039515" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_FE3RD_fwd_cplx_HOMODIMER_STEAP3_pc_upper_bound" value="0.341504887423975" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_FE3RD_fwd_pc_upper_bound" value="0.341504887423975" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_FE3RD_total_pc_upper_bound" value="0.341504887423975" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_FE3RD_rev_pc_upper_bound" value="0.341504887423975" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_FE3RD_rev_pc_upper_bound" value="0.317866848851363" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_TALA_fwd_cplx_HOMODIMER_TALDO1_pc_upper_bound" value="3.99854632208365" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_TALA_fwd_pc_upper_bound" value="3.99854632208365" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_TALA_total_pc_upper_bound" value="3.99854632208365" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6480,7 +6473,6 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_TKT2_total_pc_upper_bound" value="1.63857185839795" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_TKT2_rev_cplx_HOMODIMER_TKT_pc_upper_bound" value="1.63857185839795" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_TKT2_rev_pc_upper_bound" value="1.63857185839795" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_TPI_fwd_cplx_HOMODIMER_TPI1_pc_lower_bound" value="-7.41334818793507e-18" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_TPI_fwd_cplx_HOMODIMER_TPI1_pc_upper_bound" value="18.7142668184276" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_TPI_fwd_pc_upper_bound" value="18.7142668184276" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_TPI_total_pc_upper_bound" value="18.7142668184276" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6528,24 +6520,20 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_NH4t_fwd_cplx_HETEROTRIMER_RH_pc_upper_bound" value="1.90919414406503" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_NH4t_fwd_cplx_HETEROTETRAMER_RH_pc_upper_bound" value="0.569316372080148" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_NH4t_fwd_pc_upper_bound" value="3.87822232692422" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_NH4t_total_pc_lower_bound" value="-2.25514051876985e-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_NH4t_total_pc_upper_bound" value="3.87822232692422" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_NH4t_rev_cplx_HOMOTETRAMER_AQP1_pc_upper_bound" value="0.747464751124288" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_NH4t_rev_cplx_HOMOTETRAMER_AQP3_pc_upper_bound" value="0.265284826228465" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_NH4t_rev_cplx_HOMODIMER_RHAG_pc_upper_bound" value="2.28549324674272" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_NH4t_rev_cplx_HETEROTRIMER_RH_pc_upper_bound" value="1.90919414406503" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_NH4t_rev_cplx_HETEROTETRAMER_RH_pc_upper_bound" value="0.569316372080148" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_NH4t_rev_pc_lower_bound" value="-1.04083408558608e-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_NH4t_rev_pc_upper_bound" value="3.87822232692422" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_G6PDH2_fwd_cplx_HOMOTETRAMER_G6PD_pc_lower_bound" value="-5.68121938382404e-17" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_G6PDH2_fwd_cplx_HOMOTETRAMER_G6PD_pc_upper_bound" value="0.246790906884211" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_G6PDH2_fwd_pc_upper_bound" value="0.246790906884211" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_G6PDH2_total_pc_upper_bound" value="0.246790906884211" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_G6PDH2_rev_pc_upper_bound" value="0.246790906884211" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_G6PDH2_fwd_cplx_HOMOTETRAMER_G6PD_pc_upper_bound" value="0.158933424425682" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_G6PDH2_fwd_pc_upper_bound" value="0.158933424425682" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_G6PDH2_total_pc_upper_bound" value="0.158933424425682" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_G6PDH2_rev_pc_upper_bound" value="0.158933424425682" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_GAPD_fwd_cplx_HOMOTETRAMER_GAPDH_pc_upper_bound" value="3.11433834167712" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_GAPD_fwd_cplx_HOMOTETRAMER_GAPDHS_pc_upper_bound" value="0.145240153084091" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GAPD_fwd_pc_upper_bound" value="3.25933803083721" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GAPD_total_pc_lower_bound" value="-1.73472347597681e-18" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GAPD_total_pc_upper_bound" value="3.25933803083721" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_GAPD_rev_cplx_HOMOTETRAMER_GAPDH_pc_upper_bound" value="3.11433834167712" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_GAPD_rev_cplx_HOMOTETRAMER_GAPDHS_pc_upper_bound" value="0.145240153084091" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6553,9 +6541,8 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_GTHP_fwd_cplx_HOMOTETRAMER_GPX1_pc_upper_bound" value="5.99362752954346" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_GTHP_fwd_cplx_MONOMER_GPX4_pc_upper_bound" value="12.9773619703958" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GTHP_fwd_pc_upper_bound" value="15.0219206523805" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GTHP_total_pc_lower_bound" value="-2.77555756156289e-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GTHP_total_pc_upper_bound" value="15.0219206523805" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GTHP_rev_pc_upper_bound" value="0.493581813768422" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_GTHP_rev_pc_upper_bound" value="0.317866848851363" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_Kt1_fwd_cplx_HOMOTETRAMER_GRIA1_pc_upper_bound" value="0.034309324567673" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_Kt1_fwd_cplx_HOMOTETRAMER_KCNAB2_pc_upper_bound" value="0.167595644034473" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_Kt1_fwd_cplx_HOMODIMER_KCNK5_pc_upper_bound" value="0.335895766509694" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6618,7 +6605,6 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PFK_fwd_cplx_HOMOTETRAMER_PFKM_pc_upper_bound" value="0.105387371478604" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PFK_fwd_cplx_HOMOTETRAMER_PFKP_pc_upper_bound" value="0.0978483128259663" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PFK_fwd_pc_upper_bound" value="0.2495549206051" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PFK_total_pc_lower_bound" value="-5.20417042793042e-18" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PFK_total_pc_upper_bound" value="0.2495549206051" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PFK_rev_pc_upper_bound" value="0.2495549206051" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PYK_fwd_cplx_HOMOTETRAMER_PKLR_pc_upper_bound" value="0.350921466132955" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6647,11 +6633,11 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_BILRUBABCte_fwd_cplx_MONOMER_ABCC4_pc_upper_bound" value="0.278725454075188" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_BILRUBABCte_fwd_pc_upper_bound" value="0.278725454075188" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_BILRUBABCte_total_pc_upper_bound" value="0.278725454075188" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_BILRUBABCte_rev_pc_upper_bound" value="0.123395453442105" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_BILRUBABCte_rev_pc_upper_bound" value="0.0794667122128407" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_ADA_fwd_cplx_MONOMER_ADA_pc_upper_bound" value="3.65851255774207" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_ADA_fwd_pc_upper_bound" value="3.65851255774207" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_ADA_total_pc_upper_bound" value="3.65851255774207" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_ADA_rev_pc_upper_bound" value="1.71894019902886" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_ADA_rev_pc_upper_bound" value="1.50072254958926" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_ADNK1_fwd_cplx_MONOMER_ADK_pc_upper_bound" value="3.25920785940072" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_ADNK1_fwd_pc_upper_bound" value="3.25920785940072" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_ADNK1_total_pc_upper_bound" value="3.25920785940072" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6670,7 +6656,7 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_BILIREDy_fwd_cplx_MONOMER_BLVRB_pc_upper_bound" value="664.582537996691" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_BILIREDy_fwd_pc_upper_bound" value="690.699446470784" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_BILIREDy_total_pc_upper_bound" value="690.699446470784" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_BILIREDy_rev_pc_upper_bound" value="0.123395453442105" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_BILIREDy_rev_pc_upper_bound" value="0.0794667122128407" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_CA2t_fwd_cplx_MONOMER_CACNA1A_pc_upper_bound" value="0.0646922370499067" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_CA2t_fwd_cplx_HOMOTETRAMER_GRIA1_pc_upper_bound" value="0.034309324567673" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_CA2t_fwd_cplx_HOMOTRIMER_P2RX1_pc_upper_bound" value="0.235790580215617" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6758,25 +6744,20 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_OXYHBAOX_fwd_cplx_MONOMER_HBQ1_pc_upper_bound" value="500.885850661978" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_OXYHBAOX_fwd_cplx_MONOMER_HBZ_pc_upper_bound" value="1000" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_OXYHBAOX_fwd_pc_upper_bound" value="1000" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_OXYHBAOX_total_pc_lower_bound" value="-7.45931094670027e-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_OXYHBAOX_total_pc_upper_bound" value="1000" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_OXYHBAOX_rev_pc_upper_bound" value="0.974734526065283" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_OXYHBAOX_rev_pc_upper_bound" value="0.93541246996622" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_HEX1_fwd_cplx_MONOMER_HK1_pc_upper_bound" value="0.492950267131111" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_HEX1_fwd_cplx_MONOMER_HK3_pc_upper_bound" value="0.405550528185392" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_HEX1_fwd_pc_upper_bound" value="0.897623172236507" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_HEX1_total_pc_lower_bound" value="-2.22400445638052e-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_HEX1_total_pc_upper_bound" value="0.897623172236507" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_HEX1_rev_pc_upper_bound" value="0.653812091034641" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_HEX1_rev_pc_upper_bound" value="0.629793777756382" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PGK_fwd_cplx_MONOMER_PGK1_pc_upper_bound" value="18.6859344342051" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PGK_fwd_cplx_MONOMER_PGK2_pc_upper_bound" value="1.62412328925645" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PGK_fwd_pc_upper_bound" value="20.3066443275912" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PGK_total_pc_lower_bound" value="-8.58480546859257e-12" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PGK_total_pc_upper_bound" value="20.3066443275912" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PGK_rev_cplx_MONOMER_PGK1_pc_upper_bound" value="18.6859344342051" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PGK_rev_cplx_MONOMER_PGK2_pc_upper_bound" value="1.62412328925645" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PGK_rev_pc_lower_bound" value="-8.58480546859257e-12" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PGK_rev_pc_upper_bound" value="20.3066443275912" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PGL_fwd_cplx_MONOMER_PGLS_pc_lower_bound" value="-6.81421065407139e-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_PGL_fwd_cplx_MONOMER_PGLS_pc_upper_bound" value="10.9235024149558" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PGL_fwd_pc_upper_bound" value="10.9235024149558" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_PGL_total_pc_upper_bound" value="10.9235024149558" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6807,7 +6788,6 @@
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_HYXNt_fwd_cplx_MONOMER_SLC29A1_pc_upper_bound" value="5.08858803409122" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_HYXNt_fwd_cplx_MONOMER_SLC43A3_pc_upper_bound" value="1.85702687969411" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_HYXNt_fwd_pc_upper_bound" value="6.34589179060115" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_HYXNt_total_pc_lower_bound" value="-2.08166817117217e-16" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZDL_enzyme_HYXNt_total_pc_upper_bound" value="6.34589179060115" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_HYXNt_rev_cplx_MONOMER_SLC29A1_pc_upper_bound" value="5.08858803409122" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_ENZFM_enzyme_HYXNt_rev_cplx_MONOMER_SLC43A3_pc_upper_bound" value="1.85702687969411" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6815,9 +6795,9 @@
       <parameter sboTerm="SBO:0000625" id="R_PBDL_hemoglobin_budget_lower_bound" value="944.299999999998" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PBDL_hemoglobin_budget_upper_bound" value="950" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PBDL_total_budget_lower_bound" value="948.967754361542" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PBDL_total_budget_upper_bound" value="963.256767297585" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PBDL_total_budget_upper_bound" value="963.22221811209" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_PBDL_relaxation_budget_lower_bound" value="0.0014648506948197" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_PBDL_relaxation_budget_upper_bound" value="3.5886140427395" units="mmol_per_gDW_per_hr" constant="true"/>
+      <parameter sboTerm="SBO:0000625" id="R_PBDL_relaxation_budget_upper_bound" value="3.55416612084835" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_ABCC4_pc_upper_bound" value="0.231048166692238" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_ADA_pc_upper_bound" value="0.847749599801261" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_ADK_pc_upper_bound" value="0.852202785108792" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6843,14 +6823,12 @@
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_BSG_pc_upper_bound" value="0.818584545927731" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_CACNA1A_pc_upper_bound" value="0.122257493191739" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_CYB5A_pc_upper_bound" value="3.06879180948148" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_CYB5B_pc_lower_bound" value="-1.11022302462516e-16" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_CYB5B_pc_upper_bound" value="2.07063156679433" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_CYB5R3_pc_upper_bound" value="1.09234720167884" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_EMB_pc_upper_bound" value="0.935886741988232" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_ENO1_pc_upper_bound" value="0.732462365118039" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_ENO2_pc_upper_bound" value="0.731199522785326" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_ENO3_pc_upper_bound" value="0.735285061304989" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_G6PD_pc_upper_bound" value="0.583087172115668" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_GAPDH_pc_upper_bound" value="0.95821101626405" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_GAPDHS_pc_upper_bound" value="0.776320264730808" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_GPI_pc_upper_bound" value="0.547100978089196" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -6908,7 +6886,6 @@
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_SCN4A_pc_upper_bound" value="0.166103497605303" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_SCN9A_pc_upper_bound" value="0.152626353025538" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_SLC16A1_pc_upper_bound" value="0.640347952240397" units="mmol_per_gDW_per_hr" constant="true"/>
-      <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_SLC16A7_pc_lower_bound" value="-1.38777878078145e-17" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_SLC16A7_pc_upper_bound" value="0.661672922763452" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_SLC22A4_pc_upper_bound" value="0.555859286684941" units="mmol_per_gDW_per_hr" constant="true"/>
       <parameter sboTerm="SBO:0000625" id="R_RELAX_protein_SLC29A1_pc_upper_bound" value="0.687901539532093" units="mmol_per_gDW_per_hr" constant="true"/>
@@ -7533,7 +7510,7 @@
           <speciesReference species="M_h2o2_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="meta_R_FBA" sboTerm="SBO:0000176" id="R_FBA" name="Fructose-bisphosphate aldolase" reversible="true" fast="false" fbc:lowerFluxBound="R_FBA_lower_bound" fbc:upperFluxBound="R_FBA_upper_bound">
+      <reaction metaid="meta_R_FBA" sboTerm="SBO:0000176" id="R_FBA" name="Fructose-bisphosphate aldolase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_FBA_upper_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_FBA">
@@ -8257,7 +8234,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_AQP1"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_GND" sboTerm="SBO:0000176" id="R_GND" name="Phosphogluconate dehydrogenase" reversible="true" fast="false" fbc:lowerFluxBound="R_GND_lower_bound" fbc:upperFluxBound="R_GND_upper_bound">
+      <reaction metaid="meta_R_GND" sboTerm="SBO:0000176" id="R_GND" name="Phosphogluconate dehydrogenase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_GND_upper_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_GND">
@@ -8579,7 +8556,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_PGL" sboTerm="SBO:0000176" id="R_PGL" name="6-phosphogluconolactonase" reversible="true" fast="false" fbc:lowerFluxBound="R_PGL_lower_bound" fbc:upperFluxBound="R_PGL_upper_bound">
+      <reaction metaid="meta_R_PGL" sboTerm="SBO:0000176" id="R_PGL" name="6-phosphogluconolactonase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_PGL_upper_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_PGL">
@@ -9331,7 +9308,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_METHBCYTBR" sboTerm="SBO:0000176" id="R_METHBCYTBR" name="Nonenzymatic reduction of methemoglobin (Cytochrome b5)" reversible="true" fast="false" fbc:lowerFluxBound="R_METHBCYTBR_lower_bound" fbc:upperFluxBound="R_METHBCYTBR_upper_bound">
+      <reaction metaid="meta_R_METHBCYTBR" sboTerm="SBO:0000176" id="R_METHBCYTBR" name="Nonenzymatic reduction of methemoglobin (Cytochrome b5)" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_METHBCYTBR_upper_bound">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
             <p>notes: Similar to R-HSA-1237320.1 and R-HSA-1247668.4, CO2 and proton for balacing protonation effects as needed</p>
@@ -9715,7 +9692,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_NH4t" sboTerm="SBO:0000185" id="R_NH4t" name="Transport of ammonium" reversible="true" fast="false" fbc:lowerFluxBound="R_NH4t_lower_bound" fbc:upperFluxBound="R_NH4t_upper_bound">
+      <reaction metaid="meta_R_NH4t" sboTerm="SBO:0000185" id="R_NH4t" name="Transport of ammonium" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_NH4t_upper_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_NH4t">
@@ -9762,7 +9739,7 @@
           <speciesReference species="M_co2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_EX_glc__D_e" sboTerm="SBO:0000627" id="R_EX_glc__D_e" name="beta-D-Glucose exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_glc__D_e_lower_bound" fbc:upperFluxBound="cobra_0_bound">
+      <reaction metaid="meta_R_EX_glc__D_e" sboTerm="SBO:0000627" id="R_EX_glc__D_e" name="beta-D-Glucose exchange" reversible="true" fast="false" fbc:lowerFluxBound="R_EX_glc__D_e_lower_bound" fbc:upperFluxBound="R_EX_glc__D_e_upper_bound">
         <listOfReactants>
           <speciesReference species="M_glc__D_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10052,7 +10029,7 @@
           <speciesReference species="M_fe2_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
-      <reaction metaid="meta_R_SK_pheme_c" sboTerm="SBO:0000632" id="R_SK_pheme_c" name="Ferroprotoheme sink" reversible="true" fast="false" fbc:lowerFluxBound="R_SK_pheme_c_lower_bound" fbc:upperFluxBound="R_SK_pheme_c_upper_bound">
+      <reaction metaid="meta_R_SK_pheme_c" sboTerm="SBO:0000632" id="R_SK_pheme_c" name="Ferroprotoheme sink" reversible="true" fast="false" fbc:lowerFluxBound="R_SK_pheme_c_lower_bound" fbc:upperFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference species="M_pheme_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -16631,7 +16608,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZDL_enzyme_PYRt2_total_pc" name="enzyme_PYRt2_total_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZDL_enzyme_PYRt2_total_pc_lower_bound" fbc:upperFluxBound="R_ENZDL_enzyme_PYRt2_total_pc_upper_bound">
+      <reaction id="R_ENZDL_enzyme_PYRt2_total_pc" name="enzyme_PYRt2_total_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZDL_enzyme_PYRt2_total_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_enzyme_PYRt2_total_pc" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -17325,7 +17302,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_ENO3"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ENZDL_enzyme_ENO_rev_pc" id="R_ENZDL_enzyme_ENO_rev_pc" name="enzyme_ENO_rev_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZDL_enzyme_ENO_rev_pc_upper_bound">
+      <reaction metaid="meta_R_ENZDL_enzyme_ENO_rev_pc" id="R_ENZDL_enzyme_ENO_rev_pc" name="enzyme_ENO_rev_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZDL_enzyme_ENO_rev_pc_lower_bound" fbc:upperFluxBound="R_ENZDL_enzyme_ENO_rev_pc_upper_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_ENZDL_enzyme_ENO_rev_pc">
@@ -17437,7 +17414,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_GPI"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZFM_enzyme_GTHOy_fwd_cplx_HOMODIMER_GSR_pc" name="enzyme_GTHOy_fwd_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZFM_enzyme_GTHOy_fwd_cplx_HOMODIMER_GSR_pc_lower_bound" fbc:upperFluxBound="R_ENZFM_enzyme_GTHOy_fwd_cplx_HOMODIMER_GSR_pc_upper_bound">
+      <reaction id="R_ENZFM_enzyme_GTHOy_fwd_cplx_HOMODIMER_GSR_pc" name="enzyme_GTHOy_fwd_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZFM_enzyme_GTHOy_fwd_cplx_HOMODIMER_GSR_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_cplx_HOMODIMER_GSR_pc" stoichiometry="0.88909724751001" constant="true"/>
         </listOfReactants>
@@ -17919,7 +17896,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_RPIA"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZFM_enzyme_SPODM_fwd_cplx_HOMODIMER_SOD1_pc" name="enzyme_SPODM_fwd_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZFM_enzyme_SPODM_fwd_cplx_HOMODIMER_SOD1_pc_lower_bound" fbc:upperFluxBound="R_ENZFM_enzyme_SPODM_fwd_cplx_HOMODIMER_SOD1_pc_upper_bound">
+      <reaction id="R_ENZFM_enzyme_SPODM_fwd_cplx_HOMODIMER_SOD1_pc" name="enzyme_SPODM_fwd_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZFM_enzyme_SPODM_fwd_cplx_HOMODIMER_SOD1_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_cplx_HOMODIMER_SOD1_pc" stoichiometry="0.367685995119126" constant="true"/>
         </listOfReactants>
@@ -18267,7 +18244,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_TKT"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZFM_enzyme_TPI_fwd_cplx_HOMODIMER_TPI1_pc" name="enzyme_TPI_fwd_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZFM_enzyme_TPI_fwd_cplx_HOMODIMER_TPI1_pc_lower_bound" fbc:upperFluxBound="R_ENZFM_enzyme_TPI_fwd_cplx_HOMODIMER_TPI1_pc_upper_bound">
+      <reaction id="R_ENZFM_enzyme_TPI_fwd_cplx_HOMODIMER_TPI1_pc" name="enzyme_TPI_fwd_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZFM_enzyme_TPI_fwd_cplx_HOMODIMER_TPI1_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_cplx_HOMODIMER_TPI1_pc" stoichiometry="0.541152615786582" constant="true"/>
         </listOfReactants>
@@ -19000,7 +18977,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZDL_enzyme_NH4t_total_pc" name="enzyme_NH4t_total_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZDL_enzyme_NH4t_total_pc_lower_bound" fbc:upperFluxBound="R_ENZDL_enzyme_NH4t_total_pc_upper_bound">
+      <reaction id="R_ENZDL_enzyme_NH4t_total_pc" name="enzyme_NH4t_total_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZDL_enzyme_NH4t_total_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_enzyme_NH4t_total_pc" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -19083,7 +19060,7 @@
           </fbc:and>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ENZDL_enzyme_NH4t_rev_pc" id="R_ENZDL_enzyme_NH4t_rev_pc" name="enzyme_NH4t_rev_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZDL_enzyme_NH4t_rev_pc_lower_bound" fbc:upperFluxBound="R_ENZDL_enzyme_NH4t_rev_pc_upper_bound">
+      <reaction metaid="meta_R_ENZDL_enzyme_NH4t_rev_pc" id="R_ENZDL_enzyme_NH4t_rev_pc" name="enzyme_NH4t_rev_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZDL_enzyme_NH4t_rev_pc_upper_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_ENZDL_enzyme_NH4t_rev_pc">
@@ -19118,7 +19095,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZFM_enzyme_G6PDH2_fwd_cplx_HOMOTETRAMER_G6PD_pc" name="enzyme_G6PDH2_fwd_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZFM_enzyme_G6PDH2_fwd_cplx_HOMOTETRAMER_G6PD_pc_lower_bound" fbc:upperFluxBound="R_ENZFM_enzyme_G6PDH2_fwd_cplx_HOMOTETRAMER_G6PD_pc_upper_bound">
+      <reaction id="R_ENZFM_enzyme_G6PDH2_fwd_cplx_HOMOTETRAMER_G6PD_pc" name="enzyme_G6PDH2_fwd_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZFM_enzyme_G6PDH2_fwd_cplx_HOMOTETRAMER_G6PD_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_cplx_HOMOTETRAMER_G6PD_pc" stoichiometry="1.65624587841675" constant="true"/>
         </listOfReactants>
@@ -19228,7 +19205,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZDL_enzyme_GAPD_total_pc" name="enzyme_GAPD_total_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZDL_enzyme_GAPD_total_pc_lower_bound" fbc:upperFluxBound="R_ENZDL_enzyme_GAPD_total_pc_upper_bound">
+      <reaction id="R_ENZDL_enzyme_GAPD_total_pc" name="enzyme_GAPD_total_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZDL_enzyme_GAPD_total_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_enzyme_GAPD_total_pc" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -19333,7 +19310,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZDL_enzyme_GTHP_total_pc" name="enzyme_GTHP_total_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZDL_enzyme_GTHP_total_pc_lower_bound" fbc:upperFluxBound="R_ENZDL_enzyme_GTHP_total_pc_upper_bound">
+      <reaction id="R_ENZDL_enzyme_GTHP_total_pc" name="enzyme_GTHP_total_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZDL_enzyme_GTHP_total_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_enzyme_GTHP_total_pc" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -20314,7 +20291,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZDL_enzyme_PFK_total_pc" name="enzyme_PFK_total_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZDL_enzyme_PFK_total_pc_lower_bound" fbc:upperFluxBound="R_ENZDL_enzyme_PFK_total_pc_upper_bound">
+      <reaction id="R_ENZDL_enzyme_PFK_total_pc" name="enzyme_PFK_total_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZDL_enzyme_PFK_total_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_enzyme_PFK_total_pc" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -22314,7 +22291,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZDL_enzyme_OXYHBAOX_total_pc" name="enzyme_OXYHBAOX_total_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZDL_enzyme_OXYHBAOX_total_pc_lower_bound" fbc:upperFluxBound="R_ENZDL_enzyme_OXYHBAOX_total_pc_upper_bound">
+      <reaction id="R_ENZDL_enzyme_OXYHBAOX_total_pc" name="enzyme_OXYHBAOX_total_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZDL_enzyme_OXYHBAOX_total_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_enzyme_OXYHBAOX_total_pc" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -22411,7 +22388,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZDL_enzyme_HEX1_total_pc" name="enzyme_HEX1_total_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZDL_enzyme_HEX1_total_pc_lower_bound" fbc:upperFluxBound="R_ENZDL_enzyme_HEX1_total_pc_upper_bound">
+      <reaction id="R_ENZDL_enzyme_HEX1_total_pc" name="enzyme_HEX1_total_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZDL_enzyme_HEX1_total_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_enzyme_HEX1_total_pc" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -22494,7 +22471,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZDL_enzyme_PGK_total_pc" name="enzyme_PGK_total_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZDL_enzyme_PGK_total_pc_lower_bound" fbc:upperFluxBound="R_ENZDL_enzyme_PGK_total_pc_upper_bound">
+      <reaction id="R_ENZDL_enzyme_PGK_total_pc" name="enzyme_PGK_total_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZDL_enzyme_PGK_total_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_enzyme_PGK_total_pc" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -22527,7 +22504,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_PGK2"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction metaid="meta_R_ENZDL_enzyme_PGK_rev_pc" id="R_ENZDL_enzyme_PGK_rev_pc" name="enzyme_PGK_rev_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZDL_enzyme_PGK_rev_pc_lower_bound" fbc:upperFluxBound="R_ENZDL_enzyme_PGK_rev_pc_upper_bound">
+      <reaction metaid="meta_R_ENZDL_enzyme_PGK_rev_pc" id="R_ENZDL_enzyme_PGK_rev_pc" name="enzyme_PGK_rev_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZDL_enzyme_PGK_rev_pc_upper_bound">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_R_ENZDL_enzyme_PGK_rev_pc">
@@ -22552,7 +22529,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZFM_enzyme_PGL_fwd_cplx_MONOMER_PGLS_pc" name="enzyme_PGL_fwd_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZFM_enzyme_PGL_fwd_cplx_MONOMER_PGLS_pc_lower_bound" fbc:upperFluxBound="R_ENZFM_enzyme_PGL_fwd_cplx_MONOMER_PGLS_pc_upper_bound">
+      <reaction id="R_ENZFM_enzyme_PGL_fwd_cplx_MONOMER_PGLS_pc" name="enzyme_PGL_fwd_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZFM_enzyme_PGL_fwd_cplx_MONOMER_PGLS_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_cplx_MONOMER_PGLS_pc" stoichiometry="0.329642311338192" constant="true"/>
         </listOfReactants>
@@ -23000,7 +22977,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ENZDL_enzyme_HYXNt_total_pc" name="enzyme_HYXNt_total_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_ENZDL_enzyme_HYXNt_total_pc_lower_bound" fbc:upperFluxBound="R_ENZDL_enzyme_HYXNt_total_pc_upper_bound">
+      <reaction id="R_ENZDL_enzyme_HYXNt_total_pc" name="enzyme_HYXNt_total_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_ENZDL_enzyme_HYXNt_total_pc_upper_bound">
         <listOfReactants>
           <speciesReference species="M_enzyme_HYXNt_total_pc" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -23229,7 +23206,7 @@
           <speciesReference species="M_protein_CYB5A_pc" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_RELAX_protein_CYB5B_pc" name="protein_CYB5B_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_RELAX_protein_CYB5B_pc_lower_bound" fbc:upperFluxBound="R_RELAX_protein_CYB5B_pc_upper_bound">
+      <reaction id="R_RELAX_protein_CYB5B_pc" name="protein_CYB5B_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_RELAX_protein_CYB5B_pc_upper_bound">
         <listOfProducts>
           <speciesReference species="M_relaxation_budget" stoichiometry="0.016685337" constant="true"/>
           <speciesReference species="M_protein_CYB5B_pc" stoichiometry="1" constant="true"/>
@@ -23265,7 +23242,7 @@
           <speciesReference species="M_protein_ENO3_pc" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_RELAX_protein_G6PD_pc" name="protein_G6PD_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_RELAX_protein_G6PD_pc_upper_bound">
+      <reaction id="R_RELAX_protein_G6PD_pc" name="protein_G6PD_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
         <listOfProducts>
           <speciesReference species="M_relaxation_budget" stoichiometry="0.059252179" constant="true"/>
           <speciesReference species="M_protein_G6PD_pc" stoichiometry="1" constant="true"/>
@@ -23613,7 +23590,7 @@
           <speciesReference species="M_protein_SLC16A1_pc" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
-      <reaction id="R_RELAX_protein_SLC16A7_pc" name="protein_SLC16A7_pc concentration" reversible="true" fast="false" fbc:lowerFluxBound="R_RELAX_protein_SLC16A7_pc_lower_bound" fbc:upperFluxBound="R_RELAX_protein_SLC16A7_pc_upper_bound">
+      <reaction id="R_RELAX_protein_SLC16A7_pc" name="protein_SLC16A7_pc concentration" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="R_RELAX_protein_SLC16A7_pc_upper_bound">
         <listOfProducts>
           <speciesReference species="M_relaxation_budget" stoichiometry="0.0522149" constant="true"/>
           <speciesReference species="M_protein_SLC16A7_pc" stoichiometry="1" constant="true"/>
@@ -41337,19 +41314,19 @@
     <groups:listOfGroups>
       <groups:group groups:id="G_Glycolysis__32____47____32__Gluconeogenesis" groups:name="Glycolysis / Gluconeogenesis" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Triose-phosphate isomerase" groups:idRef="R_TPI"/>
-          <groups:member groups:name="Phosphofructokinase" groups:idRef="R_PFK"/>
-          <groups:member groups:name="Glucose-6-phosphate isomerase (beta-D-glucose 6-phosphate)" groups:idRef="R_PGI"/>
-          <groups:member groups:name="Phosphoglycerate mutase" groups:idRef="R_PGM"/>
-          <groups:member groups:name="Fructose-bisphosphate aldolase" groups:idRef="R_FBA"/>
-          <groups:member groups:name="Hexokinase (beta-D-glucose:ATP)" groups:idRef="R_HEX1"/>
-          <groups:member groups:name="Glyceraldehyde-3-phosphate dehydrogenase" groups:idRef="R_GAPD"/>
-          <groups:member groups:name="Diphosphoglyceromutase" groups:idRef="R_DPGM"/>
-          <groups:member groups:name="L-lactate dehydrogenase" groups:idRef="R_LDH_L"/>
-          <groups:member groups:name="Phosphoglycerate kinase" groups:idRef="R_PGK"/>
           <groups:member groups:name="2,3-bisphosphoglycerate 2-phosphatase" groups:idRef="R_DPGase"/>
-          <groups:member groups:name="Enolase" groups:idRef="R_ENO"/>
+          <groups:member groups:name="Glyceraldehyde-3-phosphate dehydrogenase" groups:idRef="R_GAPD"/>
           <groups:member groups:name="Pyruvate kinase" groups:idRef="R_PYK"/>
+          <groups:member groups:name="Hexokinase (beta-D-glucose:ATP)" groups:idRef="R_HEX1"/>
+          <groups:member groups:name="Phosphoglycerate mutase" groups:idRef="R_PGM"/>
+          <groups:member groups:name="Diphosphoglyceromutase" groups:idRef="R_DPGM"/>
+          <groups:member groups:name="Fructose-bisphosphate aldolase" groups:idRef="R_FBA"/>
+          <groups:member groups:name="Phosphofructokinase" groups:idRef="R_PFK"/>
+          <groups:member groups:name="Phosphoglycerate kinase" groups:idRef="R_PGK"/>
+          <groups:member groups:name="Enolase" groups:idRef="R_ENO"/>
+          <groups:member groups:name="L-lactate dehydrogenase" groups:idRef="R_LDH_L"/>
+          <groups:member groups:name="Glucose-6-phosphate isomerase (beta-D-glucose 6-phosphate)" groups:idRef="R_PGI"/>
+          <groups:member groups:name="Triose-phosphate isomerase" groups:idRef="R_TPI"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Nicotinate__32__and__32__nicotinamide__32__metabolism" groups:name="Nicotinate and nicotinamide metabolism" groups:kind="collection">
@@ -41359,68 +41336,68 @@
       </groups:group>
       <groups:group groups:id="G_Reactive__32__species__32__formation__32__and__32__detoxification" groups:name="Reactive species formation and detoxification" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Oxidation of iron (II) via hydrogen peroxide" groups:idRef="R_FE2H2O2X"/>
           <groups:member groups:name="Superoxide dismutase" groups:idRef="R_SPODM"/>
           <groups:member groups:name="Iron(III):NADP+ oxidoreductase" groups:idRef="R_FE3RD"/>
+          <groups:member groups:name="Oxidation of iron (II) via hydrogen peroxide" groups:idRef="R_FE2H2O2X"/>
           <groups:member groups:name="Oxidation of Iron (II) via O2" groups:idRef="R_FE2O2OX"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Purine__32__metabolism" groups:name="Purine metabolism" groups:kind="collection">
         <groups:listOfMembers>
+          <groups:member groups:name="Adenosine deaminase" groups:idRef="R_ADA"/>
           <groups:member groups:name="Hypoxanthine phosphoribosyltransferase (Hypoxanthine)" groups:idRef="R_HXPRT"/>
           <groups:member groups:name="Purine-nucleoside phosphorylase (inosine)" groups:idRef="R_PUNP5"/>
-          <groups:member groups:name="Adenosine deaminase" groups:idRef="R_ADA"/>
-          <groups:member groups:name="Adenosine monophosphate deaminase" groups:idRef="R_AMPDA"/>
-          <groups:member groups:name="Adenine phosphoribosyltransferase" groups:idRef="R_ADPT"/>
-          <groups:member groups:name="Adenylate kinase (AMP:ATP)" groups:idRef="R_ADK1"/>
-          <groups:member groups:name="Adenosine kinase" groups:idRef="R_ADNK1"/>
-          <groups:member groups:name="5&apos;-nucleotidase (IMP)" groups:idRef="R_NTDIMP"/>
           <groups:member groups:name="5&apos;-nucleotidase (AMP)" groups:idRef="R_NTDAMP"/>
+          <groups:member groups:name="Adenosine monophosphate deaminase" groups:idRef="R_AMPDA"/>
+          <groups:member groups:name="Adenylate kinase (AMP:ATP)" groups:idRef="R_ADK1"/>
+          <groups:member groups:name="5&apos;-nucleotidase (IMP)" groups:idRef="R_NTDIMP"/>
+          <groups:member groups:name="Adenosine kinase" groups:idRef="R_ADNK1"/>
+          <groups:member groups:name="Adenine phosphoribosyltransferase" groups:idRef="R_ADPT"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Heme oxygenase 1" groups:idRef="R_HOXG"/>
-          <groups:member groups:name="Ferroprotoheme sink" groups:idRef="R_SK_pheme_c"/>
-          <groups:member groups:name="Carbon monoxide demand" groups:idRef="R_DM_co_c"/>
           <groups:member groups:name="Hydroxyl radical demand" groups:idRef="R_DM_oh1r_c"/>
+          <groups:member groups:name="Ferroprotoheme sink" groups:idRef="R_SK_pheme_c"/>
           <groups:member groups:name="Iron (II) demand" groups:idRef="R_DM_fe2_c"/>
+          <groups:member groups:name="Heme oxygenase 1" groups:idRef="R_HOXG"/>
           <groups:member groups:name="Hydroxide demand" groups:idRef="R_DM_oh1_c"/>
+          <groups:member groups:name="Carbon monoxide demand" groups:idRef="R_DM_co_c"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Glutathione__32__metabolism" groups:name="Glutathione metabolism" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Glutathione peroxidase" groups:idRef="R_GTHP"/>
           <groups:member groups:name="Glutathione oxidoreductase (NADPH)" groups:idRef="R_GTHOy"/>
+          <groups:member groups:name="Glutathione peroxidase" groups:idRef="R_GTHP"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Hemoglobin__32__binding__32__and__32__degradation" groups:name="Hemoglobin binding and degradation" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Deoxyhemoglobin binding to 2,3-diphosphoglycerate" groups:idRef="R_HB23DPGB"/>
-          <groups:member groups:name="Auto-oxidation of oxyhemoglobin" groups:idRef="R_OXYHBAOX"/>
-          <groups:member groups:name="Oxyhemoglobin binding (Protonated Carbamino Hemoglobin)" groups:idRef="R_HBO2B2"/>
-          <groups:member groups:name="Oxyhemoglobin binding" groups:idRef="R_HBO2B1"/>
           <groups:member groups:name="Nonenzymatic reduction of methemoglobin (Cytochrome b5)" groups:idRef="R_METHBCYTBR"/>
+          <groups:member groups:name="Deoxyhemoglobin binding to 2,3-diphosphoglycerate" groups:idRef="R_HB23DPGB"/>
+          <groups:member groups:name="Oxyhemoglobin binding (Protonated Carbamino Hemoglobin)" groups:idRef="R_HBO2B2"/>
+          <groups:member groups:name="Auto-oxidation of oxyhemoglobin" groups:idRef="R_OXYHBAOX"/>
+          <groups:member groups:name="Oxyhemoglobin binding" groups:idRef="R_HBO2B1"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Nucleotide__32__metabolism" groups:name="Nucleotide metabolism" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Inorganic diphosphatase" groups:idRef="R_PPA"/>
           <groups:member groups:name="NTP phosphohydrolase (ATP)" groups:idRef="R_NTPA"/>
+          <groups:member groups:name="Inorganic diphosphatase" groups:idRef="R_PPA"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Pentose__32__phosphate__32__pathway" groups:name="Pentose phosphate pathway" groups:kind="collection">
         <groups:listOfMembers>
+          <groups:member groups:name="Glucose 6-phosphate dehydrogenase" groups:idRef="R_G6PDH2"/>
+          <groups:member groups:name="Transketolase" groups:idRef="R_TKT2"/>
+          <groups:member groups:name="Phosphoribosylpyrophosphate synthetase" groups:idRef="R_PRPPS"/>
+          <groups:member groups:name="Ribose-5-phosphate isomerase" groups:idRef="R_RPI"/>
+          <groups:member groups:name="Ribulose 5-phosphate 3-epimerase" groups:idRef="R_RPE"/>
           <groups:member groups:name="Transketolase" groups:idRef="R_TKT1"/>
+          <groups:member groups:name="Phosphogluconate dehydrogenase" groups:idRef="R_GND"/>
+          <groups:member groups:name="6-phosphogluconolactonase" groups:idRef="R_PGL"/>
           <groups:member groups:name="Phosphopentomutase" groups:idRef="R_PPM"/>
           <groups:member groups:name="Transaldolase" groups:idRef="R_TALA"/>
-          <groups:member groups:name="6-phosphogluconolactonase" groups:idRef="R_PGL"/>
-          <groups:member groups:name="Ribulose 5-phosphate 3-epimerase" groups:idRef="R_RPE"/>
-          <groups:member groups:name="Transketolase" groups:idRef="R_TKT2"/>
-          <groups:member groups:name="Phosphogluconate dehydrogenase" groups:idRef="R_GND"/>
-          <groups:member groups:name="Ribose-5-phosphate isomerase" groups:idRef="R_RPI"/>
-          <groups:member groups:name="Phosphoribosylpyrophosphate synthetase" groups:idRef="R_PRPPS"/>
-          <groups:member groups:name="Glucose 6-phosphate dehydrogenase" groups:idRef="R_G6PDH2"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Porphyrin__32__metabolism" groups:name="Porphyrin metabolism" groups:kind="collection">
@@ -41430,54 +41407,54 @@
       </groups:group>
       <groups:group groups:id="G_Pseudoreactions" groups:name="Pseudoreactions" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Calcium sink" groups:idRef="R_SK_ca2_c"/>
-          <groups:member groups:name="Inosine exchange" groups:idRef="R_EX_ins_e"/>
-          <groups:member groups:name="L-Lactate exchange" groups:idRef="R_EX_lac__L_e"/>
           <groups:member groups:name="Pyruvate exchange" groups:idRef="R_EX_pyr_e"/>
-          <groups:member groups:name="Sodium exchange" groups:idRef="R_EX_na1_e"/>
-          <groups:member groups:name="Adenine exchange" groups:idRef="R_EX_ade_e"/>
-          <groups:member groups:name="Calcium exchange" groups:idRef="R_EX_ca2_e"/>
-          <groups:member groups:name="Hypoxanthine exchange" groups:idRef="R_EX_hxan_e"/>
-          <groups:member groups:name="Oxyhemoglobin (Protonated Carbamino Deoxyhemoglobin) sink" groups:idRef="R_SK_hb_hco2_c"/>
-          <groups:member groups:name="CO2 exchange" groups:idRef="R_EX_co2_e"/>
-          <groups:member groups:name="Oxyhemoglobin (O2) sink" groups:idRef="R_SK_oxyhb_c"/>
-          <groups:member groups:name="Bilirubin exchange" groups:idRef="R_EX_bilirub_e"/>
+          <groups:member groups:name="Adenosine exchange" groups:idRef="R_EX_adn_e"/>
           <groups:member groups:name="Orthophosphate exchange" groups:idRef="R_EX_pi_e"/>
           <groups:member groups:name="H2O exchange" groups:idRef="R_EX_h2o_e"/>
-          <groups:member groups:name="Adenosine exchange" groups:idRef="R_EX_adn_e"/>
-          <groups:member groups:name="O2 exchange" groups:idRef="R_EX_o2_e"/>
-          <groups:member groups:name="H+ exchange" groups:idRef="R_EX_h_e"/>
           <groups:member groups:name="Ammonium exchange" groups:idRef="R_EX_nh4_e"/>
-          <groups:member groups:name="H2O2 exchange" groups:idRef="R_EX_h2o2_e"/>
-          <groups:member groups:name="K+ sink" groups:idRef="R_SK_k_c"/>
-          <groups:member groups:name="beta-D-Glucose exchange" groups:idRef="R_EX_glc__D_e"/>
-          <groups:member groups:name="Deoxyhemoglobin (tetramer, 2,3-bisphospho-D-glycerate) sink" groups:idRef="R_SK_hb4_23dpg_c"/>
           <groups:member groups:name="Sodium sink" groups:idRef="R_SK_na1_c"/>
+          <groups:member groups:name="CO2 exchange" groups:idRef="R_EX_co2_e"/>
+          <groups:member groups:name="H2O2 exchange" groups:idRef="R_EX_h2o2_e"/>
+          <groups:member groups:name="Oxyhemoglobin (Protonated Carbamino Deoxyhemoglobin) sink" groups:idRef="R_SK_hb_hco2_c"/>
+          <groups:member groups:name="H+ exchange" groups:idRef="R_EX_h_e"/>
+          <groups:member groups:name="Oxyhemoglobin (O2) sink" groups:idRef="R_SK_oxyhb_c"/>
           <groups:member groups:name="K+ exchange" groups:idRef="R_EX_k_e"/>
+          <groups:member groups:name="Inosine exchange" groups:idRef="R_EX_ins_e"/>
+          <groups:member groups:name="L-Lactate exchange" groups:idRef="R_EX_lac__L_e"/>
+          <groups:member groups:name="Adenine exchange" groups:idRef="R_EX_ade_e"/>
+          <groups:member groups:name="Bilirubin exchange" groups:idRef="R_EX_bilirub_e"/>
+          <groups:member groups:name="Hypoxanthine exchange" groups:idRef="R_EX_hxan_e"/>
+          <groups:member groups:name="Deoxyhemoglobin (tetramer, 2,3-bisphospho-D-glycerate) sink" groups:idRef="R_SK_hb4_23dpg_c"/>
+          <groups:member groups:name="O2 exchange" groups:idRef="R_EX_o2_e"/>
+          <groups:member groups:name="Calcium exchange" groups:idRef="R_EX_ca2_e"/>
+          <groups:member groups:name="Calcium sink" groups:idRef="R_SK_ca2_c"/>
+          <groups:member groups:name="beta-D-Glucose exchange" groups:idRef="R_EX_glc__D_e"/>
+          <groups:member groups:name="Sodium exchange" groups:idRef="R_EX_na1_e"/>
+          <groups:member groups:name="K+ sink" groups:idRef="R_SK_k_c"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Transport__44____32__extracellular" groups:name="Transport, extracellular" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Adenosine transport via facilitated diffusion" groups:idRef="R_ADNt"/>
+          <groups:member groups:name="Calcium (II) import" groups:idRef="R_CA2t"/>
           <groups:member groups:name="Na + /K + exchanging ATPase" groups:idRef="R_NaKt"/>
-          <groups:member groups:name="L-lactate transport via proton symport" groups:idRef="R_L_LACt2"/>
-          <groups:member groups:name="Transport of H2O" groups:idRef="R_H2Ot"/>
-          <groups:member groups:name="Pyruvate transport in via proton symport" groups:idRef="R_PYRt2"/>
+          <groups:member groups:name="Adenosine transport via facilitated diffusion" groups:idRef="R_ADNt"/>
+          <groups:member groups:name="Inorganic phosphate exchange, diffusion" groups:idRef="R_PIt"/>
           <groups:member groups:name="Transport of beta-D-glucose" groups:idRef="R_GLC_Dt"/>
           <groups:member groups:name="Transport of CO2" groups:idRef="R_CO2t"/>
-          <groups:member groups:name="Proton diffusion" groups:idRef="R_Ht"/>
-          <groups:member groups:name="Inorganic phosphate exchange, diffusion" groups:idRef="R_PIt"/>
+          <groups:member groups:name="Adenine transport via facilitated diffusion" groups:idRef="R_ADEt"/>
+          <groups:member groups:name="L-lactate transport via proton symport" groups:idRef="R_L_LACt2"/>
+          <groups:member groups:name="Pyruvate transport in via proton symport" groups:idRef="R_PYRt2"/>
           <groups:member groups:name="Transport of hydrogen peroxide" groups:idRef="R_H2O2t"/>
-          <groups:member groups:name="Inosine transport via facilitated diffusion" groups:idRef="R_INSt"/>
-          <groups:member groups:name="Sodium leak" groups:idRef="R_NAt"/>
-          <groups:member groups:name="Hypoxanthine transport via facilitated diffusion" groups:idRef="R_HYXNt"/>
-          <groups:member groups:name="Transport of ammonium" groups:idRef="R_NH4t"/>
-          <groups:member groups:name="ATP-binding Cassette (ABC) export of unconjugated billirubin" groups:idRef="R_BILRUBABCte"/>
           <groups:member groups:name="Transport of potassium" groups:idRef="R_Kt1"/>
-          <groups:member groups:name="Calcium (II) import" groups:idRef="R_CA2t"/>
+          <groups:member groups:name="Proton diffusion" groups:idRef="R_Ht"/>
+          <groups:member groups:name="Sodium leak" groups:idRef="R_NAt"/>
+          <groups:member groups:name="Inosine transport via facilitated diffusion" groups:idRef="R_INSt"/>
+          <groups:member groups:name="ATP-binding Cassette (ABC) export of unconjugated billirubin" groups:idRef="R_BILRUBABCte"/>
+          <groups:member groups:name="Transport of H2O" groups:idRef="R_H2Ot"/>
+          <groups:member groups:name="Transport of ammonium" groups:idRef="R_NH4t"/>
+          <groups:member groups:name="Hypoxanthine transport via facilitated diffusion" groups:idRef="R_HYXNt"/>
           <groups:member groups:name="Transport of O2" groups:idRef="R_O2t"/>
           <groups:member groups:name="P-type Ca(2+) transporter (1:1 stoichiometry)" groups:idRef="R_CAATPS1"/>
-          <groups:member groups:name="Adenine transport via facilitated diffusion" groups:idRef="R_ADEt"/>
         </groups:listOfMembers>
       </groups:group>
     </groups:listOfGroups>
